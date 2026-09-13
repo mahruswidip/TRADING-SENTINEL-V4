@@ -1,0 +1,22 @@
+{
+  "A": {
+    "active_symbol_count": 48,
+    "median_per_symbol_effect": 0.0026361287722028114,
+    "opposite_direction_symbol_count": 13,
+    "profitable_direction_symbol_count": 35,
+    "top_3_contribution": 0.271764795742314,
+    "top_5_contribution": 0.3659350576801699,
+    "top_symbol": "BLURUSDT",
+    "top_symbol_contribution": 0.13317025178584355
+  },
+  "B": {
+    "active_symbol_count": 48,
+    "median_per_symbol_effect": -0.002346665577040213,
+    "opposite_direction_symbol_count": 14,
+    "profitable_direction_symbol_count": 34,
+    "top_3_contribution": 0.4676232154351957,
+    "top_5_contribution": 0.5935627671872472,
+    "top_symbol": "LABUSDT",
+    "top_symbol_contribution": 0.22575301522693778
+  }
+}

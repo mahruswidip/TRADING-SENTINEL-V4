@@ -1,0 +1,142 @@
+{
+  "definitions": [
+    {
+      "benchmark": {
+        "block_bootstrap_95_ci": [
+          0.0013049815470398756,
+          0.007602345613672279
+        ],
+        "breadth": {
+          "active_symbol_count": 19,
+          "median_per_symbol_effect": 0.00460482441936237,
+          "opposite_direction_symbol_count": 2,
+          "profitable_direction_symbol_count": 17,
+          "top_3_contribution": 0.33510584944276306,
+          "top_5_contribution": 0.4882508545365794,
+          "top_symbol": "BLURUSDT",
+          "top_symbol_contribution": 0.14374062008003538
+        },
+        "cost_hurdle_state": "ABOVE_COST_HURDLE",
+        "direction_hit_rate": 0.5818786367414797,
+        "effect_size": 0.20659131645133477,
+        "effective_observation_count": 110,
+        "mean_forward_return": 0.00457734678298238,
+        "median_forward_return": 0.002162513149627898,
+        "observation_count": 4812,
+        "symbol_count": 19,
+        "temporal_classification": "TEMPORALLY_STABLE",
+        "temporal_means": {
+          "DEV_A": 0.007825397404927934,
+          "DEV_B": 0.0034129434328073827,
+          "DEV_C": 0.0019765403459967336
+        }
+      },
+      "component_catalog": [
+        {
+          "availability": "AVAILABLE",
+          "bucket_rule": "TERCILE",
+          "definition": "1h return rank in Universe(T)",
+          "family": "RELATIVE_STRENGTH",
+          "id": "relative_strength_1h",
+          "uses_future": false
+        },
+        {
+          "availability": "AVAILABLE",
+          "bucket_rule": "BTC_REGIME",
+          "definition": "BTC 1h return known at T",
+          "family": "MARKET_CONTEXT",
+          "id": "btc_return_regime",
+          "uses_future": false
+        }
+      ],
+      "condition_bucket": "NORMAL \u00d7 BTC_BEARISH",
+      "definition_hash": "bc39f1461400988b71d39fe044586f1386dcea996586328d3bec95d9821d5f40",
+      "expected_direction": "POSITIVE",
+      "feature": "RELATIVE_STRENGTH_X_BTC_REGIME",
+      "horizon": "4h",
+      "interaction": [
+        "relative_strength_1h",
+        "btc_return_regime",
+        "RELATIVE_STRENGTH_X_BTC_REGIME"
+      ],
+      "source_engine_version": "d4.5-signal-discovery-v3",
+      "source_feature_catalog_hash": "2f9cf6488155564b225559e13306a9665cb38c0b88426e5eb3a5948e36d98f74",
+      "source_finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:4h",
+      "timestamp_contract": "FEATURE_OBSERVED_THROUGH_LE_T_AND_LABELS_STRICTLY_AFTER_T",
+      "universe_method": "DYNAMIC_BRIDGE_REGISTRY_UNIVERSE_T_ONBOARD_DELIVERY_PLUS_SUFFICIENT_LOCAL_HISTORY"
+    },
+    {
+      "benchmark": {
+        "block_bootstrap_95_ci": [
+          -0.016865413383984715,
+          -0.0002503858689157033
+        ],
+        "breadth": {
+          "active_symbol_count": 19,
+          "median_per_symbol_effect": -0.001950028156101232,
+          "opposite_direction_symbol_count": 4,
+          "profitable_direction_symbol_count": 15,
+          "top_3_contribution": 0.6605314528244047,
+          "top_5_contribution": 0.7613825759560517,
+          "top_symbol": "CAPUSDT",
+          "top_symbol_contribution": 0.35988620207610095
+        },
+        "cost_hurdle_state": "ABOVE_COST_HURDLE",
+        "direction_hit_rate": 0.5601217656012176,
+        "effect_size": -0.14194380292763062,
+        "effective_observation_count": 119,
+        "mean_forward_return": -0.003828181815081243,
+        "median_forward_return": -0.0015744562728881584,
+        "observation_count": 5256,
+        "symbol_count": 19,
+        "temporal_classification": "TEMPORALLY_STABLE",
+        "temporal_means": {
+          "DEV_A": -0.0030475578637712657,
+          "DEV_B": -0.006785695217965196,
+          "DEV_C": -0.0019041799941103916
+        }
+      },
+      "component_catalog": [
+        {
+          "availability": "AVAILABLE",
+          "bucket_rule": "TERCILE",
+          "definition": "1h return rank in Universe(T)",
+          "family": "RELATIVE_STRENGTH",
+          "id": "relative_strength_1h",
+          "uses_future": false
+        },
+        {
+          "availability": "AVAILABLE",
+          "bucket_rule": "BTC_REGIME",
+          "definition": "BTC 1h return known at T",
+          "family": "MARKET_CONTEXT",
+          "id": "btc_return_regime",
+          "uses_future": false
+        }
+      ],
+      "condition_bucket": "LOW \u00d7 BTC_BULLISH",
+      "definition_hash": "79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af",
+      "expected_direction": "NEGATIVE",
+      "feature": "RELATIVE_STRENGTH_X_BTC_REGIME",
+      "horizon": "4h",
+      "interaction": [
+        "relative_strength_1h",
+        "btc_return_regime",
+        "RELATIVE_STRENGTH_X_BTC_REGIME"
+      ],
+      "source_engine_version": "d4.5-signal-discovery-v3",
+      "source_feature_catalog_hash": "2f9cf6488155564b225559e13306a9665cb38c0b88426e5eb3a5948e36d98f74",
+      "source_finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:4h",
+      "timestamp_contract": "FEATURE_OBSERVED_THROUGH_LE_T_AND_LABELS_STRICTLY_AFTER_T",
+      "universe_method": "DYNAMIC_BRIDGE_REGISTRY_UNIVERSE_T_ONBOARD_DELIVERY_PLUS_SUFFICIENT_LOCAL_HISTORY"
+    }
+  ],
+  "source_artifact_hashes": {
+    "discovery-ranking.json": "e8c2932336edf7353845a2dc4daf9e42a7ebabc1efae3e9625c2c2ea4f1682e3",
+    "feature-catalog.json": "384bd1e753465af0de033ce71bb20e61fb86c21f7248d9913c3396e27508495c",
+    "manifest.json": "e76e3596a506de3c37b8026292bf58cffc0c8a1d5dc5cbfd42871a5647f8886c"
+  },
+  "source_engine_file_hash": "c1a2fb1c78a25741c74912665a1da38e1889defe843429a12fdf5aa4d1a2c5e7",
+  "source_root": "L:\\PROJECT\\TRADING SENTINEL V4\\state\\signal-discovery\\d4_5_482ba89ea0075922",
+  "source_run": "d4_5_482ba89ea0075922"
+}

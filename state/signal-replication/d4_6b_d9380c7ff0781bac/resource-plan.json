@@ -1,0 +1,8 @@
+{
+  "base_identity_hash": "d9380c7ff0781bac20e6bf03251adf1c6def203c64b77ad574c2fb7503499bd1",
+  "run_id": "d4_6b_d9380c7ff0781bac",
+  "stages": {
+    "B": "L:\\PROJECT\\TRADING SENTINEL V4\\state\\signal-replication\\d4_6b_d9380c7ff0781bac\\stages\\B\\resource-plan.json",
+    "C": "L:\\PROJECT\\TRADING SENTINEL V4\\state\\signal-replication\\d4_6b_d9380c7ff0781bac\\stages\\C\\resource-plan.json"
+  }
+}

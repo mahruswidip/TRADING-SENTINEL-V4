@@ -1,0 +1,13 @@
+{
+  "decision": "CONTINUE_STAGE_C",
+  "next_stage": "C",
+  "oos_access": "OOS_NOT_ACCESSED",
+  "primary_signal": "B",
+  "signal_a_cannot_veto_signal_b": true,
+  "signals": {
+    "A": "NOT_REPLICATED",
+    "B": "WEAK_REPLICATION"
+  },
+  "stage": "B",
+  "thresholds_changed": false
+}

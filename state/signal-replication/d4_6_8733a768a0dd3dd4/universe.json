@@ -1,0 +1,513 @@
+{
+  "eligible_universe_count": 532,
+  "exclusion_summary": {
+    "INVALID_METADATA": 5,
+    "NOT_LISTED_YET": 5,
+    "NOT_TRADING_IN_WINDOW": 122
+  },
+  "selection_method": "SOURCE_COHORT_PLUS_LISTING_AGE_ROUND_ROBIN_STABLE_SYMBOL_HASH",
+  "selection_uses_current_ticker": false,
+  "stage": "A",
+  "universe_snapshot": [
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1768999500000,
+      "quoteAsset": "USDT",
+      "selection_key": "032110f6ba9b1d31723eb7b1378437bba3de5cd263c4bdb90268e12fa04dfc01",
+      "symbol": "ACUUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1734719400000,
+      "quoteAsset": "USDT",
+      "selection_key": "e61bc47694767dfdaba85d826783bbd635725dc38d78e7cdc53a18e16ba2dd97",
+      "symbol": "AIXBTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1592298000000,
+      "quoteAsset": "USDT",
+      "selection_key": "06a3700774a9cb8ce94a01fdddb6d85e91da0d5724f1698274f69e302ca1d206",
+      "symbol": "ALGOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1615791600000,
+      "quoteAsset": "USDT",
+      "selection_key": "546cd38ede7b00653740176623966c679ac059c3085c903415d7a4a1138f7ed5",
+      "symbol": "ALICEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1645426800000,
+      "quoteAsset": "USDT",
+      "selection_key": "90fbc148792940c226d1b5812638563dc77d168ec3f89f455caf630e2d630935",
+      "symbol": "API3USDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1756897200000,
+      "quoteAsset": "USDT",
+      "selection_key": "ad66d8aa6250e4f6e839829606153ead13f84730a33f9eefb4fa2ceeb6da73cb",
+      "symbol": "ARIAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1782189900000,
+      "quoteAsset": "USDT",
+      "selection_key": "60eb508448b088ae7b817c99645cd31c4d9c874d7d2370d017813d1dbcbc8df9",
+      "symbol": "ARXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1581077400000,
+      "quoteAsset": "USDT",
+      "selection_key": "05b30319e38b0138e16733f0026cfcd3d6de68ec34460b28b2836aa544524593",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1778141700000,
+      "quoteAsset": "USDT",
+      "selection_key": "4c34f5fbf506d0a6d8c52158e952d2d73b407edab55b7a386eef1afd28b695ba",
+      "symbol": "BILLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1682553600000,
+      "quoteAsset": "USDT",
+      "selection_key": "6a8d5b63bca73f970799acdd2a763f591ef2c1ea4e062138cbc6c2384cd315a4",
+      "symbol": "BLURUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1623913200000,
+      "quoteAsset": "USDT",
+      "selection_key": "111638b46a3293fd1146c0f59ff758f77722ccfa2f7532f00b603040fdfccd9c",
+      "symbol": "BTCDOMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1567965300000,
+      "quoteAsset": "USDT",
+      "selection_key": "d9b1fac3139f54d70e9d64dd07f87148c858837624e9609981520ce719cea51b",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1780582500000,
+      "quoteAsset": "USDT",
+      "selection_key": "7d2e14837f1e2740d38c3bcfe2c1f0f7420218d19d879630c7341e9b579cdfc7",
+      "symbol": "BTWUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1747931400000,
+      "quoteAsset": "USDT",
+      "selection_key": "0449ad888e800773d7643a86790cf1dc5f1f7bdfaa0afe42347820ac104b1111",
+      "symbol": "BUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1629702000000,
+      "quoteAsset": "USDT",
+      "selection_key": "05228c8ae764d79f34869f8bc24c27e9236acba868c3f09f95ce1e08d35c97d3",
+      "symbol": "C98USDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1782560700000,
+      "quoteAsset": "USDT",
+      "selection_key": "4442a80591607533bf08fd3612dc33db387a8b4cc998b7df2cffeecf54b2cf03",
+      "symbol": "CAPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1635145200000,
+      "quoteAsset": "USDT",
+      "selection_key": "9f1fe7b8d16cd2e92a7ede05bef30b070a9d8d32f56af623941793254e97e4da",
+      "symbol": "CTSIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1783061100000,
+      "quoteAsset": "USDT",
+      "selection_key": "2d9e5baff5ab3fcd3336b48eb3cf091e8fc55a9431177ffb6e9b4a3fb1bac1ac",
+      "symbol": "DATAIPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1735039800000,
+      "quoteAsset": "USDT",
+      "selection_key": "009b8e52969493958ecd092dae8a9eea5745bc2d501ad164048ccbc56a5734ec",
+      "symbol": "DEXEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1638169200000,
+      "quoteAsset": "USDT",
+      "selection_key": "0874d06fb2a41b59314ed669690270bcdb3d0ade1071e811d6336468a994ab13",
+      "symbol": "ENSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1753783200000,
+      "quoteAsset": "USDT",
+      "selection_key": "12ec6d9cbd703b0219783e944bc932acafe84f4a8aaf51f831451782fafdddce",
+      "symbol": "ESPORTSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1770711000000,
+      "quoteAsset": "USDT",
+      "selection_key": "13d4121da10846612a09bf068c782d1ef13988470b45842d8205c2b924ec865a",
+      "symbol": "ESPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1734720300000,
+      "quoteAsset": "USDT",
+      "selection_key": "ed67e3949a8ac8fa65b292040ffda4b3131c8565a98d7c50ff2338c94d1ad136",
+      "symbol": "FARTCOINUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1759152600000,
+      "quoteAsset": "USDT",
+      "selection_key": "02342781d8ff23aa68dcfade666164a33de05240e3523d5257465448f66f45aa",
+      "symbol": "FFUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1782979200000,
+      "quoteAsset": "USDT",
+      "selection_key": "a3d21d3a7d706298ed9d2aa1a03c57252efb0726765eacb5f207d6fc9a8466bd",
+      "symbol": "GRAMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1731079800000,
+      "quoteAsset": "USDT",
+      "selection_key": "05f8272b1f29fedc6b939089d1d5aa724aea8bfe75497440f0fc2355190ff93d",
+      "symbol": "GRASSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1785501900000,
+      "quoteAsset": "USDT",
+      "selection_key": "d7307109dbe56ad716c46b7f50207959f4e42ba46aaae5ab9d6c1888bb0bd8d6",
+      "symbol": "GRVTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1644476400000,
+      "quoteAsset": "USDT",
+      "selection_key": "06f755976f4af2a0b06c16180118fe9009ad87319b31fd3158e2caf2b96fa36a",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1760711400000,
+      "quoteAsset": "USDT",
+      "selection_key": "17b8ac20ee6b3e1372f52dd55668169e6cdc8328ab6a3eb74a453dc798ed307f",
+      "symbol": "LABUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1734348600000,
+      "quoteAsset": "USDT",
+      "selection_key": "076136b25a9f48e8c837dbe33714b006256290932453763e2cb4f228330a6c74",
+      "symbol": "MOCAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1760080500000,
+      "quoteAsset": "USDT",
+      "selection_key": "1017a88cd19050c17107bab622da779e8d75e016f9306629de171f6b60a28c1f",
+      "symbol": "MONUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1733752800000,
+      "quoteAsset": "USDT",
+      "selection_key": "eb16af467c38fb51fab2b54f6133b78c70c32f242cd5dd90ef290670fddb5be2",
+      "symbol": "MOVEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 1782982800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1703680200000,
+      "quoteAsset": "USDT",
+      "selection_key": "002e8c2986f3cd347e7e2b34cd26e2165378fcaebbe1cfd45c29015bb987a329",
+      "symbol": "NFPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1742821200000,
+      "quoteAsset": "USDT",
+      "selection_key": "f4bf64108742110677ebc1a705d4dca02f5ecca89c3fd70927466af2498480b2",
+      "symbol": "NILUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1761294600000,
+      "quoteAsset": "USDT",
+      "selection_key": "1a7572e7611ccd6f3543671b668b64ad33610bb14bf05a56b74e4f6859a6df60",
+      "symbol": "ONUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1699360200000,
+      "quoteAsset": "USDT",
+      "selection_key": "39bdf469eed6a8012143ab85cb4b76f6cc3d0d3bba0cc429dca068602c4ecfb8",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1782301500000,
+      "quoteAsset": "USDT",
+      "selection_key": "3f13a76f8867dac7b45c8427a1e87b30f7ea9960c67183ab8e9f99896032c0bd",
+      "symbol": "OUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1754413200000,
+      "quoteAsset": "USDT",
+      "selection_key": "0de19724c61d1b7e8d8c50c87dd2013ede8cec3dd4db5fb3ea84e9962fb79f57",
+      "symbol": "PROVEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1781791200000,
+      "quoteAsset": "USDT",
+      "selection_key": "ab5c99893bc664ad633bfedbe54fa378fa30d3932e539de365390f55920f9024",
+      "symbol": "REUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1614063600000,
+      "quoteAsset": "USDT",
+      "selection_key": "be5cffa98a4a21c056c80a703a748b7fd793d0a0b6333b739126031ac5a55929",
+      "symbol": "RVNUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1780299000000,
+      "quoteAsset": "USDT",
+      "selection_key": "d840ad7e4b5127dc7b7aa7d3c32a1edfe9b695870d8d068d61e08f8df0aba4d0",
+      "symbol": "SLXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1756114200000,
+      "quoteAsset": "USDT",
+      "selection_key": "07bcc6ee648d0ecdadac0824f12f2dde8862bf67785a3613e4a7f93fca9d19df",
+      "symbol": "SOMIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1699453800000,
+      "quoteAsset": "USDT",
+      "selection_key": "0aabedc26e3ce43820fc1c02bbd8a5fea485b7c20d7d54de4b539968eaabecc6",
+      "symbol": "STEEMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1756898100000,
+      "quoteAsset": "USDT",
+      "selection_key": "0dd5556d3dd6bcdd36545c72d2b8559dd82eaa87903efd147de981268de7586b",
+      "symbol": "TAKEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1712595600000,
+      "quoteAsset": "USDT",
+      "selection_key": "6d38c63549d78d5d2144a698f701ce593768ad00141b484cd4e87ec69175b5b4",
+      "symbol": "TNSRUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1755260100000,
+      "quoteAsset": "USDT",
+      "selection_key": "13bcc0dcab4a3da63bdfbe7dd0257f57290e1ecc025d4080b731a29b72bdace3",
+      "symbol": "USELESSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1738138500000,
+      "quoteAsset": "USDT",
+      "selection_key": "097a7da15cf987ad00d9c17c9a7a73b9b15538031eed9d461e88c184d68df3fe",
+      "symbol": "VVVUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "ESTABLISHED",
+      "marginAsset": "USDT",
+      "onboardDate": 1580716800000,
+      "quoteAsset": "USDT",
+      "selection_key": "e4dbd1ab1369c77623ddd4ed5263b6a81531996cb9d87b4bfaceb42b78b2c661",
+      "symbol": "XMRUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "VERY_NEW",
+      "marginAsset": "USDT",
+      "onboardDate": 1780581600000,
+      "quoteAsset": "USDT",
+      "selection_key": "bd09bf1b2a45cc2f554fb859835416a9f017d369078350a60a072e7015419ae2",
+      "symbol": "ZESTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "listing_group_at_start": "YOUNG",
+      "marginAsset": "USDT",
+      "onboardDate": 1766311200000,
+      "quoteAsset": "USDT",
+      "selection_key": "1b5c98a4f4c0868490fc5c09b2059263f7e8d055342cb7ea7fae49bccfa04ac4",
+      "symbol": "ZKPUSDT"
+    }
+  ]
+}

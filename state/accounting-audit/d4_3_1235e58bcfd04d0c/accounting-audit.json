@@ -1,0 +1,32 @@
+{
+  "accounting_provenance": {
+    "bankruptcy_behavior": "FLOOR_AT_ZERO_AND_STOP_APPLYING_SUBSEQUENT_TRADES",
+    "capital_model": "RESEARCH_REFERENCE_FIXED_NOTIONAL_REALIZED_AT_EXIT",
+    "compounding": false,
+    "drawdown_metric_type": "LEGACY_FIXED_NOTIONAL_DECLINE_AND_SEPARATE_PEAK_TO_TROUGH_EQUITY_DRAWDOWN",
+    "position_notional_model": "FIXED_NORMALIZED_1000_USD_PER_TRADE",
+    "return_metric_type": "AGGREGATE_NORMALIZED_TRADE_RETURN_AND_SEPARATE_REFERENCE_PORTFOLIO_EQUITY_RETURN",
+    "starting_equity": 10000.0
+  },
+  "after": {
+    "aggregate_return_label": "Aggregate Net Return",
+    "legacy_drawdown_label": "Aggregate Fixed-Notional Drawdown",
+    "legacy_fields_preserved": true,
+    "reference_equity_fields_added": true
+  },
+  "audit_id": "d4_3_1235e58bcfd04d0c",
+  "before": {
+    "max_drawdown": "MAX_CUMULATIVE_FIXED_NOTIONAL_PNL_DECLINE_DIVIDED_BY_ONE_1000_USD_TRADE_NOTIONAL",
+    "net_return": "SUM_OF_PER_TRADE_NORMALIZED_NET_RETURNS",
+    "portfolio_equity_simulated": false
+  },
+  "breakout_regime_decision": "REGIME_HYPOTHESIS_NOT_JUSTIFIED",
+  "engine_version": "d4.3-accounting-regime-audit-v1",
+  "finding": "SEMANTIC_LABEL_BUG_NOT_TRADE_PNL_FORMULA_BUG",
+  "identity_hash": "1235e58bcfd04d0cf9f280d3fc71140f041613f756d915ad2204049c41777915",
+  "locked_oos_resolved_or_read": false,
+  "oos_access": "OOS_NOT_ACCESSED",
+  "source_d4_2_run_id": "d4_2_a_706bdf1b5577051b",
+  "status": "COMPLETED",
+  "v3_created": false
+}

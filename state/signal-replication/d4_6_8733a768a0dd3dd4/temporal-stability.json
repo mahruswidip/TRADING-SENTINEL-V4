@@ -1,0 +1,48 @@
+{
+  "A": {
+    "DEV_A": {
+      "directional_hit_rate": 0.6089033659066232,
+      "mean": 0.0059877570551861384,
+      "median": 0.0035629453681711443,
+      "observations": 4605,
+      "symbols": 48
+    },
+    "DEV_B": {
+      "directional_hit_rate": 0.5176470588235295,
+      "mean": 0.0016698257900054992,
+      "median": 0.0006544729672253169,
+      "observations": 4080,
+      "symbols": 48
+    },
+    "DEV_C": {
+      "directional_hit_rate": 0.5202569169960475,
+      "mean": 0.001256336851895811,
+      "median": 0.0007186497750830689,
+      "observations": 4048,
+      "symbols": 48
+    }
+  },
+  "B": {
+    "DEV_A": {
+      "directional_hit_rate": 0.5642458100558659,
+      "mean": -0.005105767555055858,
+      "median": -0.0022668736792333943,
+      "observations": 6444,
+      "symbols": 48
+    },
+    "DEV_B": {
+      "directional_hit_rate": 0.5479417670682731,
+      "mean": -0.0017201462695384032,
+      "median": -0.0014111434632983477,
+      "observations": 3984,
+      "symbols": 48
+    },
+    "DEV_C": {
+      "directional_hit_rate": 0.546875,
+      "mean": -0.0034660362964430333,
+      "median": -0.0015265186540959763,
+      "observations": 3456,
+      "symbols": 48
+    }
+  }
+}

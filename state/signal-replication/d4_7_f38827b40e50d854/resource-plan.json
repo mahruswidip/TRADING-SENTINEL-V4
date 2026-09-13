@@ -1,0 +1,2160 @@
+{
+  "already_cached_symbols": [],
+  "base_identity_hash": "f38827b40e50d854a9dfe52f53f05ff72052a9669af42602e8b83d5a412e3d0c",
+  "btc_context_metadata": {
+    "contractType": "PERPETUAL",
+    "deliveryDate": 4133404800000,
+    "marginAsset": "USDT",
+    "onboardDate": 1567965300000,
+    "quoteAsset": "USDT",
+    "symbol": "BTCUSDT"
+  },
+  "checkpoint_path": "L:\\PROJECT\\TRADING SENTINEL V4\\state\\signal-replication\\d4_7_f38827b40e50d854\\checkpoint.json",
+  "decision_criteria": "INDEPENDENTLY_REPLICATED requires negative mean and median, >=11bps magnitude, daily-block CI below zero, >=60% aligned breadth, top symbol <=50%, temporal stability, and negative mean after descriptive removal of five largest negative observations; otherwise WEAK if negative/broad/stable, else NOT_REPLICATED.",
+  "development_window": {
+    "end": 1782849600000,
+    "start": 1780272000000
+  },
+  "eligible_universe_count": 535,
+  "engine_version": "d4.7-signal-b-independent-temporal-replication-v1",
+  "estimated_bridge_requests": 6424,
+  "exclusion_summary": {
+    "INVALID_METADATA": 5,
+    "NOT_LISTED_YET": 9,
+    "NOT_TRADING_IN_WINDOW": 115
+  },
+  "expected_5m_candles": 1804320,
+  "identity_hash": "c16b79205ce98eeea2eab1f9bfa1bbc9daf276c7cbb84bb3b29627325da7f8d6",
+  "independence": {
+    "non_overlapping": true,
+    "oos_access": "OOS_NOT_ACCESSED",
+    "prior_evidence_window": {
+      "end": 1785528000000,
+      "start": 1782864000000
+    },
+    "selection_reason": "PRE_JULY_EQUAL_LENGTH_DEVELOPMENT_WINDOW"
+  },
+  "label_lookahead_end": 1782864000000,
+  "locked_oos_resolved_or_read": false,
+  "oos_access": "OOS_NOT_ACCESSED",
+  "parent_run": "d4_6b_d9380c7ff0781bac",
+  "run_id": "d4_7_f38827b40e50d854",
+  "selected_symbol_count": 210,
+  "selection_method": "DYNAMIC_HISTORICAL_ELIGIBILITY_PLUS_LISTING_AGE_ROUND_ROBIN_STABLE_SYMBOL_HASH",
+  "selection_uses_current_ticker": false,
+  "signal_b_definition_hash": "79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af",
+  "source_run": "d4_5_482ba89ea0075922",
+  "source_signal_hashes": [
+    "bc39f1461400988b71d39fe044586f1386dcea996586328d3bec95d9821d5f40",
+    "79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af"
+  ],
+  "symbols": [
+    "0GUSDT",
+    "1000000BOBUSDT",
+    "1000BONKUSDT",
+    "1000CATUSDT",
+    "1000CHEEMSUSDT",
+    "1000LUNCUSDT",
+    "1000RATSUSDT",
+    "1000SATSUSDT",
+    "1MBABYDOGEUSDT",
+    "2ZUSDT",
+    "4USDT",
+    "AAVEUSDT",
+    "ACUUSDT",
+    "ACXUSDT",
+    "AGLDUSDT",
+    "AIAUSDT",
+    "AINUSDT",
+    "AKEUSDT",
+    "ALCHUSDT",
+    "ALGOUSDT",
+    "ALLOUSDT",
+    "ANIMEUSDT",
+    "ANKRUSDT",
+    "ARKMUSDT",
+    "ARKUSDT",
+    "ARXUSDT",
+    "ASTERUSDT",
+    "ATOMUSDT",
+    "AUCTIONUSDT",
+    "AVAAIUSDT",
+    "AVNTUSDT",
+    "AXSUSDT",
+    "BASEDUSDT",
+    "BASUSDT",
+    "BCHUSDT",
+    "BEATUSDT",
+    "BERAUSDT",
+    "BILLUSDT",
+    "BLESSUSDT",
+    "BNBUSDT",
+    "BRETTUSDT",
+    "BREVUSDT",
+    "BROCCOLI714USDT",
+    "BROCCOLIF3BUSDT",
+    "BSBUSDT",
+    "BSVUSDT",
+    "BTCDOMUSDT",
+    "BTRUSDT",
+    "BTWUSDT",
+    "BULLAUSDT",
+    "BUSDT",
+    "C98USDT",
+    "CAPUSDT",
+    "CARVUSDT",
+    "CATIUSDT",
+    "CCUSDT",
+    "CFGUSDT",
+    "CGPTUSDT",
+    "CHIPUSDT",
+    "CLANKERUSDT",
+    "CLOUSDT",
+    "COAIUSDT",
+    "COOKIEUSDT",
+    "COSUSDT",
+    "CTRUSDT",
+    "CUSDT",
+    "CVXUSDT",
+    "CYSUSDT",
+    "DEXEUSDT",
+    "DOGEUSDT",
+    "DOLOUSDT",
+    "DOODUSDT",
+    "DOTUSDT",
+    "DUSDT",
+    "EDENUSDT",
+    "EDGEUSDT",
+    "EDUUSDT",
+    "ELSAUSDT",
+    "ENSOUSDT",
+    "ENSUSDT",
+    "ESPORTSUSDT",
+    "ESPUSDT",
+    "ETCUSDT",
+    "ETHUSDT",
+    "EVAAUSDT",
+    "FETUSDT",
+    "FFUSDT",
+    "FHEUSDT",
+    "FIGHTUSDT",
+    "FLOCKUSDT",
+    "FLUXUSDT",
+    "FOLKSUSDT",
+    "FUSDT",
+    "GAIBUSDT",
+    "GENIUSUSDT",
+    "GLMUSDT",
+    "GRASSUSDT",
+    "GRIFFAINUSDT",
+    "GUAUSDT",
+    "HOLOUSDT",
+    "HOMEUSDT",
+    "HUSDT",
+    "IDOLUSDT",
+    "IMXUSDT",
+    "INJUSDT",
+    "INUSDT",
+    "INXUSDT",
+    "IOSTUSDT",
+    "IRYSUSDT",
+    "JCTUSDT",
+    "JTOUSDT",
+    "KMNOUSDT",
+    "LABUSDT",
+    "LAUSDT",
+    "LAYERUSDT",
+    "LDOUSDT",
+    "LINEAUSDT",
+    "LINKUSDT",
+    "LITUSDT",
+    "LPTUSDT",
+    "LSKUSDT",
+    "LTCUSDT",
+    "LUNA2USDT",
+    "LYNUSDT",
+    "MAGICUSDT",
+    "MAGMAUSDT",
+    "MASKUSDT",
+    "MBOXUSDT",
+    "MELANIAUSDT",
+    "MERLUSDT",
+    "MIRAUSDT",
+    "MITOUSDT",
+    "MOCAUSDT",
+    "MONUSDT",
+    "MTLUSDT",
+    "MYXUSDT",
+    "NEWTUSDT",
+    "NFPUSDT",
+    "NIGHTUSDT",
+    "NOMUSDT",
+    "NXPCUSDT",
+    "ONEUSDT",
+    "ONUSDT",
+    "OPNUSDT",
+    "ORCAUSDT",
+    "ORDERUSDT",
+    "ORDIUSDT",
+    "OUSDT",
+    "PHAROSUSDT",
+    "PHAUSDT",
+    "PIEVERSEUSDT",
+    "PLAYUSDT",
+    "POWERUSDT",
+    "PROVEUSDT",
+    "PTBUSDT",
+    "PUMPUSDT",
+    "QTUMUSDT",
+    "RECALLUSDT",
+    "RENDERUSDT",
+    "REUSDT",
+    "RIVERUSDT",
+    "ROBOUSDT",
+    "RPLUSDT",
+    "RSRUSDT",
+    "SEIUSDT",
+    "SENTUSDT",
+    "SKRUSDT",
+    "SKYAIUSDT",
+    "SLXUSDT",
+    "SNXUSDT",
+    "SOMIUSDT",
+    "STABLEUSDT",
+    "STARUSDT",
+    "STBLUSDT",
+    "STEEMUSDT",
+    "SUNUSDT",
+    "SUSDT",
+    "SYNUSDT",
+    "SYRUPUSDT",
+    "TAGUSDT",
+    "TAIKOUSDT",
+    "TAKEUSDT",
+    "TAUSDT",
+    "TOSHIUSDT",
+    "TRIAUSDT",
+    "TRUSTUSDT",
+    "TRXUSDT",
+    "TUTUSDT",
+    "UAIUSDT",
+    "UMAUSDT",
+    "USELESSUSDT",
+    "USUSDT",
+    "VANAUSDT",
+    "VIRTUALUSDT",
+    "VVVUSDT",
+    "WOOUSDT",
+    "XANUSDT",
+    "XNYUSDT",
+    "XPINUSDT",
+    "XPLUSDT",
+    "XTZUSDT",
+    "XVGUSDT",
+    "YFIUSDT",
+    "ZAMAUSDT",
+    "ZESTUSDT",
+    "ZKPUSDT",
+    "ZKUSDT",
+    "ZORAUSDT",
+    "ZROUSDT",
+    "\u5e01\u5b89\u4eba\u751fUSDT"
+  ],
+  "symbols_requiring_backfill": [
+    "0GUSDT",
+    "1000000BOBUSDT",
+    "1000BONKUSDT",
+    "1000CATUSDT",
+    "1000CHEEMSUSDT",
+    "1000LUNCUSDT",
+    "1000RATSUSDT",
+    "1000SATSUSDT",
+    "1MBABYDOGEUSDT",
+    "2ZUSDT",
+    "4USDT",
+    "AAVEUSDT",
+    "ACUUSDT",
+    "ACXUSDT",
+    "AGLDUSDT",
+    "AIAUSDT",
+    "AINUSDT",
+    "AKEUSDT",
+    "ALCHUSDT",
+    "ALGOUSDT",
+    "ALLOUSDT",
+    "ANIMEUSDT",
+    "ANKRUSDT",
+    "ARKMUSDT",
+    "ARKUSDT",
+    "ARXUSDT",
+    "ASTERUSDT",
+    "ATOMUSDT",
+    "AUCTIONUSDT",
+    "AVAAIUSDT",
+    "AVNTUSDT",
+    "AXSUSDT",
+    "BASEDUSDT",
+    "BASUSDT",
+    "BCHUSDT",
+    "BEATUSDT",
+    "BERAUSDT",
+    "BILLUSDT",
+    "BLESSUSDT",
+    "BNBUSDT",
+    "BRETTUSDT",
+    "BREVUSDT",
+    "BROCCOLI714USDT",
+    "BROCCOLIF3BUSDT",
+    "BSBUSDT",
+    "BSVUSDT",
+    "BTCDOMUSDT",
+    "BTRUSDT",
+    "BTWUSDT",
+    "BULLAUSDT",
+    "BUSDT",
+    "C98USDT",
+    "CAPUSDT",
+    "CARVUSDT",
+    "CATIUSDT",
+    "CCUSDT",
+    "CFGUSDT",
+    "CGPTUSDT",
+    "CHIPUSDT",
+    "CLANKERUSDT",
+    "CLOUSDT",
+    "COAIUSDT",
+    "COOKIEUSDT",
+    "COSUSDT",
+    "CTRUSDT",
+    "CUSDT",
+    "CVXUSDT",
+    "CYSUSDT",
+    "DEXEUSDT",
+    "DOGEUSDT",
+    "DOLOUSDT",
+    "DOODUSDT",
+    "DOTUSDT",
+    "DUSDT",
+    "EDENUSDT",
+    "EDGEUSDT",
+    "EDUUSDT",
+    "ELSAUSDT",
+    "ENSOUSDT",
+    "ENSUSDT",
+    "ESPORTSUSDT",
+    "ESPUSDT",
+    "ETCUSDT",
+    "ETHUSDT",
+    "EVAAUSDT",
+    "FETUSDT",
+    "FFUSDT",
+    "FHEUSDT",
+    "FIGHTUSDT",
+    "FLOCKUSDT",
+    "FLUXUSDT",
+    "FOLKSUSDT",
+    "FUSDT",
+    "GAIBUSDT",
+    "GENIUSUSDT",
+    "GLMUSDT",
+    "GRASSUSDT",
+    "GRIFFAINUSDT",
+    "GUAUSDT",
+    "HOLOUSDT",
+    "HOMEUSDT",
+    "HUSDT",
+    "IDOLUSDT",
+    "IMXUSDT",
+    "INJUSDT",
+    "INUSDT",
+    "INXUSDT",
+    "IOSTUSDT",
+    "IRYSUSDT",
+    "JCTUSDT",
+    "JTOUSDT",
+    "KMNOUSDT",
+    "LABUSDT",
+    "LAUSDT",
+    "LAYERUSDT",
+    "LDOUSDT",
+    "LINEAUSDT",
+    "LINKUSDT",
+    "LITUSDT",
+    "LPTUSDT",
+    "LSKUSDT",
+    "LTCUSDT",
+    "LUNA2USDT",
+    "LYNUSDT",
+    "MAGICUSDT",
+    "MAGMAUSDT",
+    "MASKUSDT",
+    "MBOXUSDT",
+    "MELANIAUSDT",
+    "MERLUSDT",
+    "MIRAUSDT",
+    "MITOUSDT",
+    "MOCAUSDT",
+    "MONUSDT",
+    "MTLUSDT",
+    "MYXUSDT",
+    "NEWTUSDT",
+    "NFPUSDT",
+    "NIGHTUSDT",
+    "NOMUSDT",
+    "NXPCUSDT",
+    "ONEUSDT",
+    "ONUSDT",
+    "OPNUSDT",
+    "ORCAUSDT",
+    "ORDERUSDT",
+    "ORDIUSDT",
+    "OUSDT",
+    "PHAROSUSDT",
+    "PHAUSDT",
+    "PIEVERSEUSDT",
+    "PLAYUSDT",
+    "POWERUSDT",
+    "PROVEUSDT",
+    "PTBUSDT",
+    "PUMPUSDT",
+    "QTUMUSDT",
+    "RECALLUSDT",
+    "RENDERUSDT",
+    "REUSDT",
+    "RIVERUSDT",
+    "ROBOUSDT",
+    "RPLUSDT",
+    "RSRUSDT",
+    "SEIUSDT",
+    "SENTUSDT",
+    "SKRUSDT",
+    "SKYAIUSDT",
+    "SLXUSDT",
+    "SNXUSDT",
+    "SOMIUSDT",
+    "STABLEUSDT",
+    "STARUSDT",
+    "STBLUSDT",
+    "STEEMUSDT",
+    "SUNUSDT",
+    "SUSDT",
+    "SYNUSDT",
+    "SYRUPUSDT",
+    "TAGUSDT",
+    "TAIKOUSDT",
+    "TAKEUSDT",
+    "TAUSDT",
+    "TOSHIUSDT",
+    "TRIAUSDT",
+    "TRUSTUSDT",
+    "TRXUSDT",
+    "TUTUSDT",
+    "UAIUSDT",
+    "UMAUSDT",
+    "USELESSUSDT",
+    "USUSDT",
+    "VANAUSDT",
+    "VIRTUALUSDT",
+    "VVVUSDT",
+    "WOOUSDT",
+    "XANUSDT",
+    "XNYUSDT",
+    "XPINUSDT",
+    "XPLUSDT",
+    "XTZUSDT",
+    "XVGUSDT",
+    "YFIUSDT",
+    "ZAMAUSDT",
+    "ZESTUSDT",
+    "ZKPUSDT",
+    "ZKUSDT",
+    "ZORAUSDT",
+    "ZROUSDT",
+    "\u5e01\u5b89\u4eba\u751fUSDT"
+  ],
+  "target_symbol_count": 210,
+  "universe_snapshot": [
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758123900000,
+      "quoteAsset": "USDT",
+      "symbol": "0GUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1749112200000,
+      "quoteAsset": "USDT",
+      "symbol": "1000000BOBUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1700661600000,
+      "quoteAsset": "USDT",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1729513800000,
+      "quoteAsset": "USDT",
+      "symbol": "1000CATUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1732535100000,
+      "quoteAsset": "USDT",
+      "symbol": "1000CHEEMSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1662620400000,
+      "quoteAsset": "USDT",
+      "symbol": "1000LUNCUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1702648800000,
+      "quoteAsset": "USDT",
+      "symbol": "1000RATSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1702389600000,
+      "quoteAsset": "USDT",
+      "symbol": "1000SATSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1726486500000,
+      "quoteAsset": "USDT",
+      "symbol": "1MBABYDOGEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1759408200000,
+      "quoteAsset": "USDT",
+      "symbol": "2ZUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1759923000000,
+      "quoteAsset": "USDT",
+      "symbol": "4USDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1602831600000,
+      "quoteAsset": "USDT",
+      "symbol": "AAVEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1768999500000,
+      "quoteAsset": "USDT",
+      "symbol": "ACUUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 1786093200000,
+      "marginAsset": "USDT",
+      "onboardDate": 1733497200000,
+      "quoteAsset": "USDT",
+      "symbol": "ACXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1690597800000,
+      "quoteAsset": "USDT",
+      "symbol": "AGLDUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1768907700000,
+      "quoteAsset": "USDT",
+      "symbol": "AIAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1752144300000,
+      "quoteAsset": "USDT",
+      "symbol": "AINUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758889800000,
+      "quoteAsset": "USDT",
+      "symbol": "AKEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1736250300000,
+      "quoteAsset": "USDT",
+      "symbol": "ALCHUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1592298000000,
+      "quoteAsset": "USDT",
+      "symbol": "ALGOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1762869600000,
+      "quoteAsset": "USDT",
+      "symbol": "ALLOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1737651600000,
+      "quoteAsset": "USDT",
+      "symbol": "ANIMEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1611558000000,
+      "quoteAsset": "USDT",
+      "symbol": "ANKRUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1690512300000,
+      "quoteAsset": "USDT",
+      "symbol": "ARKMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1695133800000,
+      "quoteAsset": "USDT",
+      "symbol": "ARKUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1782189900000,
+      "quoteAsset": "USDT",
+      "symbol": "ARXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758283200000,
+      "quoteAsset": "USDT",
+      "symbol": "ASTERUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1581077400000,
+      "quoteAsset": "USDT",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1702645200000,
+      "quoteAsset": "USDT",
+      "symbol": "AUCTIONUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1737119700000,
+      "quoteAsset": "USDT",
+      "symbol": "AVAAIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1757430000000,
+      "quoteAsset": "USDT",
+      "symbol": "AVNTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1605855600000,
+      "quoteAsset": "USDT",
+      "symbol": "AXSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1774864800000,
+      "quoteAsset": "USDT",
+      "symbol": "BASEDUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1756215000000,
+      "quoteAsset": "USDT",
+      "symbol": "BASUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1576745700000,
+      "quoteAsset": "USDT",
+      "symbol": "BCHUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1762949700000,
+      "quoteAsset": "USDT",
+      "symbol": "BEATUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1738854000000,
+      "quoteAsset": "USDT",
+      "symbol": "BERAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1778141700000,
+      "quoteAsset": "USDT",
+      "symbol": "BILLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758619800000,
+      "quoteAsset": "USDT",
+      "symbol": "BLESSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1581321600000,
+      "quoteAsset": "USDT",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1724150100000,
+      "quoteAsset": "USDT",
+      "symbol": "BRETTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1767091500000,
+      "quoteAsset": "USDT",
+      "symbol": "BREVUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1742547600000,
+      "quoteAsset": "USDT",
+      "symbol": "BROCCOLI714USDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1742548500000,
+      "quoteAsset": "USDT",
+      "symbol": "BROCCOLIF3BUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1774439100000,
+      "quoteAsset": "USDT",
+      "symbol": "BSBUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1697805000000,
+      "quoteAsset": "USDT",
+      "symbol": "BSVUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1623913200000,
+      "quoteAsset": "USDT",
+      "symbol": "BTCDOMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1756290600000,
+      "quoteAsset": "USDT",
+      "symbol": "BTRUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1780582500000,
+      "quoteAsset": "USDT",
+      "symbol": "BTWUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1751619600000,
+      "quoteAsset": "USDT",
+      "symbol": "BULLAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1747931400000,
+      "quoteAsset": "USDT",
+      "symbol": "BUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1629702000000,
+      "quoteAsset": "USDT",
+      "symbol": "C98USDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1782560700000,
+      "quoteAsset": "USDT",
+      "symbol": "CAPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1754585100000,
+      "quoteAsset": "USDT",
+      "symbol": "CARVUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1726831800000,
+      "quoteAsset": "USDT",
+      "symbol": "CATIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1761912000000,
+      "quoteAsset": "USDT",
+      "symbol": "CCUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1773666000000,
+      "quoteAsset": "USDT",
+      "symbol": "CFGUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1734722100000,
+      "quoteAsset": "USDT",
+      "symbol": "CGPTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1776323700000,
+      "quoteAsset": "USDT",
+      "symbol": "CHIPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1762948800000,
+      "quoteAsset": "USDT",
+      "symbol": "CLANKERUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1760441400000,
+      "quoteAsset": "USDT",
+      "symbol": "CLOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758785400000,
+      "quoteAsset": "USDT",
+      "symbol": "COAIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1736249400000,
+      "quoteAsset": "USDT",
+      "symbol": "COOKIEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 1781168400000,
+      "marginAsset": "USDT",
+      "onboardDate": 1727701200000,
+      "quoteAsset": "USDT",
+      "symbol": "COSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1779960600000,
+      "quoteAsset": "USDT",
+      "symbol": "CTRUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1752570000000,
+      "quoteAsset": "USDT",
+      "symbol": "CUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1753270200000,
+      "quoteAsset": "USDT",
+      "symbol": "CVXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1765537200000,
+      "quoteAsset": "USDT",
+      "symbol": "CYSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1735039800000,
+      "quoteAsset": "USDT",
+      "symbol": "DEXEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1594371600000,
+      "quoteAsset": "USDT",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1746068400000,
+      "quoteAsset": "USDT",
+      "symbol": "DOLOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1746797400000,
+      "quoteAsset": "USDT",
+      "symbol": "DOODUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1598079600000,
+      "quoteAsset": "USDT",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 1781168400000,
+      "marginAsset": "USDT",
+      "onboardDate": 1736416800000,
+      "quoteAsset": "USDT",
+      "symbol": "DUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1759230000000,
+      "quoteAsset": "USDT",
+      "symbol": "EDENUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1773928800000,
+      "quoteAsset": "USDT",
+      "symbol": "EDGEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1682640000000,
+      "quoteAsset": "USDT",
+      "symbol": "EDUUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1769066700000,
+      "quoteAsset": "USDT",
+      "symbol": "ELSAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1760432400000,
+      "quoteAsset": "USDT",
+      "symbol": "ENSOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1638169200000,
+      "quoteAsset": "USDT",
+      "symbol": "ENSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1753783200000,
+      "quoteAsset": "USDT",
+      "symbol": "ESPORTSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1770711000000,
+      "quoteAsset": "USDT",
+      "symbol": "ESPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1579161600000,
+      "quoteAsset": "USDT",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1574840700000,
+      "quoteAsset": "USDT",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1759487400000,
+      "quoteAsset": "USDT",
+      "symbol": "EVAAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1673766000000,
+      "quoteAsset": "USDT",
+      "symbol": "FETUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1759152600000,
+      "quoteAsset": "USDT",
+      "symbol": "FFUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1744470000000,
+      "quoteAsset": "USDT",
+      "symbol": "FHEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1769170500000,
+      "quoteAsset": "USDT",
+      "symbol": "FIGHTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1757400300000,
+      "quoteAsset": "USDT",
+      "symbol": "FLOCKUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1725346800000,
+      "quoteAsset": "USDT",
+      "symbol": "FLUXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1762432200000,
+      "quoteAsset": "USDT",
+      "symbol": "FOLKSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1750250700000,
+      "quoteAsset": "USDT",
+      "symbol": "FUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1763629200000,
+      "quoteAsset": "USDT",
+      "symbol": "GAIBUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1776310200000,
+      "quoteAsset": "USDT",
+      "symbol": "GENIUSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1708596000000,
+      "quoteAsset": "USDT",
+      "symbol": "GLMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1731079800000,
+      "quoteAsset": "USDT",
+      "symbol": "GRASSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1735824600000,
+      "quoteAsset": "USDT",
+      "symbol": "GRIFFAINUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1766312100000,
+      "quoteAsset": "USDT",
+      "symbol": "GUAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1757592000000,
+      "quoteAsset": "USDT",
+      "symbol": "HOLOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1749555000000,
+      "quoteAsset": "USDT",
+      "symbol": "HOMEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1750843800000,
+      "quoteAsset": "USDT",
+      "symbol": "HUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1751620500000,
+      "quoteAsset": "USDT",
+      "symbol": "IDOLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1644476400000,
+      "quoteAsset": "USDT",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1660633200000,
+      "quoteAsset": "USDT",
+      "symbol": "INJUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1754562600000,
+      "quoteAsset": "USDT",
+      "symbol": "INUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1769799600000,
+      "quoteAsset": "USDT",
+      "symbol": "INXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1582272300000,
+      "quoteAsset": "USDT",
+      "symbol": "IOSTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1764172800000,
+      "quoteAsset": "USDT",
+      "symbol": "IRYSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1762770600000,
+      "quoteAsset": "USDT",
+      "symbol": "JCTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1702029600000,
+      "quoteAsset": "USDT",
+      "symbol": "JTOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1734721200000,
+      "quoteAsset": "USDT",
+      "symbol": "KMNOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1760711400000,
+      "quoteAsset": "USDT",
+      "symbol": "LABUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1749114000000,
+      "quoteAsset": "USDT",
+      "symbol": "LAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1739288700000,
+      "quoteAsset": "USDT",
+      "symbol": "LAYERUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1663743600000,
+      "quoteAsset": "USDT",
+      "symbol": "LDOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1756715400000,
+      "quoteAsset": "USDT",
+      "symbol": "LINEAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1579248000000,
+      "quoteAsset": "USDT",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1766511000000,
+      "quoteAsset": "USDT",
+      "symbol": "LITUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1636527600000,
+      "quoteAsset": "USDT",
+      "symbol": "LPTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1706192100000,
+      "quoteAsset": "USDT",
+      "symbol": "LSKUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1578557100000,
+      "quoteAsset": "USDT",
+      "symbol": "LTCUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1662706800000,
+      "quoteAsset": "USDT",
+      "symbol": "LUNA2USDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1759735800000,
+      "quoteAsset": "USDT",
+      "symbol": "LYNUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1674457200000,
+      "quoteAsset": "USDT",
+      "symbol": "MAGICUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1767187800000,
+      "quoteAsset": "USDT",
+      "symbol": "MAGMAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1626418800000,
+      "quoteAsset": "USDT",
+      "symbol": "MASKUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 1781168400000,
+      "marginAsset": "USDT",
+      "onboardDate": 1724837400000,
+      "quoteAsset": "USDT",
+      "symbol": "MBOXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1737365400000,
+      "quoteAsset": "USDT",
+      "symbol": "MELANIAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1748507400000,
+      "quoteAsset": "USDT",
+      "symbol": "MERLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758888000000,
+      "quoteAsset": "USDT",
+      "symbol": "MIRAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1756398600000,
+      "quoteAsset": "USDT",
+      "symbol": "MITOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1734348600000,
+      "quoteAsset": "USDT",
+      "symbol": "MOCAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1760080500000,
+      "quoteAsset": "USDT",
+      "symbol": "MONUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1617174000000,
+      "quoteAsset": "USDT",
+      "symbol": "MTLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1750249800000,
+      "quoteAsset": "USDT",
+      "symbol": "MYXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1750343400000,
+      "quoteAsset": "USDT",
+      "symbol": "NEWTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 1782982800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1703680200000,
+      "quoteAsset": "USDT",
+      "symbol": "NFPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1765364400000,
+      "quoteAsset": "USDT",
+      "symbol": "NIGHTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1759305600000,
+      "quoteAsset": "USDT",
+      "symbol": "NOMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1747290600000,
+      "quoteAsset": "USDT",
+      "symbol": "NXPCUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1615964400000,
+      "quoteAsset": "USDT",
+      "symbol": "ONEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1761294600000,
+      "quoteAsset": "USDT",
+      "symbol": "ONUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1771686000000,
+      "quoteAsset": "USDT",
+      "symbol": "OPNUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1733497200000,
+      "quoteAsset": "USDT",
+      "symbol": "ORCAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758890700000,
+      "quoteAsset": "USDT",
+      "symbol": "ORDERUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1699360200000,
+      "quoteAsset": "USDT",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1782301500000,
+      "quoteAsset": "USDT",
+      "symbol": "OUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1778735700000,
+      "quoteAsset": "USDT",
+      "symbol": "PHAROSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1735558200000,
+      "quoteAsset": "USDT",
+      "symbol": "PHAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1763119800000,
+      "quoteAsset": "USDT",
+      "symbol": "PIEVERSEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1753954200000,
+      "quoteAsset": "USDT",
+      "symbol": "PLAYUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1765011600000,
+      "quoteAsset": "USDT",
+      "symbol": "POWERUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1754413200000,
+      "quoteAsset": "USDT",
+      "symbol": "PROVEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1756902600000,
+      "quoteAsset": "USDT",
+      "symbol": "PTBUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1752132600000,
+      "quoteAsset": "USDT",
+      "symbol": "PUMPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1582185900000,
+      "quoteAsset": "USDT",
+      "symbol": "QTUMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1760531400000,
+      "quoteAsset": "USDT",
+      "symbol": "RECALLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1721988000000,
+      "quoteAsset": "USDT",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1781791200000,
+      "quoteAsset": "USDT",
+      "symbol": "REUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1760712300000,
+      "quoteAsset": "USDT",
+      "symbol": "RIVERUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1772181900000,
+      "quoteAsset": "USDT",
+      "symbol": "ROBOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1725885000000,
+      "quoteAsset": "USDT",
+      "symbol": "RPLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1603091100000,
+      "quoteAsset": "USDT",
+      "symbol": "RSRUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1692239400000,
+      "quoteAsset": "USDT",
+      "symbol": "SEIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1763124300000,
+      "quoteAsset": "USDT",
+      "symbol": "SENTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1769078700000,
+      "quoteAsset": "USDT",
+      "symbol": "SKRUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1747129500000,
+      "quoteAsset": "USDT",
+      "symbol": "SKYAIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1780299000000,
+      "quoteAsset": "USDT",
+      "symbol": "SLXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1597388400000,
+      "quoteAsset": "USDT",
+      "symbol": "SNXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1756114200000,
+      "quoteAsset": "USDT",
+      "symbol": "SOMIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1762430400000,
+      "quoteAsset": "USDT",
+      "symbol": "STABLEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1778736600000,
+      "quoteAsset": "USDT",
+      "symbol": "STARUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758087900000,
+      "quoteAsset": "USDT",
+      "symbol": "STBLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1699453800000,
+      "quoteAsset": "USDT",
+      "symbol": "STEEMUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1724331900000,
+      "quoteAsset": "USDT",
+      "symbol": "SUNUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1737021600000,
+      "quoteAsset": "USDT",
+      "symbol": "SUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1723811400000,
+      "quoteAsset": "USDT",
+      "symbol": "SYNUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1746606600000,
+      "quoteAsset": "USDT",
+      "symbol": "SYRUPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1753442100000,
+      "quoteAsset": "USDT",
+      "symbol": "TAGUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1749645000000,
+      "quoteAsset": "USDT",
+      "symbol": "TAIKOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1756898100000,
+      "quoteAsset": "USDT",
+      "symbol": "TAKEUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1753083000000,
+      "quoteAsset": "USDT",
+      "symbol": "TAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1758087000000,
+      "quoteAsset": "USDT",
+      "symbol": "TOSHIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1770380100000,
+      "quoteAsset": "USDT",
+      "symbol": "TRIAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1762335000000,
+      "quoteAsset": "USDT",
+      "symbol": "TRUSTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1579075500000,
+      "quoteAsset": "USDT",
+      "symbol": "TRXUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1742461200000,
+      "quoteAsset": "USDT",
+      "symbol": "TUTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1762428600000,
+      "quoteAsset": "USDT",
+      "symbol": "UAIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1683590400000,
+      "quoteAsset": "USDT",
+      "symbol": "UMAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1755260100000,
+      "quoteAsset": "USDT",
+      "symbol": "USELESSUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1765536300000,
+      "quoteAsset": "USDT",
+      "symbol": "USUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1734355800000,
+      "quoteAsset": "USDT",
+      "symbol": "VANAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1733833800000,
+      "quoteAsset": "USDT",
+      "symbol": "VIRTUALUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1738138500000,
+      "quoteAsset": "USDT",
+      "symbol": "VVVUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1649314800000,
+      "quoteAsset": "USDT",
+      "symbol": "WOOUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1759141800000,
+      "quoteAsset": "USDT",
+      "symbol": "XANUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1755085500000,
+      "quoteAsset": "USDT",
+      "symbol": "XNYUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1757664000000,
+      "quoteAsset": "USDT",
+      "symbol": "XPINUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1755855000000,
+      "quoteAsset": "USDT",
+      "symbol": "XPLUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1580976000000,
+      "quoteAsset": "USDT",
+      "symbol": "XTZUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1688558400000,
+      "quoteAsset": "USDT",
+      "symbol": "XVGUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1598857200000,
+      "quoteAsset": "USDT",
+      "symbol": "YFIUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1767949200000,
+      "quoteAsset": "USDT",
+      "symbol": "ZAMAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1780581600000,
+      "quoteAsset": "USDT",
+      "symbol": "ZESTUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1766311200000,
+      "quoteAsset": "USDT",
+      "symbol": "ZKPUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1718622000000,
+      "quoteAsset": "USDT",
+      "symbol": "ZKUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1753441200000,
+      "quoteAsset": "USDT",
+      "symbol": "ZORAUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1718893800000,
+      "quoteAsset": "USDT",
+      "symbol": "ZROUSDT"
+    },
+    {
+      "contractType": "PERPETUAL",
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1760958000000,
+      "quoteAsset": "USDT",
+      "symbol": "\u5e01\u5b89\u4eba\u751fUSDT"
+    }
+  ],
+  "warmup_start": 1780012800000,
+  "worker_count": 2
+}

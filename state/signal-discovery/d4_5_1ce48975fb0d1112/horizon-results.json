@@ -1,0 +1,217 @@
+{
+  "15m": {
+    "block_bootstrap_95_ci": [
+      -7.397852900440414e-05,
+      7.073650186682247e-05
+    ],
+    "breadth": {
+      "active_symbol_count": 18,
+      "median_per_symbol_effect": -3.773838147264401e-06,
+      "opposite_direction_symbol_count": 6,
+      "profitable_direction_symbol_count": 12,
+      "top_3_contribution": 0.7264612727341587,
+      "top_5_contribution": 0.8711679261597981,
+      "top_symbol": "BILLUSDT",
+      "top_symbol_contribution": 0.35208260057771185
+    },
+    "bucket": "ALL",
+    "cost_hurdle_state": "BELOW_COST_HURDLE",
+    "date_count": 31,
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48146271271271274,
+    "discovery_score": 31.696346,
+    "discovery_status": "NO_EDGE",
+    "effect_size": -0.0003350543879861687,
+    "effective_observation_count": 53280,
+    "feature": "UNCONDITIONAL",
+    "finding_id": "UNCONDITIONAL:ALL:15m",
+    "hit_rate_positive": 0.45735735735735733,
+    "horizon": "15m",
+    "mean_forward_return": -1.978603791617464e-06,
+    "median_forward_return": 0.0,
+    "minimum_round_trip_cost_hurdle_bps": 11.0,
+    "negative_tail_p05": -0.0075125208681134925,
+    "observation_count": 159840,
+    "positive_tail_p95": 0.007883844690050728,
+    "standard_deviation": 0.005905321233098258,
+    "symbol_count": 18,
+    "temporal_classification": "SIGN_FLIP",
+    "temporal_means": {
+      "DEV_A": 4.754057844636257e-05,
+      "DEV_B": -2.7406087465165124e-05,
+      "DEV_C": -2.6070302356049837e-05
+    }
+  },
+  "1h": {
+    "block_bootstrap_95_ci": [
+      -0.00026958338088544216,
+      0.0003187913654147069
+    ],
+    "breadth": {
+      "active_symbol_count": 18,
+      "median_per_symbol_effect": -1.2844241851882277e-05,
+      "opposite_direction_symbol_count": 7,
+      "profitable_direction_symbol_count": 11,
+      "top_3_contribution": 0.7392721470574495,
+      "top_5_contribution": 0.8771361578909337,
+      "top_symbol": "BILLUSDT",
+      "top_symbol_contribution": 0.3566917852047898
+    },
+    "bucket": "ALL",
+    "cost_hurdle_state": "BELOW_COST_HURDLE",
+    "date_count": 31,
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.501463963963964,
+    "discovery_score": 31.200989,
+    "discovery_status": "NO_EDGE",
+    "effect_size": -0.0005179901927289858,
+    "effective_observation_count": 13320,
+    "feature": "UNCONDITIONAL",
+    "finding_id": "UNCONDITIONAL:ALL:1h",
+    "hit_rate_positive": 0.46872497497497495,
+    "horizon": "1h",
+    "mean_forward_return": -5.991885654790035e-06,
+    "median_forward_return": -7.269561595707463e-05,
+    "minimum_round_trip_cost_hurdle_bps": 11.0,
+    "negative_tail_p05": -0.014662839298503165,
+    "observation_count": 159840,
+    "positive_tail_p95": 0.015573814512862973,
+    "standard_deviation": 0.011567565832129586,
+    "symbol_count": 18,
+    "temporal_classification": "SIGN_FLIP",
+    "temporal_means": {
+      "DEV_A": 0.00018729197650958938,
+      "DEV_B": -9.541155350323074e-05,
+      "DEV_C": -0.00010985607997072874
+    }
+  },
+  "30m": {
+    "block_bootstrap_95_ci": [
+      -0.00017569266723312647,
+      0.0001345038095240214
+    ],
+    "breadth": {
+      "active_symbol_count": 18,
+      "median_per_symbol_effect": -6.399790256312141e-06,
+      "opposite_direction_symbol_count": 6,
+      "profitable_direction_symbol_count": 12,
+      "top_3_contribution": 0.7377758618311459,
+      "top_5_contribution": 0.8776489087692452,
+      "top_symbol": "BILLUSDT",
+      "top_symbol_contribution": 0.3575086590181863
+    },
+    "bucket": "ALL",
+    "cost_hurdle_state": "BELOW_COST_HURDLE",
+    "date_count": 31,
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49309309309309307,
+    "discovery_score": 31.707771,
+    "discovery_status": "NO_EDGE",
+    "effect_size": -0.0003328093417569934,
+    "effective_observation_count": 26640,
+    "feature": "UNCONDITIONAL",
+    "finding_id": "UNCONDITIONAL:ALL:30m",
+    "hit_rate_positive": 0.46365115115115113,
+    "horizon": "30m",
+    "mean_forward_return": -2.7403137539192777e-06,
+    "median_forward_return": 0.0,
+    "minimum_round_trip_cost_hurdle_bps": 11.0,
+    "negative_tail_p05": -0.010445732622638992,
+    "observation_count": 159840,
+    "positive_tail_p95": 0.01102766106442581,
+    "standard_deviation": 0.008233884720460058,
+    "symbol_count": 18,
+    "temporal_classification": "SIGN_FLIP",
+    "temporal_means": {
+      "DEV_A": 9.621086740752758e-05,
+      "DEV_B": -5.372358292355659e-05,
+      "DEV_C": -5.0708225745728815e-05
+    }
+  },
+  "4h": {
+    "block_bootstrap_95_ci": [
+      -0.0012026000923043474,
+      0.00101325208816788
+    ],
+    "breadth": {
+      "active_symbol_count": 18,
+      "median_per_symbol_effect": -5.837202599887647e-05,
+      "opposite_direction_symbol_count": 7,
+      "profitable_direction_symbol_count": 11,
+      "top_3_contribution": 0.7036515085905373,
+      "top_5_contribution": 0.8477795102624519,
+      "top_symbol": "BILLUSDT",
+      "top_symbol_contribution": 0.3282757995217367
+    },
+    "bucket": "ALL",
+    "cost_hurdle_state": "BELOW_COST_HURDLE",
+    "date_count": 31,
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5182244744744745,
+    "discovery_score": 31.19025,
+    "discovery_status": "NO_EDGE",
+    "effect_size": -0.00022830382024388574,
+    "effective_observation_count": 3330,
+    "feature": "UNCONDITIONAL",
+    "finding_id": "UNCONDITIONAL:ALL:4h",
+    "hit_rate_positive": 0.46642892892892895,
+    "horizon": "4h",
+    "mean_forward_return": -5.275893848894322e-06,
+    "median_forward_return": -0.0006708853981987617,
+    "minimum_round_trip_cost_hurdle_bps": 11.0,
+    "negative_tail_p05": -0.028037560248324028,
+    "observation_count": 159840,
+    "positive_tail_p95": 0.03126583066520845,
+    "standard_deviation": 0.02310909139960227,
+    "symbol_count": 18,
+    "temporal_classification": "SIGN_FLIP",
+    "temporal_means": {
+      "DEV_A": 0.0007603490114297188,
+      "DEV_B": -0.00028686870587310776,
+      "DEV_C": -0.000489307987103294
+    }
+  },
+  "5m": {
+    "block_bootstrap_95_ci": [
+      -2.2132597766221997e-05,
+      2.1374711608380463e-05
+    ],
+    "breadth": {
+      "active_symbol_count": 18,
+      "median_per_symbol_effect": -1.0033819188562026e-06,
+      "opposite_direction_symbol_count": 7,
+      "profitable_direction_symbol_count": 11,
+      "top_3_contribution": 0.732869891015247,
+      "top_5_contribution": 0.8769627705117429,
+      "top_symbol": "BILLUSDT",
+      "top_symbol_contribution": 0.35726744033672564
+    },
+    "bucket": "ALL",
+    "cost_hurdle_state": "BELOW_COST_HURDLE",
+    "date_count": 31,
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4546859359359359,
+    "discovery_score": 31.117953,
+    "discovery_status": "NO_EDGE",
+    "effect_size": -0.00013069355238327638,
+    "effective_observation_count": 159840,
+    "feature": "UNCONDITIONAL",
+    "finding_id": "UNCONDITIONAL:ALL:5m",
+    "hit_rate_positive": 0.4401589089089089,
+    "horizon": "5m",
+    "mean_forward_return": -4.561398913401723e-07,
+    "median_forward_return": 0.0,
+    "minimum_round_trip_cost_hurdle_bps": 11.0,
+    "negative_tail_p05": -0.0043992422311577295,
+    "observation_count": 159840,
+    "positive_tail_p95": 0.004546674439092323,
+    "standard_deviation": 0.003490148389283052,
+    "symbol_count": 18,
+    "temporal_classification": "SIGN_FLIP",
+    "temporal_means": {
+      "DEV_A": 1.612150133710136e-05,
+      "DEV_B": -8.780414251027353e-06,
+      "DEV_C": -8.709506760094526e-06
+    }
+  }
+}

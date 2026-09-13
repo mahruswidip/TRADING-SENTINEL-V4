@@ -1,0 +1,11 @@
+{
+  "decision": "STOP_NOT_REPLICATED",
+  "next_stage": null,
+  "oos_access": "OOS_NOT_ACCESSED",
+  "signals": {
+    "A": "NOT_REPLICATED",
+    "B": "WEAK_REPLICATION"
+  },
+  "stage": "A",
+  "thresholds_changed": false
+}

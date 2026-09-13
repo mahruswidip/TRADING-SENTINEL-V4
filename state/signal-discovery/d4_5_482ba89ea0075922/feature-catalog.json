@@ -1,0 +1,243 @@
+{
+  "catalog": [
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_5M",
+      "definition": "5m closed return",
+      "family": "PRICE_MOMENTUM",
+      "id": "return_5m",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_15M",
+      "definition": "15m closed return",
+      "family": "PRICE_MOMENTUM",
+      "id": "return_15m",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_1H",
+      "definition": "1h closed return",
+      "family": "PRICE_MOMENTUM",
+      "id": "return_1h",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_4H",
+      "definition": "4h closed return",
+      "family": "PRICE_MOMENTUM",
+      "id": "return_4h",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "DISTANCE_HIGH",
+      "definition": "distance from trailing 4h high",
+      "family": "PRICE_LOCATION",
+      "id": "distance_recent_high",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "DISTANCE_LOW",
+      "definition": "distance from trailing 4h low",
+      "family": "PRICE_LOCATION",
+      "id": "distance_recent_low",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "position in trailing 4h range",
+      "family": "PRICE_LOCATION",
+      "id": "range_position",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "VOLUME_RATIO",
+      "definition": "5m volume / prior 4h mean",
+      "family": "VOLUME",
+      "id": "volume_ratio",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "ZSCORE",
+      "definition": "5m volume z-score vs prior 4h",
+      "family": "VOLUME",
+      "id": "volume_zscore",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "VOLUME_RATIO",
+      "definition": "5m quote-volume / prior 4h mean",
+      "family": "VOLUME",
+      "id": "quote_volume_ratio",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "PAST_PERCENTILE",
+      "definition": "12-bar ATR / close",
+      "family": "VOLATILITY",
+      "id": "normalized_atr",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "PAST_PERCENTILE",
+      "definition": "past-only 4h realized volatility",
+      "family": "VOLATILITY",
+      "id": "realized_volatility",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "RANGE_RATIO",
+      "definition": "current range / prior 4h median range",
+      "family": "VOLATILITY",
+      "id": "range_expansion",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "FUNDING_LEVEL",
+      "definition": "latest funding known at T",
+      "family": "FUNDING",
+      "id": "funding_level",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "PERCENTILE_EXTREMES",
+      "definition": "funding percentile from earlier funding observations",
+      "family": "FUNDING",
+      "id": "funding_percentile",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "LISTING_AGE",
+      "definition": "days since onboard date",
+      "family": "LISTING",
+      "id": "listing_age_days",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "BTC_REGIME",
+      "definition": "BTC 1h return known at T",
+      "family": "MARKET_CONTEXT",
+      "id": "btc_return_regime",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "share of Universe(T) with positive 1h return",
+      "family": "MARKET_CONTEXT",
+      "id": "market_breadth",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_1H",
+      "definition": "Universe(T) median 1h return",
+      "family": "MARKET_CONTEXT",
+      "id": "cross_sectional_median_return",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "15m return rank in Universe(T)",
+      "family": "RELATIVE_STRENGTH",
+      "id": "relative_strength_15m",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "1h return rank in Universe(T)",
+      "family": "RELATIVE_STRENGTH",
+      "id": "relative_strength_1h",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "4h return rank in Universe(T)",
+      "family": "RELATIVE_STRENGTH",
+      "id": "relative_strength_4h",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "OPEN_INTEREST",
+      "id": "oi_change",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "OPEN_INTEREST",
+      "id": "oi_percent_change",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "PREMIUM_BASIS",
+      "id": "premium_basis",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "BBO_SPREAD",
+      "id": "historical_spread",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "ORDER_BOOK_DEPTH",
+      "id": "historical_depth",
+      "uses_future": false
+    }
+  ],
+  "frozen_before_evaluation": true,
+  "interactions": [
+    [
+      "return_1h",
+      "volume_ratio",
+      "MOMENTUM_1H_X_VOLUME_EXPANSION"
+    ],
+    [
+      "funding_percentile",
+      "return_1h",
+      "FUNDING_EXTREME_X_PRICE_EXTENSION"
+    ],
+    [
+      "relative_strength_1h",
+      "btc_return_regime",
+      "RELATIVE_STRENGTH_X_BTC_REGIME"
+    ],
+    [
+      "return_1h",
+      "range_expansion",
+      "MOMENTUM_X_VOLATILITY_REGIME"
+    ]
+  ]
+}

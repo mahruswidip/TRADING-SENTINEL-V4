@@ -1,0 +1,225 @@
+{
+  "cross_sectional_stability": {
+    "btc_regime_magnitude": {
+      "STRONGER_QUALIFYING": {
+        "directional_hit_rate": 0.5788285296852171,
+        "mean": -0.005294492591087587,
+        "median": -0.0027219701879456215,
+        "observations": 7529,
+        "symbols": 97
+      },
+      "WEAKER_QUALIFYING": {
+        "directional_hit_rate": 0.5573577254938941,
+        "mean": -0.0025998815567496135,
+        "median": -0.002014968336211842,
+        "observations": 21209,
+        "symbols": 98
+      }
+    },
+    "historical_quote_volume": {
+      "HIGH": {
+        "directional_hit_rate": 0.5701846965699209,
+        "mean": -0.006369941283460676,
+        "median": -0.002962436360912757,
+        "observations": 11370,
+        "symbols": 88
+      },
+      "LOW": {
+        "directional_hit_rate": 0.5670259812050856,
+        "mean": -0.0008607552021143536,
+        "median": -0.0017988308004270315,
+        "observations": 7236,
+        "symbols": 67
+      },
+      "NORMAL": {
+        "directional_hit_rate": 0.552013422818792,
+        "mean": -0.0016135477319338372,
+        "median": -0.0017801516654360472,
+        "observations": 10132,
+        "symbols": 84
+      }
+    },
+    "listing_age": {
+      "ESTABLISHED": {
+        "directional_hit_rate": 0.5739013528274934,
+        "mean": -0.00310450520172238,
+        "median": -0.002022058823529571,
+        "observations": 11901,
+        "symbols": 54
+      },
+      "VERY_NEW": {
+        "directional_hit_rate": 0.5815602836879432,
+        "mean": -0.004228755177784682,
+        "median": -0.003239023053623835,
+        "observations": 1974,
+        "symbols": 9
+      },
+      "YOUNG": {
+        "directional_hit_rate": 0.5517728587768284,
+        "mean": -0.003344469052597456,
+        "median": -0.0023412698412698107,
+        "observations": 14863,
+        "symbols": 46
+      }
+    },
+    "volatility": {
+      "HIGH": {
+        "directional_hit_rate": 0.5668850506253722,
+        "mean": -0.004908982913847563,
+        "median": -0.002399520095980767,
+        "observations": 8395,
+        "symbols": 98
+      },
+      "LOW": {
+        "directional_hit_rate": 0.5679834999206727,
+        "mean": -0.003063986429670661,
+        "median": -0.0023980815347721673,
+        "observations": 6303,
+        "symbols": 97
+      },
+      "NORMAL": {
+        "directional_hit_rate": 0.5584045584045584,
+        "mean": -0.0024558336629228296,
+        "median": -0.002044014909317937,
+        "observations": 14040,
+        "symbols": 98
+      }
+    }
+  },
+  "definition_hash": "79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af",
+  "neutral_or_insufficient_symbol_count": 0,
+  "replication": {
+    "block_bootstrap_95_ci": [
+      -0.0067087866133065215,
+      0.0016850983113463594
+    ],
+    "breadth": {
+      "active_symbol_count": 98,
+      "median_per_symbol_effect": -0.002447490793127537,
+      "opposite_direction_symbol_count": 25,
+      "profitable_direction_symbol_count": 73,
+      "top_3_contribution": 0.25457873520018814,
+      "top_5_contribution": 0.3609161613770219,
+      "top_symbol": "LABUSDT",
+      "top_symbol_contribution": 0.12263092820659595
+    },
+    "bucket": "LOW \u00d7 BTC_BULLISH",
+    "cost_hurdle_state": "ABOVE_COST_HURDLE",
+    "date_count": 28,
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5629828102164381,
+    "discovery_score": 77.13898,
+    "discovery_status": "WEAK_EVIDENCE",
+    "effect_size": -0.08743503330095218,
+    "effective_observation_count": 646,
+    "feature": "RELATIVE_STRENGTH_X_BTC_REGIME",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:4h",
+    "hit_rate_positive": 0.42807432667548195,
+    "horizon": "4h",
+    "mean_forward_return": -0.0033058362674995125,
+    "median_forward_return": -0.0022091809364490067,
+    "minimum_round_trip_cost_hurdle_bps": 11.0,
+    "negative_tail_p05": -0.04987691872207901,
+    "observation_count": 28738,
+    "positive_tail_p95": 0.04124121270660655,
+    "standard_deviation": 0.03780905825380994,
+    "symbol_count": 98,
+    "temporal_classification": "TEMPORALLY_STABLE",
+    "temporal_means": {
+      "DEV_A": -0.0038172891770479754,
+      "DEV_B": -0.0026081472472374257,
+      "DEV_C": -0.0031491333861738964
+    }
+  },
+  "replication_status": "WEAK_REPLICATION",
+  "signal_id": "B",
+  "source_definition": {
+    "benchmark": {
+      "block_bootstrap_95_ci": [
+        -0.016865413383984715,
+        -0.0002503858689157033
+      ],
+      "breadth": {
+        "active_symbol_count": 19,
+        "median_per_symbol_effect": -0.001950028156101232,
+        "opposite_direction_symbol_count": 4,
+        "profitable_direction_symbol_count": 15,
+        "top_3_contribution": 0.6605314528244047,
+        "top_5_contribution": 0.7613825759560517,
+        "top_symbol": "CAPUSDT",
+        "top_symbol_contribution": 0.35988620207610095
+      },
+      "cost_hurdle_state": "ABOVE_COST_HURDLE",
+      "direction_hit_rate": 0.5601217656012176,
+      "effect_size": -0.14194380292763062,
+      "effective_observation_count": 119,
+      "mean_forward_return": -0.003828181815081243,
+      "median_forward_return": -0.0015744562728881584,
+      "observation_count": 5256,
+      "symbol_count": 19,
+      "temporal_classification": "TEMPORALLY_STABLE",
+      "temporal_means": {
+        "DEV_A": -0.0030475578637712657,
+        "DEV_B": -0.006785695217965196,
+        "DEV_C": -0.0019041799941103916
+      }
+    },
+    "component_catalog": [
+      {
+        "availability": "AVAILABLE",
+        "bucket_rule": "TERCILE",
+        "definition": "1h return rank in Universe(T)",
+        "family": "RELATIVE_STRENGTH",
+        "id": "relative_strength_1h",
+        "uses_future": false
+      },
+      {
+        "availability": "AVAILABLE",
+        "bucket_rule": "BTC_REGIME",
+        "definition": "BTC 1h return known at T",
+        "family": "MARKET_CONTEXT",
+        "id": "btc_return_regime",
+        "uses_future": false
+      }
+    ],
+    "condition_bucket": "LOW \u00d7 BTC_BULLISH",
+    "definition_hash": "79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af",
+    "expected_direction": "NEGATIVE",
+    "feature": "RELATIVE_STRENGTH_X_BTC_REGIME",
+    "horizon": "4h",
+    "interaction": [
+      "relative_strength_1h",
+      "btc_return_regime",
+      "RELATIVE_STRENGTH_X_BTC_REGIME"
+    ],
+    "source_engine_version": "d4.5-signal-discovery-v3",
+    "source_feature_catalog_hash": "2f9cf6488155564b225559e13306a9665cb38c0b88426e5eb3a5948e36d98f74",
+    "source_finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:4h",
+    "timestamp_contract": "FEATURE_OBSERVED_THROUGH_LE_T_AND_LABELS_STRICTLY_AFTER_T",
+    "universe_method": "DYNAMIC_BRIDGE_REGISTRY_UNIVERSE_T_ONBOARD_DELIVERY_PLUS_SUFFICIENT_LOCAL_HISTORY"
+  },
+  "temporal_detail": {
+    "DEV_A": {
+      "directional_hit_rate": 0.5638766519823789,
+      "mean": -0.0038172891770479754,
+      "median": -0.002505413482703722,
+      "observations": 13393,
+      "symbols": 98
+    },
+    "DEV_B": {
+      "directional_hit_rate": 0.559449920895704,
+      "mean": -0.0026081472472374257,
+      "median": -0.0018467220683285879,
+      "observations": 8217,
+      "symbols": 98
+    },
+    "DEV_C": {
+      "directional_hit_rate": 0.5653759820426487,
+      "mean": -0.0031491333861738964,
+      "median": -0.0021336229781308003,
+      "observations": 7128,
+      "symbols": 98
+    }
+  },
+  "thresholds_changed": false
+}

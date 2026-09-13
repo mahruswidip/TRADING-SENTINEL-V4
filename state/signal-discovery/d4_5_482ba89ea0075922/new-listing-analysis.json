@@ -1,0 +1,104 @@
+[
+  {
+    "age_bucket": "ESTABLISHED",
+    "forward_returns": {
+      "15m": {
+        "mean": -1.0125104801757977e-05,
+        "median": 0.0,
+        "positive_hit_rate": 0.4554204204204204
+      },
+      "1h": {
+        "mean": -3.709199568826433e-05,
+        "median": -1.7735842507582422e-05,
+        "positive_hit_rate": 0.46855105105105105
+      },
+      "30m": {
+        "mean": -1.892481209344441e-05,
+        "median": 0.0,
+        "positive_hit_rate": 0.4618243243243243
+      },
+      "4h": {
+        "mean": -0.00014986715863200145,
+        "median": -0.0005323787429897808,
+        "positive_hit_rate": 0.4672897897897898
+      },
+      "5m": {
+        "mean": -3.2418691651928703e-06,
+        "median": 0.0,
+        "positive_hit_rate": 0.43713213213213215
+      }
+    },
+    "observation_count": 133200,
+    "oi_behavior": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+    "realized_volatility_percentile_mean": 0.4827262940023357,
+    "symbol_count": 15
+  },
+  {
+    "age_bucket": "VERY_NEW",
+    "forward_returns": {
+      "15m": {
+        "mean": -6.5635971034060705e-06,
+        "median": 0.0,
+        "positive_hit_rate": 0.4848604011010617
+      },
+      "1h": {
+        "mean": -3.325972547275224e-05,
+        "median": 0.0,
+        "positive_hit_rate": 0.49311836413684623
+      },
+      "30m": {
+        "mean": -1.3411395092094465e-05,
+        "median": 0.0,
+        "positive_hit_rate": 0.4878752130030148
+      },
+      "4h": {
+        "mean": 0.00019675318980028956,
+        "median": -0.0004105090311986581,
+        "positive_hit_rate": 0.4954777821470704
+      },
+      "5m": {
+        "mean": -1.7744427837903738e-06,
+        "median": 0.0,
+        "positive_hit_rate": 0.4776510682920435
+      }
+    },
+    "observation_count": 7629,
+    "oi_behavior": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+    "realized_volatility_percentile_mean": 0.45855020499264504,
+    "symbol_count": 1
+  },
+  {
+    "age_bucket": "YOUNG",
+    "forward_returns": {
+      "15m": {
+        "mean": 4.69395251791639e-05,
+        "median": 0.0,
+        "positive_hit_rate": 0.4725897242838192
+      },
+      "1h": {
+        "mean": 0.0001854904770999129,
+        "median": -0.0003739715781599928,
+        "positive_hit_rate": 0.4778602416550142
+      },
+      "30m": {
+        "mean": 9.504697008144693e-05,
+        "median": 0.0,
+        "positive_hit_rate": 0.4771790183213223
+      },
+      "4h": {
+        "mean": 0.0007587231761585168,
+        "median": -0.0010849909584087492,
+        "positive_hit_rate": 0.4711914237567674
+      },
+      "5m": {
+        "mean": 1.6034796419302027e-05,
+        "median": 0.0,
+        "positive_hit_rate": 0.46194112796242515
+      }
+    },
+    "observation_count": 27891,
+    "oi_behavior": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+    "realized_volatility_percentile_mean": 0.4710972451288548,
+    "symbol_count": 4
+  }
+]

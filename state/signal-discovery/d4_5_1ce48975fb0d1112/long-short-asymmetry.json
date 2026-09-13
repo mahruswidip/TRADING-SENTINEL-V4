@@ -1,0 +1,4042 @@
+[
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5586034912718204,
+    "discovery_status": "PROMISING_SIGNAL",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0034047917044629696
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5810473815461347,
+    "discovery_status": "PROMISING_SIGNAL",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.004884747182320115
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5595509893455098,
+    "discovery_status": "PROMISING_SIGNAL",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00383429015834111
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5591743507317486,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0009949873165831658
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5660299856233313,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.001126907068057646
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4918116912092816,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "market_breadth:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0009787610604866613
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5545286506469501,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0007633831119623831
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5455545216140767,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0006856766384625748
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4969633507853403,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0006312097272987801
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5369908561928513,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0011616455537816319
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.540973505853358,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0005323523973076376
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5309195499534727,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00044178849142517457
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5064312134590144,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:DOWN:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00038384168452212534
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.533230657340264,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.000349018162226723
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5500831255195345,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "btc_return_regime:BTC_BEARISH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0039216691465856586
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5153429602888087,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0002527319866214171
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4901221640488656,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.0003549060082720412
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5748351090816844,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "btc_return_regime:BTC_BULLISH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0021208511339101243
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5213329967180005,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0003439981607866531
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5160285285285285,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0002115560502420599
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.509266867524879,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "cross_sectional_median_return:DOWN:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0017999632073755132
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.521594044792402,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00021384995570218116
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.50839590151661,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0001432285357581501
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4798056703647306,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:DOWN:5m",
+    "horizon": "5m",
+    "mean_forward_return": 9.087589462410223e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.532171581769437,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0005823721010626539
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5027770063871146,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0001441695631050138
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5282978948481963,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.001931173346069226
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5099399373995431,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:5m",
+    "horizon": "5m",
+    "mean_forward_return": -0.0001741564101666143
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5141823275358935,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:UP:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00013702269440224113
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5068802628876566,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -0.00020830507639460523
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46983858858858857,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 9.458031804119675e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48593368237347295,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00021298246212382793
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5038663663663664,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00012471802226957757
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5092342342342342,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00015649856343035118
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4905780780780781,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -0.00010597870955075728
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49552849636216656,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:UP:5m",
+    "horizon": "5m",
+    "mean_forward_return": -0.00010533083543693923
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49485234037586084,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:UP:5m",
+    "horizon": "5m",
+    "mean_forward_return": -0.00010122578302973874
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49203586880332584,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:DOWN:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00013679906293623218
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48214935078825216,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -6.165366251563967e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4828078078078078,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00012444514002636989
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5409393183707398,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00163683097159124
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46722513089005235,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:5m",
+    "horizon": "5m",
+    "mean_forward_return": 7.897727078962174e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47414860273395315,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:FAR_BELOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 6.883124428032914e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5920496894409938,
+    "discovery_status": "INSUFFICIENT_DATA",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.004819321162276247
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47431484692425147,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:NEAR_HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -3.40986046192282e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4795125597408775,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:DOWN:5m",
+    "horizon": "5m",
+    "mean_forward_return": 0.00010577974987762005
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47910302693696194,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": -6.486562051520215e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4827338774778007,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00020851827920916388
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47959834834834836,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -5.847652013445085e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48489889275874615,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:UP:5m",
+    "horizon": "5m",
+    "mean_forward_return": -4.502115421954978e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4563084328427289,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 6.103364136354073e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49739674945472456,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0001711815054179919
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5846651445966514,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0019389998631533503
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46000375375375374,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 5.5088045794004526e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4801333216384528,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 0.00011461169419812816
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4766731463482366,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00011749937046334867
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4636843286933094,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -9.832684008114718e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.45996622810103427,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -7.509246920246859e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4604083927881067,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -7.281782212794656e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5242449431975617,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "btc_return_regime:BTC_BEARISH:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0008371733183752476
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5337293982368724,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "volume_zscore:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0019005563340745277
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5316830635777002,
+    "discovery_status": "WEAK_EVIDENCE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0007027888559239277
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5339138290130737,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:UP:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00039536974162790065
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5134535121214813,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00036088009123595456
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5056765580080885,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0003942594199794295
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.524576506525965,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0003138905484395024
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5234046546546547,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00026182620643415135
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5078969243557773,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00041063432550308916
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5275363783346807,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:UP:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00028589684521403835
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.488254063968242,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0003959068484675773
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5027260515711012,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:FAR_BELOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00030847290758077606
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5229730747032697,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:UP:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00022946146334614214
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5172485453034081,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.000457863759998736
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5205893393393394,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0002445124048955603
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5084759521071501,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.000274374079198099
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49037665058714613,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00021128872153158514
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.514039039039039,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0002071069071753275
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48873134159324105,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:DOWN:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00012377346429376824
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5178008637796194,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:UP:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0002275505928600824
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49398161561355913,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:FAR_BELOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00022131016170592418
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.512348450830714,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00031485361987001125
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49903020227209755,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_BEARISH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00016486786740755647
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49295900977666157,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00027070770671742733
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4828241485162988,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00011836571703661861
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.501319082730163,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00015422040629492248
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5007591442374051,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0002618416922675622
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5194270412287793,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:UP:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0002182503006315331
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48730130539028504,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:15m",
+    "horizon": "15m",
+    "mean_forward_return": 9.945968090950288e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5412861491628614,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0011307995658513639
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5145558538578265,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:UP:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00016793956178634241
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4878973845708115,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:FAR_BELOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00012617540039840043
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5047797173732336,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.0001524764664373692
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5027503367759317,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0002212632472416816
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5020781379883624,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00037389448327915573
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5296894409937888,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0008093793870312603
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49776824939373704,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00017253875961844792
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5139702910266775,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:UP:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00016264530152004705
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5014362982324474,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:NEAR_HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -8.816052944018976e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5103510576898949,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:UP:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00011830809270456057
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5069302751002603,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0001837310447743292
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48130149032676106,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00018205431220568607
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48481363728607185,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": -6.828479688888603e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.507327874037887,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00017879376318436738
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4774024024024024,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00010169204415624672
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4590121966829411,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00013237080101306394
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49204152249134947,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "return_1h:DOWN:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.000539098292300396
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45951997760828495,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:DOWN:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.206753511690201e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5133383825633258,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00013783960337609706
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48480264546541896,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0001297376470219338
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49665030320531334,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:EXPANSION:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00012676294492238794
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4852563877271289,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00012674065243394023
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4927175162897662,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0001229181040615091
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5659627329192547,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0019707461024000904
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4849263644239099,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:EXPANSION:15m",
+    "horizon": "15m",
+    "mean_forward_return": -8.105879984167277e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4868635667862789,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:UP:5m",
+    "horizon": "5m",
+    "mean_forward_return": -4.2497898662482255e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.560753493013972,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0025116714637194496
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47381546134663344,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -0.00010205634460252094
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.45872547125548535,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.6119520362991095e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4561996888317662,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.376363501166611e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48704063686013144,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00015928887588586378
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4703560857476007,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 8.278720691064071e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48059952482335155,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": -6.392699615900971e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4657213857623155,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 4.064396859103712e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45273118665351153,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.2718378999040588e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4485294117647059,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:MIDDLE:5m",
+    "horizon": "5m",
+    "mean_forward_return": -1.644344808164495e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44843288281741994,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.3570459904457655e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4480355495119227,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.0580955756793426e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.46170950043315045,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:EXPANSION:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.1814153958348672e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5060869565217392,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0003024163323269523
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43897197491338097,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.3783255546651809e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4808951475468652,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00045995909325874195
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5105985037406484,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0034754685529738917
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5273684210526316,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00017536040641398323
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5106305556999532,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:UP:15m",
+    "horizon": "15m",
+    "mean_forward_return": -9.98119557074622e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5235694610467232,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0001735528959950663
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45535930316961043,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:NEAR_LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.905730149460259e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5145537757437071,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00010949798360510908
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4688939267390526,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:DOWN:5m",
+    "horizon": "5m",
+    "mean_forward_return": 4.270701768446352e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48782608695652174,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:5m",
+    "horizon": "5m",
+    "mean_forward_return": -5.8760537124668636e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4883137040080343,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:DOWN:15m",
+    "horizon": "15m",
+    "mean_forward_return": 3.893098268290178e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5489290214195716,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.002839656392251116
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5490867579908676,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0005566684706545766
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48233937479632,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "realized_volatility:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0011590083946358479
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5167165668662674,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0008124182447481892
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5017247987734764,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00013549677457891696
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5415574963609898,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "market_breadth:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0008983915826897984
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.545168850537978,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "cross_sectional_median_return:UP:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.001263493621120323
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5477764230250914,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "range_position:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0006630626354934492
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5490102171136654,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "funding_level:NEGATIVE:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0012146680784999979
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5484931369350832,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "return_1h:UP:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0007558230123800915
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5540364921765348,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "return_4h:UP:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0008016627197175772
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47571669053541366,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "normalized_atr:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0009349173034764663
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5221788934925664,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0013280130288069174
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5285936548738416,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "normalized_atr:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.000586817288800507
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5142531356898518,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00046221383073364886
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5464231354642314,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_BULLISH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0004994139322355306
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5689028001015143,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0011549045285214625
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48498779227063765,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:NEAR_LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0004793391227753985
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5149687929757749,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00034443439517481227
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48984293193717277,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0011026682609236835
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5531210874619925,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "distance_recent_low:FAR_ABOVE:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0006537549621454323
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.501746506986028,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00039276992066936015
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5316976237131896,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0004663371895368857
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5375318396839424,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:UP:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00027290147056722254
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5317614100618653,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:UP:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00047278261588294066
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5380456750202102,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:UP:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.000453333990837939
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49785809906291834,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00028174526724663375
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5689053193674266,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0010572063590680166
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.492547757329788,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:DOWN:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0004023922123726999
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5152150222147708,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00021800238719520468
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5339257613625845,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00041558911637877647
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5210821350231538,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00028426981972603583
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4923994750029829,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:DOWN:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00020618517478373575
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5130646355654289,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.0002007053898568846
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5079430293070392,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:DOWN:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00031082877243313804
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5259643474631849,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:FAR_ABOVE:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00023450574443994283
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.501776041204156,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0007873773051357754
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48917882336826246,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00026456505328675096
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5361556064073226,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0002546222486863839
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5098579182630907,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:NEGATIVE:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00027724151536691024
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4531799296899968,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:UP:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00014161815671332207
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.530737506065017,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0002861990834931631
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5266413681967043,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:UP:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00017370891828343482
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5022974832645255,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:DOWN:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00024613853196092254
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5331268768768769,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00027887059807047153
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5029091293769173,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:5m",
+    "horizon": "5m",
+    "mean_forward_return": 0.00011577945261833714
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47162162162162163,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00018835016583997193
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48334580838323354,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.00018461227799722806
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5320123575157132,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:UP:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0002505291626872738
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46021448663853726,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0003005533392517319
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48794679966749793,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.000276172541696671
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.5151108944674628,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.0001590806505725661
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5209030454487695,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:COMPRESSION:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00027607808244063995
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5280660438394451,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:NEAR_HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0001882991292868443
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4942278660864932,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00018532466503724674
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5203415717856151,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00018524895857187045
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5189671814671815,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:ESTABLISHED:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00018907558770938601
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49065871414788176,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00014541978938993597
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4966681591908763,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:FAR_BELOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0004563269550059316
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45397890699904125,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:UP:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00014310298287457178
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47983254368153216,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0002911697203771628
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49047185874559746,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:DOWN:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00014167899232791578
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5217690500167842,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:FLAT:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00013890956403711242
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46875,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0002481020574011504
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4918065239865385,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:NEAR_LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00021024010734829488
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.521194777320694,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:FAR_ABOVE:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00013447601153017522
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4718280780780781,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00026903119121031996
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48211336336336336,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00015450296687443015
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48177552552552555,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00015280434302832862
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4855267867796206,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:DOWN:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00011528564312370063
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4939040435049557,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00014732391165746261
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4890597984856615,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:FAR_ABOVE:5m",
+    "horizon": "5m",
+    "mean_forward_return": -3.391097679909021e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4784829613043174,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:DOWN:15m",
+    "horizon": "15m",
+    "mean_forward_return": 6.443713420252948e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.509811320754717,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00010102675374111219
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5511387163561077,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0010140656298534857
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4292237442922374,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.00017386248192829973
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4828521896434763,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00021087380914818935
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.474116968739816,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00016930441617435678
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4877577163850821,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:DOWN:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00013110480750445395
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5104166666666666,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00024086917995273045
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48680555555555555,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00016546807473652821
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4372670807453416,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:5m",
+    "horizon": "5m",
+    "mean_forward_return": -5.157386455433105e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47070934446030527,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:FLAT:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0002366712511513608
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4311263318112633,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.0002755952249861153
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44028976243741347,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:UP:5m",
+    "horizon": "5m",
+    "mean_forward_return": 4.6936401214680646e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4659059739974766,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0002688492493959549
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5149193861442509,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:NEAR_HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00011997590430008916
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4208523592085236,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:5m",
+    "horizon": "5m",
+    "mean_forward_return": 4.2505445623585355e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.511327729088416,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:FAR_ABOVE:15m",
+    "horizon": "15m",
+    "mean_forward_return": -7.724365043513729e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4974058109833972,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:NEGATIVE:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0001325814544169299
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4347412480974125,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_BULLISH:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.399649902708778e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5113871635610766,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0004549002139177915
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5080366910712782,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": -6.553136348830144e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4582734059311006,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.7786430362293567e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47632850241545893,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0001371402625964794
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4765202702702703,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.520046448762146e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.468506006006006,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0002091670143838846
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.470063258243221,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:FLAT:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00013344629387290202
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4642267267267267,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 9.607277099312802e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4933499584372402,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 0.0001698379980170046
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47500164969315706,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:NEAR_LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 5.305970935903064e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49700362988836383,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00012645397769932748
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49228662053056516,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:MIDDLE:30m",
+    "horizon": "30m",
+    "mean_forward_return": -5.051549574509245e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5473365311789952,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0007927453438610681
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5166617733411627,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00016697820327987595
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48759541984732824,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0001502156061246483
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5259835584263065,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00020376426775389018
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47216286799620133,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:POSITIVE:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00021954701227214416
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4953340046995636,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:FLAT:30m",
+    "horizon": "30m",
+    "mean_forward_return": -3.414420258673438e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5179804804804805,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -7.043420377012006e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4838620342396777,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:FLAT:15m",
+    "horizon": "15m",
+    "mean_forward_return": -3.212337538469025e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4860132732338218,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:DOWN:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00014293849965249105
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49864150943396224,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:30m",
+    "horizon": "30m",
+    "mean_forward_return": -6.863189293625956e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4838963963963964,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00014189409321138432
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4925997425997426,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:ESTABLISHED:30m",
+    "horizon": "30m",
+    "mean_forward_return": -2.4023900095000846e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5017781622452903,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:MIDDLE:1h",
+    "horizon": "1h",
+    "mean_forward_return": -6.480040405622852e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4859796318273397,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": -6.320483064529331e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5033232628398792,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:FLAT:1h",
+    "horizon": "1h",
+    "mean_forward_return": -2.570765014846494e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4589041095890411,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.5534407019568314e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.497419479480032,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -9.893422458345663e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4766211904223512,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 9.651302124782905e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5045814588910662,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0001682814237085202
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4528443113772455,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:5m",
+    "horizon": "5m",
+    "mean_forward_return": -5.625318907141738e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5084345976454732,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00027975721766202463
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47951254826254824,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:ESTABLISHED:15m",
+    "horizon": "15m",
+    "mean_forward_return": -1.2671948556324895e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49570460704607044,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -5.244525075122974e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5146499238964992,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00034974377417739446
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5199379191840807,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -4.669201635407858e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5355710255945757,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:NEAR_HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00023305623341700956
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4856720945083014,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:NEGATIVE:15m",
+    "horizon": "15m",
+    "mean_forward_return": -6.851659994740203e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5200270726078466,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -4.479912943005908e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.53368993993994,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -8.129974749566963e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.45523665659617324,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:FLAT:5m",
+    "horizon": "5m",
+    "mean_forward_return": -6.519594331058031e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4690524820175828,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:5m",
+    "horizon": "5m",
+    "mean_forward_return": 4.229551863142027e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5014559202059202,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:ESTABLISHED:1h",
+    "horizon": "1h",
+    "mean_forward_return": -4.727734438725614e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5015890647659601,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -3.986869498933065e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.45633780332056195,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:NEGATIVE:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.0861293315003774e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4617819399393115,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 3.7280737047786514e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47050014974543275,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0001112296721608727
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5224553056516724,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:MIDDLE:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00011009153280049509
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5063709677419355,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": -3.527295976128026e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49438902743142144,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.397683416633173e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5383433900164564,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0005707643675619094
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45112452002194187,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 6.846193279998995e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.532724505327245,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.00018422702658628078
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46031506746061657,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.9571483974971006e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4771869759642258,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00021368803005839253
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5356695869837297,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0007978249713937352
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4966114617306959,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:COMPRESSION:30m",
+    "horizon": "30m",
+    "mean_forward_return": -2.6372820257070604e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.452515015015015,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 2.6117612029128902e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4851628737170906,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 6.14054714344105e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47030658544533854,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 9.22023177062401e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4683602359446065,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:FLAT:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00016241080458833315
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44810435435435436,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.3748202518746798e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5100412912912913,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -5.0190907933705e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4601726726726727,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 4.883214210587192e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49211638742324665,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -1.1262475377480698e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4759561182898274,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00011535550761459034
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46838989389348784,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:FLAT:1h",
+    "horizon": "1h",
+    "mean_forward_return": 8.372241789903807e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46101726726726727,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 4.608162288524105e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4546358858858859,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 4.531623611859285e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.452922998153126,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 8.23463664501348e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4859806224310041,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:5m",
+    "horizon": "5m",
+    "mean_forward_return": -1.6286247509080884e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5206048387096774,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -7.840301165528598e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4674361861861862,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 7.838247473325303e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4988738738738739,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -4.029864315834745e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4643135894545139,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 7.72944364107147e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.45282174704557376,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": -3.109498561957985e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4856687898089172,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 3.972840616556027e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.44954151938937553,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:FLAT:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.1638647699999564e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5249588590235875,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": -3.8087131115760505e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45980356959688173,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 3.736573457866126e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4496219433719434,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:ESTABLISHED:5m",
+    "horizon": "5m",
+    "mean_forward_return": -4.074957232665936e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.462742516503008,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00014579495948440966
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4244672754946728,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.3949644438109663e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5079767267267268,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00014369494843489796
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4557049531644257,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:5m",
+    "horizon": "5m",
+    "mean_forward_return": -6.435817696975119e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47794671597835764,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 3.212545452446924e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5065325895478567,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:15m",
+    "horizon": "15m",
+    "mean_forward_return": -8.316449328515078e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4687587904360056,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.00012170259551702822
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47644599134701376,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:DOWN:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00015891595535604328
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46684275310288237,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 6.663581981657346e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5125513226963255,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -2.9332445752367753e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4461847389558233,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.8727371940253117e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48254624639816995,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:NEAR_LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 0.00010086163374374602
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5029674796747967,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -2.4233599721782933e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5314189189189189,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -2.306055899510291e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4790465205690119,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_high:MIDDLE:15m",
+    "horizon": "15m",
+    "mean_forward_return": -2.0426644065741926e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.482710027100271,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": -1.8784174975939684e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4621672014569422,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 5.568036386600582e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43860984271943176,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_BULLISH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.8418889208824017e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44868618618618616,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.7090166738478477e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5154169985208784,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:30m",
+    "horizon": "30m",
+    "mean_forward_return": -5.398789894410115e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4684774964838256,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 6.897493512822607e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5043542851288356,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:FLAT:1h",
+    "horizon": "1h",
+    "mean_forward_return": -1.6479038206903247e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47799480258194316,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:30m",
+    "horizon": "30m",
+    "mean_forward_return": 8.785086593446422e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5272704211060375,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_BULLISH:30m",
+    "horizon": "30m",
+    "mean_forward_return": -8.612519192585332e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.44936253123808717,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:COMPRESSION:5m",
+    "horizon": "5m",
+    "mean_forward_return": -1.1895641021161721e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.42528835313502733,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.0983545398657238e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4689752252252252,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 8.464265471980586e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43200075075075073,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.0083842294854146e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4342850794356183,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 8.564416234995558e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4959371861590432,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:DOWN:30m",
+    "horizon": "30m",
+    "mean_forward_return": 4.309303521051769e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.44866586142527726,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:FLAT:5m",
+    "horizon": "5m",
+    "mean_forward_return": -5.585993761666872e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4798166077557502,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:FLAT:15m",
+    "horizon": "15m",
+    "mean_forward_return": -5.540304067175953e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.44554753309265943,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": -5.49651653421254e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4483064516129032,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": -4.852034406257708e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48771900410763686,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0001131726597881585
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4685104318292091,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -1.8139295034664834e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4963850837138508,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -7.47616895574616e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4649865778024623,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 3.4995587585646656e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4711914237567674,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "listing_age_days:YOUNG:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0007587231761585168
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5044181345654057,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:EXPANSION:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00010490033245452206
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4640147361957809,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 3.078108001245655e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4543650573693254,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 3.0353723713856813e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45414299662701935,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 3.0297175611810976e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5201626016260162,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00010406054966593407
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4545887543556191,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.982636196394685e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47627604293137776,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 2.6735036261862644e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4673053694959921,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:FLAT:1h",
+    "horizon": "1h",
+    "mean_forward_return": 6.316071302431023e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4688279301745636,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.5298288218203373e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47963040739185214,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:30m",
+    "horizon": "30m",
+    "mean_forward_return": -0.0002398345810356723
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4748005039899202,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:15m",
+    "horizon": "15m",
+    "mean_forward_return": -0.0001572652458471407
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4751227130745203,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 2.378767725273372e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48315930145643166,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:DOWN:1h",
+    "horizon": "1h",
+    "mean_forward_return": 9.485491707628358e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4610056258790436,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 3.52920513572303e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44872517561356345,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "normalized_atr:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.9289219783735842e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43925474254742547,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.7471837185138484e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48855533802238177,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:DOWN:1h",
+    "horizon": "1h",
+    "mean_forward_return": 9.075779437703418e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4763842464758029,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 1.6291780160540188e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.440211816596574,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.5952958368589287e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4622147943612847,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.552677616267148e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.49030202272097534,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_BEARISH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.538064091923426e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46182798309941236,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.3399886019190714e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5025161479367587,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:FLAT:1h",
+    "horizon": "1h",
+    "mean_forward_return": -1.2877952240568607e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5418117561457305,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0004914553693221392
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4663951641821628,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:FLAT:4h",
+    "horizon": "4h",
+    "mean_forward_return": 8.562688969191722e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4246265060240964,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.0235686584684498e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4826760980981829,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:COMPRESSION:15m",
+    "horizon": "15m",
+    "mean_forward_return": -8.967388766867629e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.45296699103224575,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -7.86862537804659e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4702932098765432,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:POSITIVE:1h",
+    "horizon": "1h",
+    "mean_forward_return": 4.4432724996822055e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4804233870967742,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": -7.3271437720964445e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.504185692541857,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:15m",
+    "horizon": "15m",
+    "mean_forward_return": -4.3844124744366064e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.484810233106118,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": -6.300979466448736e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5053157694099708,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:COMPRESSION:1h",
+    "horizon": "1h",
+    "mean_forward_return": -4.197499995699364e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47942168674698793,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00020589562638673124
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4301306998973163,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:FLAT:5m",
+    "horizon": "5m",
+    "mean_forward_return": 4.2683214560932975e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4576466078957455,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": -3.962255187070569e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5107146163102841,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -8.994944603920902e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4445675105485232,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.2715733583094694e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46603846793415,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 3.357323515866237e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49977780246639264,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -2.8293928666729753e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4867080745341615,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:5m",
+    "horizon": "5m",
+    "mean_forward_return": -4.316651892211358e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4936186186186186,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00013589161903422198
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47224074264027077,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 5.9710368471225065e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4571875502536438,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 2.1938861421703387e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46314131013669446,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 5.8782991618241906e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46310071503796907,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 5.4904365672157805e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4479210415791684,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:5m",
+    "horizon": "5m",
+    "mean_forward_return": -7.443369169158501e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43748128182090446,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.563459174908596e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4479462965069974,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.3873563626750934e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43272329044078933,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.3269261783983647e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49733362959671146,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -4.943799343961919e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4320758258258258,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.0029971835540007e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.44339622641509435,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:5m",
+    "horizon": "5m",
+    "mean_forward_return": -9.17357940628437e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.45741114176491693,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:MIDDLE:5m",
+    "horizon": "5m",
+    "mean_forward_return": -8.796054365016524e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4700717346748649,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:1h",
+    "horizon": "1h",
+    "mean_forward_return": 4.229232281638188e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.45163231139478915,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": -3.5230451458337576e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46587076158352564,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": 3.985857047738084e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48324528301886793,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:15m",
+    "horizon": "15m",
+    "mean_forward_return": -3.9619401039565714e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5023281364444909,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": -2.4883265300035527e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.42672672672672673,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_1h:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.020054666425807e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45739742437855646,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:15m",
+    "horizon": "15m",
+    "mean_forward_return": 3.878762116672134e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4606822762825957,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:FLAT:30m",
+    "horizon": "30m",
+    "mean_forward_return": 3.520414980275059e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4675801138065289,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:30m",
+    "horizon": "30m",
+    "mean_forward_return": 3.44148265211367e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5075527953384221,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:MIDDLE:1h",
+    "horizon": "1h",
+    "mean_forward_return": -3.277405080296974e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4566024096385542,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:30m",
+    "horizon": "30m",
+    "mean_forward_return": 2.6224185404989692e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46226506024096387,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:1h",
+    "horizon": "1h",
+    "mean_forward_return": 2.5722435273967845e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45477169817842455,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:15m",
+    "horizon": "15m",
+    "mean_forward_return": 3.092570868352928e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4278113000548546,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.2477543243658565e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4633657698912421,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 2.2429033639190942e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46443198005698005,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:POSITIVE:30m",
+    "horizon": "30m",
+    "mean_forward_return": 2.1396821369332697e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4937751295838783,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -2.107251237667796e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44883322072657345,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 2.0048396863574185e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46642010300369846,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:30m",
+    "horizon": "30m",
+    "mean_forward_return": 3.851151992954059e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45668765502766645,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.819399657868796e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4480240963855422,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.721159329357706e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.44749238016070936,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "btc_return_regime:BTC_BEARISH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -1.426040740599528e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.470542934154794,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:DOWN:4h",
+    "horizon": "4h",
+    "mean_forward_return": 4.904808273471548e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4934923024622408,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:NORMAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": -1.1689930757606566e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4463911476234387,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:5m",
+    "horizon": "5m",
+    "mean_forward_return": -1.1649070075241174e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4580588200379867,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:POSITIVE:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.0390639083496334e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4698112655877666,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:NORMAL:1h",
+    "horizon": "1h",
+    "mean_forward_return": 4.597997260587741e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4669385845650045,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 7.78552228430584e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44091286799620133,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_level:POSITIVE:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.337125809212677e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.41323421886424566,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.8789622722425477e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45296641205399185,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 2.596462186470497e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4594557067481255,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:30m",
+    "horizon": "30m",
+    "mean_forward_return": 3.689024828328896e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4357881606985084,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.83117266007013e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43304624499423994,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_position:NORMAL:5m",
+    "horizon": "5m",
+    "mean_forward_return": 2.1696179893437786e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4824512012012012,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": -5.410280432118086e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4481319747695294,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:HIGH:30m",
+    "horizon": "30m",
+    "mean_forward_return": 1.650302099281948e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4669068622422813,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 1.5199240666160804e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.459375,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": 1.4535260148432087e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48111320964337295,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": -1.4436853895300002e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4653692043503148,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:1h",
+    "horizon": "1h",
+    "mean_forward_return": 9.274345436654614e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4522250068445549,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.2339122883349113e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47106555010106843,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "range_expansion:EXPANSION:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00031784975009643824
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43380078709605896,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 8.199004188219982e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4335389668027694,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:LOW:5m",
+    "horizon": "5m",
+    "mean_forward_return": 7.496883562290524e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44619550124965285,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:15m",
+    "horizon": "15m",
+    "mean_forward_return": 7.492093793962214e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.51128003003003,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_15m:LOW:4h",
+    "horizon": "4h",
+    "mean_forward_return": -5.988274686531357e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4500082400517222,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_15m:FLAT:15m",
+    "horizon": "15m",
+    "mean_forward_return": 5.858093054988688e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46835443037974683,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:15m",
+    "horizon": "15m",
+    "mean_forward_return": 4.229668991860355e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5123971475589687,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": -3.976742984051629e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43138878626119526,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:FLAT:5m",
+    "horizon": "5m",
+    "mean_forward_return": 3.6232919386977843e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48384901832217836,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:MIDDLE:15m",
+    "horizon": "15m",
+    "mean_forward_return": -1.6985822165336344e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45183649939606896,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:FLAT:15m",
+    "horizon": "15m",
+    "mean_forward_return": 1.2165423515192802e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46272164805917526,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:1h",
+    "horizon": "1h",
+    "mean_forward_return": 2.2690148053386992e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48851167786365646,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:LOW:30m",
+    "horizon": "30m",
+    "mean_forward_return": -4.7104642446676685e-07
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5163843376839766,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -5.020831329762589e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4778602416550142,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:YOUNG:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0001854904770999129
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4616522265697783,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:30m",
+    "horizon": "30m",
+    "mean_forward_return": 1.6659224428572874e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46562728889818983,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 9.692971549270686e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5403203661327232,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0003628449265054003
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4525371689195215,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:FLAT:15m",
+    "horizon": "15m",
+    "mean_forward_return": 9.698850842390005e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4400164338537387,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "cross_sectional_median_return:DOWN:5m",
+    "horizon": "5m",
+    "mean_forward_return": -8.089954174534493e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5006423351515279,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "realized_volatility:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": -7.96311665575921e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4554336687162288,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:15m",
+    "horizon": "15m",
+    "mean_forward_return": 6.542075570100132e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4962452524402766,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:MIDDLE:30m",
+    "horizon": "30m",
+    "mean_forward_return": -6.338557267968045e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45917975183924453,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_5m:FLAT:30m",
+    "horizon": "30m",
+    "mean_forward_return": 6.109140736983818e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.45886481225347064,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_1h:FLAT:30m",
+    "horizon": "30m",
+    "mean_forward_return": 8.461051696660811e-07
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.44366812227074237,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "market_breadth:HIGH:15m",
+    "horizon": "15m",
+    "mean_forward_return": 9.336217138980968e-08
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5165849157398864,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -8.379603960907502e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4713846854022073,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:5m",
+    "horizon": "5m",
+    "mean_forward_return": -2.0437679661295524e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5164946955384392,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": -7.322335322366447e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47310435435435433,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "relative_strength_4h:LOW:15m",
+    "horizon": "15m",
+    "mean_forward_return": -1.0953404335097793e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.580289193302892,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.0005892633802359123
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.460142942682787,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "return_4h:FLAT:30m",
+    "horizon": "30m",
+    "mean_forward_return": 2.1793246981983176e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.43726709521147755,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.088165265828725e-06
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.48798908541636216,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0003379663195101738
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4757412398921833,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0004794760135594092
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4772944094638428,
+    "discovery_status": "UNSTABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0005356665746872821
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4771790183213223,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:YOUNG:30m",
+    "horizon": "30m",
+    "mean_forward_return": 9.504697008144693e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5153097202805854,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "distance_recent_low:MIDDLE:4h",
+    "horizon": "4h",
+    "mean_forward_return": -8.71731701221731e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5225850494936853,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:1h",
+    "horizon": "1h",
+    "mean_forward_return": -7.450258646521734e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4725897242838192,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:YOUNG:15m",
+    "horizon": "15m",
+    "mean_forward_return": 4.69395251791639e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4707763680455488,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "quote_volume_ratio:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00023967395232816637
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.47087173714205305,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_ratio:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.0002187242814907939
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.46194112796242515,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "listing_age_days:YOUNG:5m",
+    "horizon": "5m",
+    "mean_forward_return": 1.6034796419302027e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4721142095322742,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00027552618580900783
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5185660377358491,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00012917814136796237
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.455393868169092,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00011927593337658277
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4973128850439114,
+    "discovery_status": "INSUFFICIENT_DATA",
+    "finding_id": "listing_age_days:VERY_NEW:30m",
+    "horizon": "30m",
+    "mean_forward_return": -1.3411395092094465e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48866168567308954,
+    "discovery_status": "INSUFFICIENT_DATA",
+    "finding_id": "listing_age_days:VERY_NEW:15m",
+    "horizon": "15m",
+    "mean_forward_return": -6.5635971034060705e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.47935509241053875,
+    "discovery_status": "INSUFFICIENT_DATA",
+    "finding_id": "listing_age_days:VERY_NEW:5m",
+    "horizon": "5m",
+    "mean_forward_return": -1.7744427837903738e-06
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.48320033599328016,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0003772961335170531
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.4850374064837905,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.0002869565702471288
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.512265235722499,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:LOW:1h",
+    "horizon": "1h",
+    "mean_forward_return": -0.00031403737902974013
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5485907222548444,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:4h",
+    "horizon": "4h",
+    "mean_forward_return": -0.00015788468361796625
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4297945205479452,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:1h",
+    "horizon": "1h",
+    "mean_forward_return": 0.0001892262397993486
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4921498114200509,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00012604781711912126
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.5184104176021553,
+    "discovery_status": "NO_EDGE",
+    "finding_id": "volume_zscore:HIGH:4h",
+    "horizon": "4h",
+    "mean_forward_return": -8.853039615367251e-05
+  },
+  {
+    "direction": "NEGATIVE",
+    "direction_hit_rate": 0.49403591558526677,
+    "discovery_status": "INSUFFICIENT_DATA",
+    "finding_id": "listing_age_days:VERY_NEW:1h",
+    "horizon": "1h",
+    "mean_forward_return": -3.325972547275224e-05
+  },
+  {
+    "direction": "POSITIVE",
+    "direction_hit_rate": 0.4954777821470704,
+    "discovery_status": "INSUFFICIENT_DATA",
+    "finding_id": "listing_age_days:VERY_NEW:4h",
+    "horizon": "4h",
+    "mean_forward_return": 0.00019675318980028956
+  }
+]

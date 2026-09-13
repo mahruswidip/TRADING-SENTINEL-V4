@@ -1,0 +1,18 @@
+{
+  "BREAKOUT_RETEST_V2": {
+    "bounded_at_100": true,
+    "corrected_field": "portfolio_max_drawdown_pct",
+    "corrected_value": 5.187831458808888,
+    "formula": "max((peak_equity - subsequent_equity) / peak_equity) * 100",
+    "legacy_field": "max_drawdown",
+    "legacy_value_pct_of_one_normalized_notional": 52.49068063333263
+  },
+  "RANGE_REVERSION_V2": {
+    "bounded_at_100": true,
+    "corrected_field": "portfolio_max_drawdown_pct",
+    "corrected_value": 15.16320597096668,
+    "formula": "max((peak_equity - subsequent_equity) / peak_equity) * 100",
+    "legacy_field": "max_drawdown",
+    "legacy_value_pct_of_one_normalized_notional": 154.2290409394722
+  }
+}

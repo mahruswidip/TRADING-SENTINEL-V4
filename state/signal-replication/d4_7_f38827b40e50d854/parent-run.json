@@ -1,0 +1,35 @@
+{
+  "artifact_hashes": {
+    "backfill-summary.json": "de9fe1a593693c06a6e6805b100d849d75f6b2c64e6d1f92b37c76a3e1acda0c",
+    "checkpoint.json": "7624ae2ec995fc19ea0f9f64664abcdd3baae96927b3f41db58b6dbd53d2731b",
+    "manifest.json": "f0721d59d6e954fceb48400bf3d7d146245348096845898105e597549c28513a",
+    "parent-run.json": "d0556f35cc540903d1d920cf4fdf0125d7308e736d43166bd9a242422b75abdc",
+    "replication-gate.json": "539c26ad56a0adae6f56174aeb5c61072e6f6415c5b9346897910be5a493719b",
+    "replication-report.md": "f99d3750902adeef055991196acaf04dbc96e3212870b5e51c00508f7bf9d457",
+    "resource-plan.json": "0dea72a6a704f91b520c06b4d85521a949b1357c3363c13bcf71af8a47b73791",
+    "signal-a.json": "973912e9f383951b4d6990537df84204570e1281165aa1dfeacf622a52afa0d2",
+    "signal-b.json": "d86a59aa3f105d3e2c5e7994d306f4db94cc25f3521759f4ecb6aabbf9062887",
+    "source-signal-hashes.json": "3176d4ca46ab4c3cb366ffb52c8f4071720652ecac7ee2fb9f8c5dcfb37dbd16",
+    "stages/B/backfill-summary.json": "79a86ddc6cdb86b0a9542591e97192eb2ce25bbf21e71247c4cf0aa9c05cee66",
+    "stages/B/replication-gate.json": "f4d095a9240b663239d8cf97c3a7799abb7f3e8b267f2747bd8df31d2866314e",
+    "stages/B/resource-plan.json": "bdc73344f6531bec6734b40820f4488b9bd1578603fffb99fc76385cbfc19a30",
+    "stages/B/signal-a.json": "5c5cf1f70140cb103b8042444dc7dcee15d55c7fb9a8503a548d0f5ef5afb8c7",
+    "stages/B/signal-b.json": "4b7688250cafcbcc475933398fb3ec449a75089cf8c3c87b38a5ff5ee5ab83d5",
+    "stages/B/universe.json": "f1b390876ffb06ae379a751547137100f081090c72f06ae973322962890efd41",
+    "stages/C/backfill-summary.json": "de9fe1a593693c06a6e6805b100d849d75f6b2c64e6d1f92b37c76a3e1acda0c",
+    "stages/C/replication-gate.json": "539c26ad56a0adae6f56174aeb5c61072e6f6415c5b9346897910be5a493719b",
+    "stages/C/resource-plan.json": "3e640113ef737f58d671ffc3deaab5811b9471832824e4d7ccf85311962ad2cf",
+    "stages/C/signal-a.json": "973912e9f383951b4d6990537df84204570e1281165aa1dfeacf622a52afa0d2",
+    "stages/C/signal-b.json": "d86a59aa3f105d3e2c5e7994d306f4db94cc25f3521759f4ecb6aabbf9062887",
+    "stages/C/universe.json": "7d0fca14ed1f4836239360c3d96409b142d5cb3cb2d6d28e1005f4a68faeee34",
+    "symbol-breadth.json": "d3154b781d28c34d87cca5d66c99420a34b2b915933353eed0a2040609d46775",
+    "temporal-stability.json": "a62a67ea44710787d90194ba94147aedc40f9b0bcad43adde77ffe0e7807cc5b"
+  },
+  "development_window": {
+    "end": 1785528000000,
+    "start": 1782864000000
+  },
+  "path": "L:\\PROJECT\\TRADING SENTINEL V4\\state\\signal-replication\\d4_6b_d9380c7ff0781bac",
+  "run_id": "d4_6b_d9380c7ff0781bac",
+  "signal_b_definition_hash": "79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af"
+}

@@ -1,0 +1,14 @@
+{
+  "A": {
+    "hurdle_bps": 11.0,
+    "mean_effect_bps": 30.99989165069414,
+    "median_effect_bps": 14.951407924246318,
+    "status": "ABOVE_COST_HURDLE"
+  },
+  "B": {
+    "hurdle_bps": 11.0,
+    "mean_effect_bps": -37.26105611000293,
+    "median_effect_bps": -18.144704947921085,
+    "status": "ABOVE_COST_HURDLE"
+  }
+}

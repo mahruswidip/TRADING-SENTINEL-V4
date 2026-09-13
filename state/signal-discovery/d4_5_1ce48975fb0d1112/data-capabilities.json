@@ -1,0 +1,37 @@
+{
+  "bbo_spread": {
+    "current_snapshot": "AVAILABLE",
+    "historical": "HISTORICAL_FEATURE_NOT_AVAILABLE"
+  },
+  "funding": {
+    "historical": "AVAILABLE",
+    "timestamps": "EXCHANGE_FUNDING_TIME"
+  },
+  "historical_snapshot_prohibition": "CURRENT BBO, depth, ticker volume, and liquidity are excluded from feature rows",
+  "listing_metadata": {
+    "contract_type": "AVAILABLE",
+    "delivery_date": "AVAILABLE",
+    "onboard_date": "AVAILABLE"
+  },
+  "market_universe": {
+    "Universe(t)": "ONBOARD_DELIVERY_FILTERED_FROM_VERSIONED_PLAN_SNAPSHOT"
+  },
+  "open_interest": {
+    "current_snapshot": "AVAILABLE",
+    "historical": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+    "sampling_interval": null
+  },
+  "order_book_depth": {
+    "current_snapshot": "AVAILABLE",
+    "historical": "HISTORICAL_FEATURE_NOT_AVAILABLE"
+  },
+  "premium_basis": {
+    "historical": "HISTORICAL_FEATURE_NOT_AVAILABLE"
+  },
+  "price_ohlcv": {
+    "15m": "DERIVED_CLOSED_ONLY",
+    "1h": "DERIVED_CLOSED_ONLY",
+    "4h": "DERIVED_CLOSED_ONLY",
+    "5m": "AVAILABLE"
+  }
+}

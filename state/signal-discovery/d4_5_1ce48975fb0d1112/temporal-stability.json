@@ -1,0 +1,4547 @@
+[
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:4h",
+    "segments": {
+      "DEV_A": 0.004355065595376365,
+      "DEV_B": 0.004158264790082679,
+      "DEV_C": 0.0015410914642986853
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:4h",
+    "segments": {
+      "DEV_A": 0.008371645993565551,
+      "DEV_B": 0.003688528696042344,
+      "DEV_C": 0.0020384525716271237
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:4h",
+    "segments": {
+      "DEV_A": -0.003043879287290383,
+      "DEV_B": -0.006781439738444346,
+      "DEV_C": -0.0019408578553602909
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:1h",
+    "segments": {
+      "DEV_A": -0.0007709519236908921,
+      "DEV_B": -0.0007389735997010154,
+      "DEV_C": -0.0015129841854029183
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:1h",
+    "segments": {
+      "DEV_A": -0.0009403199136808699,
+      "DEV_B": -0.0011439155775219893,
+      "DEV_C": -0.0013241298175015273
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "market_breadth:LOW:4h",
+    "segments": {
+      "DEV_A": 0.0011126918421626537,
+      "DEV_B": 0.0013637069983566737,
+      "DEV_C": 0.00045273823022739146
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:30m",
+    "segments": {
+      "DEV_A": -0.0008118853341319192,
+      "DEV_B": -0.0007797178545618412,
+      "DEV_C": -0.0006912392002084175
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:30m",
+    "segments": {
+      "DEV_A": -0.0007715846045567162,
+      "DEV_B": -0.000557406626521439,
+      "DEV_C": -0.0007165211119872021
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:1h",
+    "segments": {
+      "DEV_A": 0.0007241904384733118,
+      "DEV_B": 0.00018885361976104902,
+      "DEV_C": 0.0010365921729406776
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:1h",
+    "segments": {
+      "DEV_A": 0.0015598654563410235,
+      "DEV_B": 0.0008730186339229005,
+      "DEV_C": 0.0009898005467125228
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:15m",
+    "segments": {
+      "DEV_A": -0.0006293144990935954,
+      "DEV_B": -0.0005789133836034319,
+      "DEV_C": -0.00037414071108105896
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:15m",
+    "segments": {
+      "DEV_A": -0.0006517316135585153,
+      "DEV_B": -0.0003326667217138055,
+      "DEV_C": -0.0003100825712805066
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_1h:DOWN:1h",
+    "segments": {
+      "DEV_A": 0.0005694340597746828,
+      "DEV_B": 0.0001496614646350605,
+      "DEV_C": 0.0004113898252270298
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "range_position:HIGH:1h",
+    "segments": {
+      "DEV_A": -7.898524043708326e-05,
+      "DEV_B": -0.0006203703347505738,
+      "DEV_C": -0.0003595064979489908
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "btc_return_regime:BTC_BEARISH:4h",
+    "segments": {
+      "DEV_A": 0.006506125267603305,
+      "DEV_B": 0.0027897149655933427,
+      "DEV_C": 0.0020592905559684753
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:30m",
+    "segments": {
+      "DEV_A": -0.00037406402360107434,
+      "DEV_B": -0.0002488122182079607,
+      "DEV_C": -0.00014675976977449693
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:30m",
+    "segments": {
+      "DEV_A": 0.0003709380472485583,
+      "DEV_B": 0.00019104435346511473,
+      "DEV_C": 0.0005242914485252005
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "btc_return_regime:BTC_BULLISH:4h",
+    "segments": {
+      "DEV_A": -0.0015223263600326218,
+      "DEV_B": -0.003780120492790925,
+      "DEV_C": -0.0013469419288283375
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:1h",
+    "segments": {
+      "DEV_A": -0.00029098653169840814,
+      "DEV_B": -0.00017784389136844443,
+      "DEV_C": -0.000572222737236385
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_1h:HIGH:30m",
+    "segments": {
+      "DEV_A": -0.00022382344436404656,
+      "DEV_B": -0.00023724946497077066,
+      "DEV_C": -0.00017359524139136249
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "cross_sectional_median_return:DOWN:4h",
+    "segments": {
+      "DEV_A": 0.0018756276127613622,
+      "DEV_B": 0.002585172201097564,
+      "DEV_C": 0.0007810045057023919
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "range_position:HIGH:30m",
+    "segments": {
+      "DEV_A": -5.87475810842441e-05,
+      "DEV_B": -0.0003348698659915572,
+      "DEV_C": -0.00025383780539594197
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "range_position:HIGH:15m",
+    "segments": {
+      "DEV_A": -6.791963414810234e-05,
+      "DEV_B": -0.00017629247962204335,
+      "DEV_C": -0.00018769420637421136
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_15m:DOWN:5m",
+    "segments": {
+      "DEV_A": 0.00012053400830616231,
+      "DEV_B": 8.181710629631033e-05,
+      "DEV_C": 6.643686646784689e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:1h",
+    "segments": {
+      "DEV_A": 0.0008089134048840666,
+      "DEV_B": 0.0003890054866709115,
+      "DEV_C": 0.0005406570709262415
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:15m",
+    "segments": {
+      "DEV_A": -0.00019545753815366978,
+      "DEV_B": -0.00015079098133597156,
+      "DEV_C": -9.12122821295214e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:4h",
+    "segments": {
+      "DEV_A": 0.0032143118087295496,
+      "DEV_B": 0.002155690594666873,
+      "DEV_C": 0.00047683483312681226
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:5m",
+    "segments": {
+      "DEV_A": -0.0002902219500527834,
+      "DEV_B": -8.785326104320428e-05,
+      "DEV_C": -0.00012766772573333623
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_5m:UP:15m",
+    "segments": {
+      "DEV_A": -0.000134073466441826,
+      "DEV_B": -0.0001649471567291076,
+      "DEV_C": -0.00011294628660481429
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:5m",
+    "segments": {
+      "DEV_A": -0.0002779654888595858,
+      "DEV_B": -0.00011895893833247405,
+      "DEV_C": -0.0002181541000687536
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_15m:LOW:5m",
+    "segments": {
+      "DEV_A": 0.00011256615038815685,
+      "DEV_B": 9.481337495601696e-05,
+      "DEV_C": 7.636142877941644e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:15m",
+    "segments": {
+      "DEV_A": 0.0002460629712878638,
+      "DEV_B": 0.0001359241890668982,
+      "DEV_C": 0.00026597459278616953
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_1h:HIGH:15m",
+    "segments": {
+      "DEV_A": -0.0001358144046899676,
+      "DEV_B": -0.0001331749497074883,
+      "DEV_C": -0.00010516471241127686
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_15m:HIGH:15m",
+    "segments": {
+      "DEV_A": -0.0001300918807003354,
+      "DEV_B": -0.00021282354329257508,
+      "DEV_C": -0.00012658026629814304
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_15m:HIGH:5m",
+    "segments": {
+      "DEV_A": -0.00010079551819160571,
+      "DEV_B": -0.00013260394591886333,
+      "DEV_C": -8.453666454180279e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_15m:UP:5m",
+    "segments": {
+      "DEV_A": -0.00013448671250335326,
+      "DEV_B": -0.00011002651018264126,
+      "DEV_C": -6.752334386530911e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_5m:UP:5m",
+    "segments": {
+      "DEV_A": -0.00014800872085905903,
+      "DEV_B": -7.194392689909261e-05,
+      "DEV_C": -7.707129620456596e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_15m:DOWN:15m",
+    "segments": {
+      "DEV_A": 0.00018903459447915534,
+      "DEV_B": 0.00014788077935283948,
+      "DEV_C": 6.685380828272842e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "range_position:HIGH:5m",
+    "segments": {
+      "DEV_A": -4.8794922491033866e-05,
+      "DEV_B": -5.960281078384429e-05,
+      "DEV_C": -7.674876665496381e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_15m:LOW:15m",
+    "segments": {
+      "DEV_A": 0.00017992692500350298,
+      "DEV_B": 9.539526775833255e-05,
+      "DEV_C": 9.80132273172741e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:1h",
+    "segments": {
+      "DEV_A": 0.001626878328221263,
+      "DEV_B": 0.00156000129296453,
+      "DEV_C": 0.0017258335217911773
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:5m",
+    "segments": {
+      "DEV_A": 0.0001282375677651304,
+      "DEV_B": 1.9379861360062976e-05,
+      "DEV_C": 9.524558763207123e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "distance_recent_high:FAR_BELOW:5m",
+    "segments": {
+      "DEV_A": 0.00010143951336699139,
+      "DEV_B": 3.37859124199517e-05,
+      "DEV_C": 6.106885443280937e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:4h",
+    "segments": {
+      "DEV_A": -0.0011033559566886746,
+      "DEV_B": -0.008003466602277963,
+      "DEV_C": -0.005314119145928436
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "distance_recent_high:NEAR_HIGH:5m",
+    "segments": {
+      "DEV_A": -2.081655440173983e-05,
+      "DEV_B": -3.158109211620675e-05,
+      "DEV_C": -4.7261420101568984e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_5m:DOWN:5m",
+    "segments": {
+      "DEV_A": 0.00015313572794832644,
+      "DEV_B": 7.457510208733436e-05,
+      "DEV_C": 8.389128617333605e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:5m",
+    "segments": {
+      "DEV_A": -7.213067663985446e-05,
+      "DEV_B": -6.506651019014247e-05,
+      "DEV_C": -5.809079650767729e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:30m",
+    "segments": {
+      "DEV_A": 0.0003151830495127223,
+      "DEV_B": 0.00013282762121203916,
+      "DEV_C": 0.00016171918794554587
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_1h:HIGH:5m",
+    "segments": {
+      "DEV_A": -7.446311251995613e-05,
+      "DEV_B": -4.8715295780501495e-05,
+      "DEV_C": -5.2251152102894934e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_4h:UP:5m",
+    "segments": {
+      "DEV_A": -1.9145697526515365e-05,
+      "DEV_B": -8.429004688431118e-05,
+      "DEV_C": -3.8196524742539986e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:5m",
+    "segments": {
+      "DEV_A": 9.549883717518398e-05,
+      "DEV_B": 3.621150717422429e-05,
+      "DEV_C": 5.4307083761656194e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_ratio:HIGH:30m",
+    "segments": {
+      "DEV_A": -0.0001354137470222076,
+      "DEV_B": -0.00022033986558864796,
+      "DEV_C": -0.0001571968512690419
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:4h",
+    "segments": {
+      "DEV_A": -0.0015820055370104604,
+      "DEV_B": -0.0017755916234206753,
+      "DEV_C": -0.0028066541212004048
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_1h:LOW:5m",
+    "segments": {
+      "DEV_A": 9.517644907526037e-05,
+      "DEV_B": 2.7539568823509588e-05,
+      "DEV_C": 4.2548119483243625e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:5m",
+    "segments": {
+      "DEV_A": 0.0001344569433825954,
+      "DEV_B": 5.723723019032365e-05,
+      "DEV_C": 0.00015131468771845116
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:15m",
+    "segments": {
+      "DEV_A": 0.00011416621154736241,
+      "DEV_B": 0.00011294674633874754,
+      "DEV_C": 0.0001250053994499281
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_zscore:HIGH:5m",
+    "segments": {
+      "DEV_A": -3.8060782921569404e-05,
+      "DEV_B": -0.00012206980715762989,
+      "DEV_C": -0.00013521478355206143
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_ratio:HIGH:5m",
+    "segments": {
+      "DEV_A": -4.151749894722629e-05,
+      "DEV_B": -7.6012603548435e-05,
+      "DEV_C": -0.0001070949013208229
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "quote_volume_ratio:HIGH:5m",
+    "segments": {
+      "DEV_A": -3.773946948730721e-05,
+      "DEV_B": -7.713436734810342e-05,
+      "DEV_C": -0.00010293213837210172
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "btc_return_regime:BTC_BEARISH:1h",
+    "segments": {
+      "DEV_A": 0.0010949783279531765,
+      "DEV_B": 0.0005916840070076036,
+      "DEV_C": 0.0007850195696908134
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_zscore:LOW:4h",
+    "segments": {
+      "DEV_A": -0.002147014553215579,
+      "DEV_B": -0.0020416197447344522,
+      "DEV_C": -0.0014986203064052339
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:1h",
+    "segments": {
+      "DEV_A": 0.0011751985757668384,
+      "DEV_B": 0.00019583681867035808,
+      "DEV_C": 0.0007348663550733812
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_1h:UP:1h",
+    "segments": {
+      "DEV_A": -0.0003059774241287825,
+      "DEV_B": -0.0005249778689432292,
+      "DEV_C": -0.00037228715927995637
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:1h",
+    "segments": {
+      "DEV_A": 0.0005549137813733411,
+      "DEV_B": 0.0003966832409172156,
+      "DEV_C": 8.315178321121194e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.00039771972463047703,
+      "DEV_B": 0.0004788349697887478,
+      "DEV_C": 0.0003073467132734575
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:1h",
+    "segments": {
+      "DEV_A": -0.00035731184058762546,
+      "DEV_B": -0.00040895229812916385,
+      "DEV_C": -0.00018085695910516835
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_1h:HIGH:1h",
+    "segments": {
+      "DEV_A": -0.00012841717499731647,
+      "DEV_B": -0.0004297901643672758,
+      "DEV_C": -0.00022727127993786182
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:30m",
+    "segments": {
+      "DEV_A": 0.0006014254247284639,
+      "DEV_B": 0.00017823830672893289,
+      "DEV_C": 0.00042315765204518284
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_15m:UP:1h",
+    "segments": {
+      "DEV_A": -0.00014351198207754087,
+      "DEV_B": -0.0005148860479427589,
+      "DEV_C": -0.00022175417428920747
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "normalized_atr:HIGH:1h",
+    "segments": {
+      "DEV_A": 0.0007122921672124909,
+      "DEV_B": 0.00037647718638813107,
+      "DEV_C": 0.00013789219998161154
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "distance_recent_high:FAR_BELOW:1h",
+    "segments": {
+      "DEV_A": 0.00022028576851970105,
+      "DEV_B": 0.000371563449072962,
+      "DEV_C": 0.0003603399161959438
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_1h:UP:30m",
+    "segments": {
+      "DEV_A": -0.00023397170525612618,
+      "DEV_B": -0.0002728582873915418,
+      "DEV_C": -0.00018098059992992054
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:30m",
+    "segments": {
+      "DEV_A": 0.00030107458907303457,
+      "DEV_B": 0.0005379678558515506,
+      "DEV_C": 0.0005593241228828802
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_15m:HIGH:1h",
+    "segments": {
+      "DEV_A": -0.00017758671843323798,
+      "DEV_B": -0.0004270706727786306,
+      "DEV_C": -0.00012887982347481233
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "normalized_atr:NORMAL:1h",
+    "segments": {
+      "DEV_A": -0.00011416630475358454,
+      "DEV_B": -0.00037333820199046615,
+      "DEV_C": -0.00033813913182321315
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.0003290156413345595,
+      "DEV_B": 0.00016149445186275908,
+      "DEV_C": 0.00012747485561217598
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_15m:HIGH:30m",
+    "segments": {
+      "DEV_A": -0.00023311838587170746,
+      "DEV_B": -0.00027584696777245826,
+      "DEV_C": -0.00011235536788181681
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_5m:DOWN:15m",
+    "segments": {
+      "DEV_A": 0.00020141574137290855,
+      "DEV_B": 5.780410709156194e-05,
+      "DEV_C": 0.00010251638378652017
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_5m:UP:1h",
+    "segments": {
+      "DEV_A": -0.00016089681623213508,
+      "DEV_B": -0.00032072229192419555,
+      "DEV_C": -0.00021145791085237683
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "distance_recent_high:FAR_BELOW:30m",
+    "segments": {
+      "DEV_A": 0.0002797670299521434,
+      "DEV_B": 0.00016838783906145827,
+      "DEV_C": 0.00019774526833763272
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_zscore:HIGH:1h",
+    "segments": {
+      "DEV_A": -0.0001666631127227357,
+      "DEV_B": -0.0004011413787108482,
+      "DEV_C": -0.00037728877626352767
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "btc_return_regime:BTC_BEARISH:30m",
+    "segments": {
+      "DEV_A": 0.00018641921100353892,
+      "DEV_B": 0.00012246212348949312,
+      "DEV_C": 0.00018256498077470003
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:1h",
+    "segments": {
+      "DEV_A": 0.00035679476700737294,
+      "DEV_B": 0.0001300975059744777,
+      "DEV_C": 0.00031139986233472686
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:15m",
+    "segments": {
+      "DEV_A": 0.00013896166034261357,
+      "DEV_B": 5.3869245271598735e-05,
+      "DEV_C": 0.00015845701102289855
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "normalized_atr:NORMAL:30m",
+    "segments": {
+      "DEV_A": -9.139071252577023e-05,
+      "DEV_B": -0.00018733305665097252,
+      "DEV_C": -0.00018475516814174813
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:30m",
+    "segments": {
+      "DEV_A": -3.5949746110196945e-05,
+      "DEV_B": -0.00035027035294993617,
+      "DEV_C": -0.00031705281949079755
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_15m:UP:30m",
+    "segments": {
+      "DEV_A": -0.0002136739546220751,
+      "DEV_B": -0.00025784805197317986,
+      "DEV_C": -0.00018435297489451837
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:15m",
+    "segments": {
+      "DEV_A": 0.00015964694697355152,
+      "DEV_B": 3.674099149549576e-05,
+      "DEV_C": 8.606466519251694e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:1h",
+    "segments": {
+      "DEV_A": 0.0006530575159268637,
+      "DEV_B": -0.00340451319766406,
+      "DEV_C": -0.0019039966320064106
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_5m:UP:30m",
+    "segments": {
+      "DEV_A": -0.00017123275332299985,
+      "DEV_B": -0.0002131897632360432,
+      "DEV_C": -0.00011979752383829908
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "distance_recent_high:FAR_BELOW:15m",
+    "segments": {
+      "DEV_A": 0.00016485796729629395,
+      "DEV_B": 7.432421770062081e-05,
+      "DEV_C": 0.00012698077865867132
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:15m",
+    "segments": {
+      "DEV_A": 0.00015382543544089765,
+      "DEV_B": 0.00021960171134734007,
+      "DEV_C": 8.325301055167776e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_zscore:HIGH:30m",
+    "segments": {
+      "DEV_A": -5.701347074951964e-05,
+      "DEV_B": -0.000347566891697006,
+      "DEV_C": -0.0002593986688092309
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:30m",
+    "segments": {
+      "DEV_A": -0.00034324238079088163,
+      "DEV_B": -0.0003488197921120041,
+      "DEV_C": -0.000434786832603963
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:30m",
+    "segments": {
+      "DEV_A": -0.0004225910125922598,
+      "DEV_B": -0.0016899062579473734,
+      "DEV_C": -0.0005336252804507183
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "quote_volume_ratio:HIGH:30m",
+    "segments": {
+      "DEV_A": -0.0001392464343006103,
+      "DEV_B": -0.00021582499588598662,
+      "DEV_C": -0.00016211479400600546
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_15m:UP:15m",
+    "segments": {
+      "DEV_A": -0.0001553868698899964,
+      "DEV_B": -0.00022330427949896156,
+      "DEV_C": -0.00011100085996223613
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "distance_recent_high:NEAR_HIGH:15m",
+    "segments": {
+      "DEV_A": -3.7114655226402185e-05,
+      "DEV_B": -0.0001347695713885707,
+      "DEV_C": -8.512019888703095e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_1h:UP:15m",
+    "segments": {
+      "DEV_A": -0.0001212834209245534,
+      "DEV_B": -0.0001402990217337298,
+      "DEV_C": -9.292467978402124e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_ratio:HIGH:1h",
+    "segments": {
+      "DEV_A": -3.970002345896548e-05,
+      "DEV_B": -0.00023237049062897812,
+      "DEV_C": -0.00027641757192746176
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:30m",
+    "segments": {
+      "DEV_A": 0.00023559068806595462,
+      "DEV_B": 0.0001913346975049205,
+      "DEV_C": 0.00012444003927922063
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "normalized_atr:NORMAL:15m",
+    "segments": {
+      "DEV_A": -3.912720873532837e-05,
+      "DEV_B": -8.283263077714607e-05,
+      "DEV_C": -8.324944451766442e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "quote_volume_ratio:HIGH:1h",
+    "segments": {
+      "DEV_A": -3.5234399044729337e-05,
+      "DEV_B": -0.00022882140286430887,
+      "DEV_C": -0.0002698279394758823
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "relative_strength_1h:LOW:15m",
+    "segments": {
+      "DEV_A": 0.00016912045632016783,
+      "DEV_B": 5.8124047804922626e-05,
+      "DEV_C": 7.783162834364969e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "range_position:NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.00010066374285498314,
+      "DEV_B": 9.342770327038817e-05,
+      "DEV_C": 0.000204568665614903
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_1h:DOWN:4h",
+    "segments": {
+      "DEV_A": 0.0006699449990251515,
+      "DEV_B": 0.000986221727160376,
+      "DEV_C": -4.4215873359272044e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_4h:DOWN:5m",
+    "segments": {
+      "DEV_A": 3.310724445377287e-05,
+      "DEV_B": 5.51268937619917e-05,
+      "DEV_C": 8.426739489176445e-06
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:30m",
+    "segments": {
+      "DEV_A": -0.00020014038625357287,
+      "DEV_B": -0.00011004704549221267,
+      "DEV_C": -9.07696395652797e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_ratio:HIGH:15m",
+    "segments": {
+      "DEV_A": -7.792678359775179e-05,
+      "DEV_B": -0.00018668129613701954,
+      "DEV_C": -0.0001237144644728368
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "range_expansion:EXPANSION:30m",
+    "segments": {
+      "DEV_A": -7.267533723499625e-05,
+      "DEV_B": -9.73731086780933e-05,
+      "DEV_C": -0.00020783851093417955
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "quote_volume_ratio:HIGH:15m",
+    "segments": {
+      "DEV_A": -8.080333738157467e-05,
+      "DEV_B": -0.00016771292472100838,
+      "DEV_C": -0.0001310240174705125
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_zscore:LOW:15m",
+    "segments": {
+      "DEV_A": -6.147994877710582e-05,
+      "DEV_B": -0.00021726094294268475,
+      "DEV_C": -9.896512294472757e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:1h",
+    "segments": {
+      "DEV_A": -0.0003815408467081014,
+      "DEV_B": -0.0037333997624652243,
+      "DEV_C": -0.0019434274662876098
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "range_expansion:EXPANSION:15m",
+    "segments": {
+      "DEV_A": -7.04098371583497e-05,
+      "DEV_B": -6.816967802313655e-05,
+      "DEV_C": -0.00010405257311039481
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "return_1h:UP:5m",
+    "segments": {
+      "DEV_A": -5.91944777623511e-05,
+      "DEV_B": -1.8544731295405607e-05,
+      "DEV_C": -4.655584875481402e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:4h",
+    "segments": {
+      "DEV_A": -0.00016006207318675254,
+      "DEV_B": -0.004518112874807978,
+      "DEV_C": -0.0025511954011947203
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:5m",
+    "segments": {
+      "DEV_A": -0.00016341388306707197,
+      "DEV_B": -3.7712699575983115e-05,
+      "DEV_C": -9.560778006967168e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "realized_volatility:NORMAL:5m",
+    "segments": {
+      "DEV_A": -3.2787330331183844e-05,
+      "DEV_B": -3.3006763231314957e-06,
+      "DEV_C": -4.119017721862096e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "normalized_atr:NORMAL:5m",
+    "segments": {
+      "DEV_A": -1.7569748908166717e-05,
+      "DEV_B": -2.7696416006764634e-05,
+      "DEV_C": -2.6125424482681438e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:1h",
+    "segments": {
+      "DEV_A": 0.0001093021071385746,
+      "DEV_B": 0.0002613847422793919,
+      "DEV_C": 0.00010387848474280161
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:15m",
+    "segments": {
+      "DEV_A": 0.00010776467570556073,
+      "DEV_B": 6.22027196961869e-05,
+      "DEV_C": 7.465043533001487e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:15m",
+    "segments": {
+      "DEV_A": -4.698709047393079e-06,
+      "DEV_B": -5.383603844867635e-06,
+      "DEV_C": -8.921117097090521e-06
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:5m",
+    "segments": {
+      "DEV_A": 6.500408756888133e-05,
+      "DEV_B": 1.533679757054762e-05,
+      "DEV_C": 3.802761338028781e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:5m",
+    "segments": {
+      "DEV_A": 3.633653782575881e-05,
+      "DEV_B": 3.5730111641413175e-06,
+      "DEV_C": 2.6098909377898237e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "distance_recent_high:MIDDLE:5m",
+    "segments": {
+      "DEV_A": -1.570530128732561e-05,
+      "DEV_B": -1.5047726779894098e-05,
+      "DEV_C": -1.8607813871197158e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_ratio:NORMAL:5m",
+    "segments": {
+      "DEV_A": 3.6482814093903286e-05,
+      "DEV_B": 2.010487006008954e-05,
+      "DEV_C": 4.3930372832856406e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "quote_volume_ratio:NORMAL:5m",
+    "segments": {
+      "DEV_A": 3.259974124400021e-05,
+      "DEV_B": 2.4528988586825905e-05,
+      "DEV_C": 3.449594764097746e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "range_expansion:EXPANSION:5m",
+    "segments": {
+      "DEV_A": -2.363456474373495e-05,
+      "DEV_B": -1.871256549298018e-05,
+      "DEV_C": -2.313503681856166e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:15m",
+    "segments": {
+      "DEV_A": -0.00013207307169939799,
+      "DEV_B": -0.0009098780838557664,
+      "DEV_C": -5.00488402060399e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "volume_zscore:NORMAL:5m",
+    "segments": {
+      "DEV_A": 2.2823248302123903e-05,
+      "DEV_B": 8.874504786623274e-06,
+      "DEV_C": 9.692339914613817e-06
+    }
+  },
+  {
+    "classification": "TEMPORALLY_STABLE",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 LOW:4h",
+    "segments": {
+      "DEV_A": 0.0004392996659213897,
+      "DEV_B": 0.000805215947861064,
+      "DEV_C": 0.00014282913076508374
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:4h",
+    "segments": {
+      "DEV_A": 0.006791664213867999,
+      "DEV_B": 0.0005223514106550058,
+      "DEV_C": 0.0025983276319796163
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:30m",
+    "segments": {
+      "DEV_A": -0.00011556211349046738,
+      "DEV_B": -9.869276071280444e-05,
+      "DEV_C": -0.00034198916816041523
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "return_4h:UP:15m",
+    "segments": {
+      "DEV_A": -2.97840960332455e-07,
+      "DEV_B": -0.00025915706074656044,
+      "DEV_C": -6.529986872281452e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:1h",
+    "segments": {
+      "DEV_A": -0.00010887872737804686,
+      "DEV_B": -0.0004727307321264515,
+      "DEV_C": 4.55738135455636e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:NEAR_LOW:5m",
+    "segments": {
+      "DEV_A": 9.764052583506304e-05,
+      "DEV_B": 4.870985269857534e-05,
+      "DEV_C": -1.3712503650713097e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:15m",
+    "segments": {
+      "DEV_A": -5.160149995652795e-05,
+      "DEV_B": -6.049809071851376e-05,
+      "DEV_C": -0.00024464583856801016
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_1h:DOWN:5m",
+    "segments": {
+      "DEV_A": 9.276560644811541e-05,
+      "DEV_B": -4.677178145768483e-06,
+      "DEV_C": 3.4602309378138144e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:5m",
+    "segments": {
+      "DEV_A": -3.996776086101429e-05,
+      "DEV_B": -2.2797554838381723e-05,
+      "DEV_C": -0.0001234434241881222
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:DOWN:15m",
+    "segments": {
+      "DEV_A": -5.938307546634102e-05,
+      "DEV_B": 0.00010675579531260701,
+      "DEV_C": 9.243225682537424e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:4h",
+    "segments": {
+      "DEV_A": 9.264778523041057e-05,
+      "DEV_B": -0.005680878658797596,
+      "DEV_C": -0.0025830888582323796
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:1h",
+    "segments": {
+      "DEV_A": 0.0002887409193101152,
+      "DEV_B": -0.0009473599686504156,
+      "DEV_C": -0.001714914194147745
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "realized_volatility:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.002502689630132786,
+      "DEV_B": -0.000361417911871993,
+      "DEV_C": 0.0015311869406753858
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:1h",
+    "segments": {
+      "DEV_A": -0.0001557891512076716,
+      "DEV_B": -0.0015528237881624017,
+      "DEV_C": -0.0007132730142881449
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_zscore:LOW:30m",
+    "segments": {
+      "DEV_A": 0.0002647354263080385,
+      "DEV_B": -0.0006420354579707139,
+      "DEV_C": -8.303469000290895e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0002480221140126601,
+      "DEV_B": -0.0015090015836283605,
+      "DEV_C": -0.0015614578019970582
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:UP:4h",
+    "segments": {
+      "DEV_A": 0.00042924009174442716,
+      "DEV_B": -0.002602108103603156,
+      "DEV_C": -0.0027182481579381447
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_position:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.00021292676809286291,
+      "DEV_B": -0.002053652125463256,
+      "DEV_C": -0.00019960780572354084
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:NEGATIVE:4h",
+    "segments": {
+      "DEV_A": 0.000630972266540479,
+      "DEV_B": -0.0037954519069605705,
+      "DEV_C": -0.0004541983031352585
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_1h:UP:4h",
+    "segments": {
+      "DEV_A": 0.0003354016027892067,
+      "DEV_B": -0.002511612251889796,
+      "DEV_C": -0.00030141679819303054
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:UP:4h",
+    "segments": {
+      "DEV_A": 0.00037160764101264003,
+      "DEV_B": -0.0032988558830548105,
+      "DEV_C": 0.0002195874917955734
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "normalized_atr:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0026199312394846203,
+      "DEV_B": -0.00015574599849196472,
+      "DEV_C": 0.0005424766290600849
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:4h",
+    "segments": {
+      "DEV_A": 0.001891991879064972,
+      "DEV_B": 0.0022492625748245986,
+      "DEV_C": -8.962624067059174e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "normalized_atr:NORMAL:4h",
+    "segments": {
+      "DEV_A": -0.0003956382600803213,
+      "DEV_B": -0.00025258977251816224,
+      "DEV_C": -0.0011016508052538179
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.0008358108015522522,
+      "DEV_B": 1.7728266836476343e-05,
+      "DEV_C": 0.0005068074962161016
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "btc_return_regime:BTC_BULLISH:1h",
+    "segments": {
+      "DEV_A": 0.0006357131442190166,
+      "DEV_B": -0.0015845068872004503,
+      "DEV_C": -0.0014084374629603172
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 EXPANSION:4h",
+    "segments": {
+      "DEV_A": 0.000889506615265325,
+      "DEV_B": -0.0031803015950995542,
+      "DEV_C": -0.0014617713802072474
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:NEAR_LOW:4h",
+    "segments": {
+      "DEV_A": 0.0016146139431955984,
+      "DEV_B": 0.001248910028762166,
+      "DEV_C": -0.0011073246504609707
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:30m",
+    "segments": {
+      "DEV_A": 0.0006840931248747942,
+      "DEV_B": 0.00012492252937742584,
+      "DEV_C": 0.00022794826236376654
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 DOWN:4h",
+    "segments": {
+      "DEV_A": -0.00046012229563083647,
+      "DEV_B": 0.0009062082100614147,
+      "DEV_C": 0.0029572942471030707
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:FAR_ABOVE:4h",
+    "segments": {
+      "DEV_A": -0.0005394548692737879,
+      "DEV_B": -0.00356724071275192,
+      "DEV_C": 0.002120408042354901
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:30m",
+    "segments": {
+      "DEV_A": -1.943545735660157e-05,
+      "DEV_B": -0.0007920559936403291,
+      "DEV_C": -0.00034965923288991004
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "realized_volatility:NORMAL:4h",
+    "segments": {
+      "DEV_A": -4.884641663288261e-05,
+      "DEV_B": 0.00034470473340242845,
+      "DEV_C": -0.001652136284644494
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:UP:1h",
+    "segments": {
+      "DEV_A": 0.00012775692280904936,
+      "DEV_B": -0.000975287480342261,
+      "DEV_C": -7.352095058438114e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_5m:UP:4h",
+    "segments": {
+      "DEV_A": 0.00027694578617752213,
+      "DEV_B": -0.0014442426546061534,
+      "DEV_C": -0.0003669080441844969
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_15m:UP:4h",
+    "segments": {
+      "DEV_A": 0.00040858951271184434,
+      "DEV_B": -0.0016820611418060555,
+      "DEV_C": -0.00022053740800540911
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:LOW:1h",
+    "segments": {
+      "DEV_A": 0.0003056687470052594,
+      "DEV_B": -8.647399335828771e-05,
+      "DEV_C": 0.0006363611564749829
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0007731381854260304,
+      "DEV_B": -0.003181694461044529,
+      "DEV_C": -0.0010228254708719755
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:DOWN:4h",
+    "segments": {
+      "DEV_A": -0.00034839143750130117,
+      "DEV_B": 0.0013912988298471916,
+      "DEV_C": 0.00022912611140029571
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:4h",
+    "segments": {
+      "DEV_A": 3.028570163925485e-05,
+      "DEV_B": -0.00035905485745829017,
+      "DEV_C": -0.00036021766147767566
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_NEUTRAL:4h",
+    "segments": {
+      "DEV_A": 0.0003738636070172174,
+      "DEV_B": -0.0013064523218867753,
+      "DEV_C": -0.00025190218684458183
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:30m",
+    "segments": {
+      "DEV_A": 0.000626260895458464,
+      "DEV_B": 8.31368496419392e-05,
+      "DEV_C": 0.00013626933714130658
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "return_1h:DOWN:30m",
+    "segments": {
+      "DEV_A": 0.000390827109317826,
+      "DEV_B": 4.022760916557328e-05,
+      "DEV_C": 0.00016760770392514537
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:15m",
+    "segments": {
+      "DEV_A": 0.0005261510299873458,
+      "DEV_B": 1.0084089507374137e-05,
+      "DEV_C": 7.012700238081186e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "cross_sectional_median_return:DOWN:1h",
+    "segments": {
+      "DEV_A": 0.0002305902520938435,
+      "DEV_B": 0.00015523826844310326,
+      "DEV_C": 0.0006007997337349432
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:FAR_ABOVE:1h",
+    "segments": {
+      "DEV_A": -0.00013730121370485082,
+      "DEV_B": -0.0008952195104948905,
+      "DEV_C": 0.00030345812877020115
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:4h",
+    "segments": {
+      "DEV_A": 0.0010857198364287244,
+      "DEV_B": 0.002429652730891543,
+      "DEV_C": -0.0012038512751324929
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_position:LOW:4h",
+    "segments": {
+      "DEV_A": 0.0003531557048724114,
+      "DEV_B": 0.000906564442349626,
+      "DEV_C": -0.00046967038991956744
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:1h",
+    "segments": {
+      "DEV_A": -4.7978093315127646e-05,
+      "DEV_B": -0.00019663974984013088,
+      "DEV_C": -0.0006156724719551466
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:NEGATIVE:1h",
+    "segments": {
+      "DEV_A": 0.0002910811361641553,
+      "DEV_B": -0.001012177299225183,
+      "DEV_C": -9.055471262305623e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:UP:15m",
+    "segments": {
+      "DEV_A": 0.0003322800709545626,
+      "DEV_B": 4.7002179606031465e-05,
+      "DEV_C": -8.417952150519677e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:HIGH:1h",
+    "segments": {
+      "DEV_A": 7.110263340139713e-05,
+      "DEV_B": -0.00041013274508598977,
+      "DEV_C": -0.0005643798807370787
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:UP:30m",
+    "segments": {
+      "DEV_A": 2.746988066311452e-05,
+      "DEV_B": -0.000533283874728468,
+      "DEV_C": -6.674972850031442e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "return_4h:DOWN:1h",
+    "segments": {
+      "DEV_A": 1.5214160437489544e-05,
+      "DEV_B": 0.0005880816776088097,
+      "DEV_C": 0.00015591586849565846
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_15m:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.00032168993987076965,
+      "DEV_B": -0.0010752303596992332,
+      "DEV_C": -8.307137438295108e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 EXPANSION:5m",
+    "segments": {
+      "DEV_A": 0.00025533752901833674,
+      "DEV_B": 1.645259900815145e-05,
+      "DEV_C": 7.671004876514987e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.0005789435563800865,
+      "DEV_B": 0.00016024000410607024,
+      "DEV_C": -0.00017413306296624087
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:15m",
+    "segments": {
+      "DEV_A": 3.859176432220104e-05,
+      "DEV_B": -0.00040643502184185067,
+      "DEV_C": -0.00016917179007117498
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:UP:1h",
+    "segments": {
+      "DEV_A": 0.00048343190855705325,
+      "DEV_B": -0.0006040193354358862,
+      "DEV_C": -0.0011315902389060029
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:NORMAL:4h",
+    "segments": {
+      "DEV_A": -0.0006197691163823523,
+      "DEV_B": -0.0002346880756547366,
+      "DEV_C": 0.0016443863574048885
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:15m",
+    "segments": {
+      "DEV_A": -0.0002286505561753068,
+      "DEV_B": -8.577365548325775e-05,
+      "DEV_C": -0.0005232997342962815
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:15m",
+    "segments": {
+      "DEV_A": 0.0004963112961273897,
+      "DEV_B": -2.5764456822545946e-05,
+      "DEV_C": 5.065645762680206e-07
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:COMPRESSION:4h",
+    "segments": {
+      "DEV_A": 0.00023841552871871734,
+      "DEV_B": -0.0007312519357450557,
+      "DEV_C": -0.0003111534468372111
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_high:NEAR_HIGH:1h",
+    "segments": {
+      "DEV_A": 0.00010038942850019353,
+      "DEV_B": -0.00036045691613362105,
+      "DEV_C": -0.0002582274097111898
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:30m",
+    "segments": {
+      "DEV_A": 0.0003540302839640386,
+      "DEV_B": 9.330038059359668e-05,
+      "DEV_C": 6.521671279991848e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:4h",
+    "segments": {
+      "DEV_A": 0.00042727644307317237,
+      "DEV_B": -0.000252141157534919,
+      "DEV_C": -0.0006737907249533737
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:ESTABLISHED:4h",
+    "segments": {
+      "DEV_A": 0.0012645239913693896,
+      "DEV_B": -0.000240116815153865,
+      "DEV_C": -0.0015916339393436825
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.0003817966171967924,
+      "DEV_B": -0.00016474387454626493,
+      "DEV_C": 0.0002030586397826133
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "distance_recent_high:FAR_BELOW:4h",
+    "segments": {
+      "DEV_A": 5.0440491538327136e-05,
+      "DEV_B": 4.128881262518221e-05,
+      "DEV_C": 0.0013823561648264298
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:UP:30m",
+    "segments": {
+      "DEV_A": 0.0005886565283303159,
+      "DEV_B": -4.5040885482971576e-05,
+      "DEV_C": -0.0004209137796342241
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "realized_volatility:HIGH:1h",
+    "segments": {
+      "DEV_A": 0.0007593744941216459,
+      "DEV_B": 7.672460504746317e-05,
+      "DEV_C": 0.00010214235449861307
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "return_4h:DOWN:30m",
+    "segments": {
+      "DEV_A": 0.00010487648724238654,
+      "DEV_B": 0.000264505418153553,
+      "DEV_C": 6.05024343573178e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:FLAT:4h",
+    "segments": {
+      "DEV_A": 0.0005798926288134454,
+      "DEV_B": -0.0004933105086643919,
+      "DEV_C": -0.00041811088891528716
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0015063835724289404,
+      "DEV_B": 0.00027919621187919523,
+      "DEV_C": -0.0010412736121046845
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:NEAR_LOW:1h",
+    "segments": {
+      "DEV_A": 0.0006380803685864354,
+      "DEV_B": 0.0002910553641352369,
+      "DEV_C": -0.00018513833034383226
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:FAR_ABOVE:30m",
+    "segments": {
+      "DEV_A": -9.41149576281568e-05,
+      "DEV_B": -0.00045007634274865855,
+      "DEV_C": 0.0001302532309983878
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_15m:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0014571293679329573,
+      "DEV_B": 0.0002324926668230055,
+      "DEV_C": -0.0008825284611250029
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "relative_strength_1h:LOW:30m",
+    "segments": {
+      "DEV_A": 0.0003190429206270865,
+      "DEV_B": 6.587028663022474e-05,
+      "DEV_C": 7.859569336597916e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "relative_strength_15m:LOW:30m",
+    "segments": {
+      "DEV_A": 0.00033405033860219984,
+      "DEV_B": 7.486158334828984e-05,
+      "DEV_C": 4.950110713449617e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "return_1h:DOWN:15m",
+    "segments": {
+      "DEV_A": 0.00021102070087183095,
+      "DEV_B": 2.4093374665157814e-05,
+      "DEV_C": 0.00010034872782301238
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:15m",
+    "segments": {
+      "DEV_A": 0.00022362055070676746,
+      "DEV_B": -1.2632936564479655e-05,
+      "DEV_C": 0.00022678320516517534
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:FAR_ABOVE:5m",
+    "segments": {
+      "DEV_A": -4.427421303141698e-05,
+      "DEV_B": -6.325232506142734e-05,
+      "DEV_C": 8.751297016820528e-06
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "return_4h:DOWN:15m",
+    "segments": {
+      "DEV_A": 4.7656924408763586e-05,
+      "DEV_B": 0.00013210556309599882,
+      "DEV_C": 1.602080981749966e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:1h",
+    "segments": {
+      "DEV_A": 0.0002541092494077792,
+      "DEV_B": -0.00027021686854221985,
+      "DEV_C": -0.0002261331072061478
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:4h",
+    "segments": {
+      "DEV_A": 0.0003139396496557582,
+      "DEV_B": -0.0019086250692285259,
+      "DEV_C": -0.001118397983577497
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:15m",
+    "segments": {
+      "DEV_A": 0.0002578330271770353,
+      "DEV_B": -7.963529416821273e-06,
+      "DEV_C": 0.00022369017974174787
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "normalized_atr:HIGH:30m",
+    "segments": {
+      "DEV_A": 0.00039895399357633613,
+      "DEV_B": 0.00012987753213528712,
+      "DEV_C": 0.00012655326335932917
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "realized_volatility:HIGH:30m",
+    "segments": {
+      "DEV_A": 0.00040116146585611196,
+      "DEV_B": 5.559271581488867e-05,
+      "DEV_C": 8.329503169012273e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "return_15m:DOWN:30m",
+    "segments": {
+      "DEV_A": 0.00031559711684700655,
+      "DEV_B": 4.0776951462920276e-05,
+      "DEV_C": 1.2885696682724866e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:LOW:4h",
+    "segments": {
+      "DEV_A": -0.00019674893554743217,
+      "DEV_B": 0.00033967550712840557,
+      "DEV_C": -0.0008655341114391647
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "relative_strength_1h:LOW:1h",
+    "segments": {
+      "DEV_A": 0.0003355355132231345,
+      "DEV_B": 6.48775238262806e-05,
+      "DEV_C": 9.59911871601696e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:5m",
+    "segments": {
+      "DEV_A": 3.9593652614148254e-05,
+      "DEV_B": -5.794919282600184e-05,
+      "DEV_C": -9.108744219135206e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_5m:FLAT:4h",
+    "segments": {
+      "DEV_A": 0.0011917043678466748,
+      "DEV_B": 0.0002972299351593235,
+      "DEV_C": -0.0006510798360109824
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:30m",
+    "segments": {
+      "DEV_A": 0.0006859129874826377,
+      "DEV_B": -8.942013679391878e-06,
+      "DEV_C": -0.0001771400896359188
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:UP:5m",
+    "segments": {
+      "DEV_A": 8.423614931989338e-05,
+      "DEV_B": 3.099920008258736e-05,
+      "DEV_C": -7.470546887527256e-08
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_position:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0016363124592319973,
+      "DEV_B": -0.00011686013579419353,
+      "DEV_C": -0.0007629692877311619
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_high:NEAR_HIGH:30m",
+    "segments": {
+      "DEV_A": 1.9810999602106413e-05,
+      "DEV_B": -0.00022923584053820354,
+      "DEV_C": -0.00012915965655173008
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:5m",
+    "segments": {
+      "DEV_A": 9.914761942775841e-05,
+      "DEV_B": -1.0150920500843488e-05,
+      "DEV_C": -4.570935249249567e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:FAR_ABOVE:15m",
+    "segments": {
+      "DEV_A": -7.774122353824793e-05,
+      "DEV_B": -0.00020336539756224224,
+      "DEV_C": 4.981043165686586e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:NEGATIVE:30m",
+    "segments": {
+      "DEV_A": 0.00015375597094530812,
+      "DEV_B": -0.0005093718818705984,
+      "DEV_C": -3.3351687593111266e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "btc_return_regime:BTC_BULLISH:5m",
+    "segments": {
+      "DEV_A": 8.357209376164319e-05,
+      "DEV_B": 4.961471130409676e-06,
+      "DEV_C": -2.686390601749291e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:1h",
+    "segments": {
+      "DEV_A": 0.00016900552728829908,
+      "DEV_B": -0.0006780438688663797,
+      "DEV_C": -0.000619790399833453
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:15m",
+    "segments": {
+      "DEV_A": -0.00011857437974854609,
+      "DEV_B": 1.3001745178721143e-06,
+      "DEV_C": -6.825404728468715e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_position:LOW:5m",
+    "segments": {
+      "DEV_A": 8.249589351084495e-05,
+      "DEV_B": 1.990642396660768e-05,
+      "DEV_C": -1.620759105271042e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 FLAT:15m",
+    "segments": {
+      "DEV_A": 3.809547915107861e-07,
+      "DEV_B": -0.00012307973895682507,
+      "DEV_C": -0.0002106622810142607
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "relative_strength_4h:HIGH:5m",
+    "segments": {
+      "DEV_A": -1.0426872160294084e-05,
+      "DEV_B": -5.689339502672741e-05,
+      "DEV_C": -8.28112627584289e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_1h:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.001389709786321493,
+      "DEV_B": 0.00038247874653748624,
+      "DEV_C": -0.0011446874897073252
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_15m:FLAT:4h",
+    "segments": {
+      "DEV_A": 0.0009774070563296413,
+      "DEV_B": 0.00010907265575909584,
+      "DEV_C": -0.0005798834031139607
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.00028631496244748355,
+      "DEV_B": 0.00010486567484754856,
+      "DEV_C": -0.00010296232431564806
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:15m",
+    "segments": {
+      "DEV_A": 0.0003390266862247495,
+      "DEV_B": -7.879223943440492e-05,
+      "DEV_C": 0.00022382707397365441
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:NEAR_LOW:15m",
+    "segments": {
+      "DEV_A": 0.00018790155750341887,
+      "DEV_B": 6.809834918064388e-05,
+      "DEV_C": -6.145014501569412e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_position:LOW:1h",
+    "segments": {
+      "DEV_A": 0.0003013965385727849,
+      "DEV_B": 0.00016807135365534356,
+      "DEV_C": -8.187971099257187e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_high:MIDDLE:30m",
+    "segments": {
+      "DEV_A": 2.644788221814175e-05,
+      "DEV_B": -6.009325494964732e-05,
+      "DEV_C": -0.0001157010458662393
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0003753340375573404,
+      "DEV_B": -0.0026485873274388894,
+      "DEV_C": -0.0003519664903811658
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:30m",
+    "segments": {
+      "DEV_A": -0.0005090918053518931,
+      "DEV_B": -0.00019394139490574498,
+      "DEV_C": 0.0001843389450732831
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "volume_zscore:HIGH:15m",
+    "segments": {
+      "DEV_A": -3.9830442538572536e-05,
+      "DEV_B": -0.0002725512797713854,
+      "DEV_C": -0.00013790277624152602
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:1h",
+    "segments": {
+      "DEV_A": -0.0009889533024676185,
+      "DEV_B": -0.0002590232122637368,
+      "DEV_C": 0.0005953082264166352
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:POSITIVE:4h",
+    "segments": {
+      "DEV_A": 0.0007799949439812154,
+      "DEV_B": 0.0003315640095428738,
+      "DEV_C": -0.0004974681949241402
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:FLAT:30m",
+    "segments": {
+      "DEV_A": 1.507063439181274e-05,
+      "DEV_B": -7.067877858044006e-05,
+      "DEV_C": -4.144155396539461e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:HIGH:1h",
+    "segments": {
+      "DEV_A": 0.00027070942183288557,
+      "DEV_B": -0.0005221955972453063,
+      "DEV_C": 4.018356410206054e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:FLAT:15m",
+    "segments": {
+      "DEV_A": 5.9090479843795556e-06,
+      "DEV_B": -6.132624737809905e-05,
+      "DEV_C": -3.6828704520099696e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "return_5m:DOWN:30m",
+    "segments": {
+      "DEV_A": 0.0003110387836988258,
+      "DEV_B": 3.0269353570529965e-05,
+      "DEV_C": 6.711932559211381e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:30m",
+    "segments": {
+      "DEV_A": 0.00010151857703807753,
+      "DEV_B": -0.00016045121100814096,
+      "DEV_C": -0.00011755940568918693
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_15m:LOW:1h",
+    "segments": {
+      "DEV_A": 0.00039612115930259004,
+      "DEV_B": 5.107860216789604e-05,
+      "DEV_C": -2.1517481836333078e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:ESTABLISHED:30m",
+    "segments": {
+      "DEV_A": 0.0001620157820378289,
+      "DEV_B": -3.963160138218872e-05,
+      "DEV_C": -0.0001944558809406427
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_high:MIDDLE:1h",
+    "segments": {
+      "DEV_A": 0.0002054907943988696,
+      "DEV_B": -0.000157222819716042,
+      "DEV_C": -0.00023290361643842243
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "realized_volatility:NORMAL:15m",
+    "segments": {
+      "DEV_A": -6.0198669037362446e-05,
+      "DEV_B": -1.0472355206606987e-05,
+      "DEV_C": -0.00011632485645240373
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:FLAT:1h",
+    "segments": {
+      "DEV_A": 0.00010830968042046864,
+      "DEV_B": -7.266341231817857e-05,
+      "DEV_C": -9.618196396379788e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:5m",
+    "segments": {
+      "DEV_A": 0.00017519994072451707,
+      "DEV_B": -7.626109947572333e-05,
+      "DEV_C": -0.00014189824684805353
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "realized_volatility:NORMAL:30m",
+    "segments": {
+      "DEV_A": -5.065410480499637e-05,
+      "DEV_B": -1.7260465037945412e-05,
+      "DEV_C": -0.00022454342486897058
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "normalized_atr:HIGH:15m",
+    "segments": {
+      "DEV_A": 0.0001898104619236943,
+      "DEV_B": 5.352743263858592e-05,
+      "DEV_C": 5.747737423592045e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "realized_volatility:NORMAL:1h",
+    "segments": {
+      "DEV_A": -4.2347529864485404e-05,
+      "DEV_B": -2.3349659064928896e-05,
+      "DEV_C": -0.00043117074940955116
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:EXTREME_NEGATIVE:5m",
+    "segments": {
+      "DEV_A": 2.976364740545314e-05,
+      "DEV_B": -0.00014029454565884564,
+      "DEV_C": -5.1185462308064266e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "realized_volatility:LOW:4h",
+    "segments": {
+      "DEV_A": 0.0006920377754264665,
+      "DEV_B": -0.001152493372037502,
+      "DEV_C": -0.00044811665911008506
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:ESTABLISHED:15m",
+    "segments": {
+      "DEV_A": 8.037922480454776e-05,
+      "DEV_B": -2.0377760811431543e-05,
+      "DEV_C": -9.801730966209091e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:NORMAL:30m",
+    "segments": {
+      "DEV_A": 5.022404944774573e-05,
+      "DEV_B": -2.559684802081267e-05,
+      "DEV_C": -0.00017408328087615608
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:30m",
+    "segments": {
+      "DEV_A": 0.0007897667014111346,
+      "DEV_B": -0.001655115549754076,
+      "DEV_C": -0.0010131754100491156
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:LOW:4h",
+    "segments": {
+      "DEV_A": 0.0005576242863262327,
+      "DEV_B": -0.0003529252679896819,
+      "DEV_C": -0.0003411995420067544
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_high:NEAR_HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0014052978989345846,
+      "DEV_B": -0.0010514817368300197,
+      "DEV_C": -0.000781022907792415
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:NEGATIVE:15m",
+    "segments": {
+      "DEV_A": 8.39592294121134e-05,
+      "DEV_B": -0.00025825987074068864,
+      "DEV_C": -2.4336658805646073e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:LOW:4h",
+    "segments": {
+      "DEV_A": 0.0005573628845458713,
+      "DEV_B": -0.00031321109115317017,
+      "DEV_C": -0.00037499574190443777
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_1h:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0009675749910704192,
+      "DEV_B": -0.001273140706705177,
+      "DEV_C": 6.166647314774905e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:FLAT:5m",
+    "segments": {
+      "DEV_A": 1.5818287033207535e-05,
+      "DEV_B": -1.5160793684808482e-05,
+      "DEV_C": -1.7481443338950414e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 DOWN:5m",
+    "segments": {
+      "DEV_A": 7.675379797062418e-05,
+      "DEV_B": 1.0562439050250307e-05,
+      "DEV_C": 3.0512710104369476e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:ESTABLISHED:1h",
+    "segments": {
+      "DEV_A": 0.00032143599721802296,
+      "DEV_B": -6.729223988673407e-05,
+      "DEV_C": -0.00039597579049305726
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:1h",
+    "segments": {
+      "DEV_A": -1.2779370387523348e-05,
+      "DEV_B": -1.5779888128497478e-05,
+      "DEV_C": -8.814189315363484e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:NEGATIVE:5m",
+    "segments": {
+      "DEV_A": 3.614911864721887e-05,
+      "DEV_B": -8.850783523404839e-05,
+      "DEV_C": -6.963118846552316e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.00013569764326748412,
+      "DEV_B": 7.056038719626863e-05,
+      "DEV_C": -8.587092018383408e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:1h",
+    "segments": {
+      "DEV_A": 0.00033681872817405243,
+      "DEV_B": 0.0003289097143231138,
+      "DEV_C": -0.00028647023781644637
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_high:MIDDLE:4h",
+    "segments": {
+      "DEV_A": 0.0008833472988850138,
+      "DEV_B": -6.0929448102883676e-05,
+      "DEV_C": -0.0011302875368269904
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:1h",
+    "segments": {
+      "DEV_A": 0.0002725519584107412,
+      "DEV_B": -6.432106637197534e-05,
+      "DEV_C": -0.00027404113522914466
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BEARISH:5m",
+    "segments": {
+      "DEV_A": -1.9165864643012516e-05,
+      "DEV_B": 4.537519947901421e-05,
+      "DEV_C": 8.424311991816245e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:4h",
+    "segments": {
+      "DEV_A": 8.208109650896116e-05,
+      "DEV_B": -0.002055423329755087,
+      "DEV_C": 0.00012018151314453188
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:15m",
+    "segments": {
+      "DEV_A": 0.0001406676480871436,
+      "DEV_B": 7.642805894490258e-06,
+      "DEV_C": 4.255989202980957e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:30m",
+    "segments": {
+      "DEV_A": 0.00034238085713944735,
+      "DEV_B": -0.0005716952307527484,
+      "DEV_C": -0.0007395800699836133
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "normalized_atr:HIGH:5m",
+    "segments": {
+      "DEV_A": 6.785225373190884e-05,
+      "DEV_B": 8.413660930405151e-06,
+      "DEV_C": 1.7055710650732114e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:4h",
+    "segments": {
+      "DEV_A": 0.0015162371462872357,
+      "DEV_B": 0.00035717996794701464,
+      "DEV_C": -0.0015035727304342499
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:4h",
+    "segments": {
+      "DEV_A": -0.0006280206678457267,
+      "DEV_B": -0.002193125422675944,
+      "DEV_C": 0.00034850848458472866
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:COMPRESSION:30m",
+    "segments": {
+      "DEV_A": 0.0001260290206808595,
+      "DEV_B": -0.0001929914268783916,
+      "DEV_C": -4.728724969881603e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_15m:NORMAL:15m",
+    "segments": {
+      "DEV_A": 9.278669103592011e-05,
+      "DEV_B": 3.5210013138747174e-05,
+      "DEV_C": -4.964386808728058e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:LOW:30m",
+    "segments": {
+      "DEV_A": -4.491083220769809e-05,
+      "DEV_B": -8.93918910438946e-05,
+      "DEV_C": 0.00032008431512457405
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "realized_volatility:HIGH:15m",
+    "segments": {
+      "DEV_A": 0.0002150899164401586,
+      "DEV_B": 3.321384938762378e-05,
+      "DEV_C": 4.5322046449201775e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:FLAT:4h",
+    "segments": {
+      "DEV_A": 0.001706716121713316,
+      "DEV_B": 0.00016070090624598725,
+      "DEV_C": -0.0011706462244019979
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "relative_strength_4h:LOW:5m",
+    "segments": {
+      "DEV_A": 6.6686523931445265e-06,
+      "DEV_B": 2.8729927663640392e-05,
+      "DEV_C": 5.846027499455476e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:HIGH:30m",
+    "segments": {
+      "DEV_A": 0.00010839284318595568,
+      "DEV_B": -0.0003020180717311333,
+      "DEV_C": 4.3052504744062634e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_1h:NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.00019341312595954274,
+      "DEV_B": 1.020842956987615e-05,
+      "DEV_C": -5.7125129211803135e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:30m",
+    "segments": {
+      "DEV_A": -8.4689025788514e-06,
+      "DEV_B": -1.9064189845652707e-06,
+      "DEV_C": -2.3015980460543465e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "normalized_atr:LOW:4h",
+    "segments": {
+      "DEV_A": 0.0011360005480084469,
+      "DEV_B": -0.00045880396845297773,
+      "DEV_C": -0.0004237873881046192
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_15m:FLAT:1h",
+    "segments": {
+      "DEV_A": 0.00027720816055179054,
+      "DEV_B": 6.14963291808853e-05,
+      "DEV_C": -6.30405572057845e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_15m:NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.0001877006494920903,
+      "DEV_B": 3.981463565349866e-05,
+      "DEV_C": -8.927041648986582e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:NORMAL:15m",
+    "segments": {
+      "DEV_A": 0.0001473178881153449,
+      "DEV_B": 3.188760656672633e-05,
+      "DEV_C": -4.3256786326292694e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "range_position:NORMAL:15m",
+    "segments": {
+      "DEV_A": 5.2353279568640704e-05,
+      "DEV_B": 4.131473983319128e-05,
+      "DEV_C": 0.000154869005093588
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:5m",
+    "segments": {
+      "DEV_A": -0.00011920835288144045,
+      "DEV_B": 4.125524347688026e-05,
+      "DEV_C": 1.7655470914237268e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:4h",
+    "segments": {
+      "DEV_A": 0.0008384504702842957,
+      "DEV_B": -0.0001984139605870257,
+      "DEV_C": -0.0007554812144240948
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_1h:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.00035475759130295016,
+      "DEV_B": 7.867798003130294e-05,
+      "DEV_C": -0.000198288147134494
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:HIGH:15m",
+    "segments": {
+      "DEV_A": 2.527808523641081e-05,
+      "DEV_B": -0.00014213667166648633,
+      "DEV_C": -4.037343044966823e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "normalized_atr:LOW:1h",
+    "segments": {
+      "DEV_A": 0.0002553660753268574,
+      "DEV_B": -8.170837437240074e-05,
+      "DEV_C": 4.540551521181265e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "btc_return_regime:BTC_NEUTRAL:5m",
+    "segments": {
+      "DEV_A": 1.0256254388601143e-05,
+      "DEV_B": -9.31660130596518e-06,
+      "DEV_C": -9.089076468111806e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_position:LOW:30m",
+    "segments": {
+      "DEV_A": 0.00022338626072859036,
+      "DEV_B": 2.733262079366948e-05,
+      "DEV_C": -0.00012219203781652067
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_1h:FLAT:5m",
+    "segments": {
+      "DEV_A": 1.5121858225970806e-05,
+      "DEV_B": -6.344728930743027e-06,
+      "DEV_C": -1.2946739268554966e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:1h",
+    "segments": {
+      "DEV_A": 1.3518127772101872e-05,
+      "DEV_B": -0.0004121932707111665,
+      "DEV_C": 0.00027063451106314754
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "range_expansion:NORMAL:15m",
+    "segments": {
+      "DEV_A": 8.576502371603376e-05,
+      "DEV_B": 7.395569109532862e-06,
+      "DEV_C": 1.6857561626284153e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:ESTABLISHED:5m",
+    "segments": {
+      "DEV_A": 2.678840629815145e-05,
+      "DEV_B": -6.377642882272692e-06,
+      "DEV_C": -3.2635635113876565e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "range_position:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.0002998338178929558,
+      "DEV_B": 5.563314067636017e-05,
+      "DEV_C": 7.665573694196973e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:5m",
+    "segments": {
+      "DEV_A": -2.363127886734589e-05,
+      "DEV_B": 0.00010129643336779585,
+      "DEV_C": 6.587746404482437e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_1h:LOW:4h",
+    "segments": {
+      "DEV_A": -7.623774310275558e-05,
+      "DEV_B": 3.0055842548367608e-05,
+      "DEV_C": -0.00038490294475030594
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:5m",
+    "segments": {
+      "DEV_A": -1.879177068595841e-05,
+      "DEV_B": -7.92756802789084e-06,
+      "DEV_C": 4.16918933134308e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_position:LOW:15m",
+    "segments": {
+      "DEV_A": 0.00014081121687019643,
+      "DEV_B": 2.3862793021725388e-05,
+      "DEV_C": -6.275776087032667e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:15m",
+    "segments": {
+      "DEV_A": -0.0002852658218923296,
+      "DEV_B": -7.788844038818188e-05,
+      "DEV_C": 0.0001012005135612102
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:NORMAL:1h",
+    "segments": {
+      "DEV_A": -8.720272126759281e-05,
+      "DEV_B": 3.2976627686146316e-05,
+      "DEV_C": 0.0003926910506414924
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_15m:DOWN:4h",
+    "segments": {
+      "DEV_A": 0.0007520044043363728,
+      "DEV_B": 0.0002082795888634127,
+      "DEV_C": -0.0005591722171988486
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.00015043052238943367,
+      "DEV_B": 5.3199954555225685e-05,
+      "DEV_C": -7.315018538566624e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:30m",
+    "segments": {
+      "DEV_A": -6.085015772726864e-06,
+      "DEV_B": -0.00010357093234633226,
+      "DEV_C": 1.6103231327436947e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:LOW:5m",
+    "segments": {
+      "DEV_A": -2.1096751431841785e-05,
+      "DEV_B": -8.184765325207525e-05,
+      "DEV_C": 1.8346882323374692e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:NEAR_LOW:30m",
+    "segments": {
+      "DEV_A": 0.0003851413338929298,
+      "DEV_B": 0.0001253085186804631,
+      "DEV_C": -0.00013352510982394224
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.00018657292866105255,
+      "DEV_B": 7.770452581712716e-05,
+      "DEV_C": -0.0003182644585010753
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0009714123974076482,
+      "DEV_B": -0.001479477836626924,
+      "DEV_C": 0.00043888376223396723
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_high:MIDDLE:15m",
+    "segments": {
+      "DEV_A": 1.8002692548374298e-05,
+      "DEV_B": -1.775901414503538e-05,
+      "DEV_C": -6.068348372794771e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:NORMAL:15m",
+    "segments": {
+      "DEV_A": 4.387701505302987e-05,
+      "DEV_B": -2.2670307591904472e-07,
+      "DEV_C": -9.50761341982633e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "normalized_atr:LOW:30m",
+    "segments": {
+      "DEV_A": 0.0001564599235823719,
+      "DEV_B": -8.241830821649886e-06,
+      "DEV_C": 1.0085056934804623e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "btc_return_regime:BTC_BULLISH:15m",
+    "segments": {
+      "DEV_A": 0.0003051677559246989,
+      "DEV_B": -0.00029147763955990536,
+      "DEV_C": -0.00016995865040604153
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_1h:NORMAL:15m",
+    "segments": {
+      "DEV_A": 0.00010931568370888746,
+      "DEV_B": -7.167360492929686e-06,
+      "DEV_C": -5.087782300052234e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:30m",
+    "segments": {
+      "DEV_A": -3.288809414271222e-05,
+      "DEV_B": -0.00024710711673078047,
+      "DEV_C": 0.0001073162485807246
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:NORMAL:30m",
+    "segments": {
+      "DEV_A": -3.25331652329419e-05,
+      "DEV_B": 3.188715048344767e-05,
+      "DEV_C": 0.0001943894519737674
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_1h:FLAT:1h",
+    "segments": {
+      "DEV_A": 0.00025650736018925814,
+      "DEV_B": -1.9823469365467204e-05,
+      "DEV_C": -0.00025010713658863673
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:30m",
+    "segments": {
+      "DEV_A": 0.00028607802757030075,
+      "DEV_B": -0.00023482245708933018,
+      "DEV_C": 0.00018614747160465784
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "btc_return_regime:BTC_BULLISH:30m",
+    "segments": {
+      "DEV_A": 0.0006060201820110732,
+      "DEV_B": -0.0007452509313954054,
+      "DEV_C": -0.0006432985232228825
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:COMPRESSION:5m",
+    "segments": {
+      "DEV_A": 1.6239999448710975e-05,
+      "DEV_B": -3.0142431115532617e-05,
+      "DEV_C": -2.051002553927312e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "normalized_atr:LOW:5m",
+    "segments": {
+      "DEV_A": 2.8910366336242018e-05,
+      "DEV_B": 5.571541262158441e-06,
+      "DEV_C": -3.424471780012293e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_15m:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.0003433414886594161,
+      "DEV_B": 8.97574101010423e-05,
+      "DEV_C": -0.00017917093460104083
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:NORMAL:5m",
+    "segments": {
+      "DEV_A": 5.212272377845364e-05,
+      "DEV_B": 1.8222246100049607e-06,
+      "DEV_C": -2.3693421503896163e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:5m",
+    "segments": {
+      "DEV_A": 3.15946913253506e-05,
+      "DEV_B": -7.085944832044156e-06,
+      "DEV_C": 3.6040213097330357e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:DOWN:30m",
+    "segments": {
+      "DEV_A": -4.913464680415964e-05,
+      "DEV_B": 3.450936799167508e-05,
+      "DEV_C": 0.00017759629838180882
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_5m:FLAT:5m",
+    "segments": {
+      "DEV_A": 3.362461311039595e-05,
+      "DEV_B": -2.1192640721507652e-05,
+      "DEV_C": -2.3637776214469637e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_1h:FLAT:15m",
+    "segments": {
+      "DEV_A": 5.0560923573715814e-05,
+      "DEV_B": -1.2297874934717047e-06,
+      "DEV_C": -5.860319290447221e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:5m",
+    "segments": {
+      "DEV_A": 7.400602630473915e-06,
+      "DEV_B": 9.051990980226305e-07,
+      "DEV_C": -2.348351665831432e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:5m",
+    "segments": {
+      "DEV_A": 8.825447926681262e-06,
+      "DEV_B": -4.414700939032657e-06,
+      "DEV_C": -1.7220065777485317e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:1h",
+    "segments": {
+      "DEV_A": 0.0004286918802169809,
+      "DEV_B": -0.00044723347866268426,
+      "DEV_C": 0.0003168332176764258
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:HIGH:5m",
+    "segments": {
+      "DEV_A": 2.234026927299102e-05,
+      "DEV_B": -1.0724876733309249e-05,
+      "DEV_C": -2.0045264788044632e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_BULLISH:15m",
+    "segments": {
+      "DEV_A": 0.00048157436897511107,
+      "DEV_B": -0.0006479857987910229,
+      "DEV_C": -0.000472545563898807
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:1h",
+    "segments": {
+      "DEV_A": 0.00020967162228648081,
+      "DEV_B": 0.00010022789146427954,
+      "DEV_C": -0.00018744720509853777
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:YOUNG:4h",
+    "segments": {
+      "DEV_A": 0.00022927865386866792,
+      "DEV_B": -0.0012399404321916105,
+      "DEV_C": 0.0029746544958784843
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:EXPANSION:1h",
+    "segments": {
+      "DEV_A": 0.00014540388578327432,
+      "DEV_B": -5.4349754845175906e-05,
+      "DEV_C": -0.0003954991422861064
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_zscore:NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.00010940330299727115,
+      "DEV_B": 5.86933759262621e-06,
+      "DEV_C": -2.2576340107552827e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:LOW:15m",
+    "segments": {
+      "DEV_A": 8.116723068699783e-05,
+      "DEV_B": 1.1695515963667513e-05,
+      "DEV_C": -1.5557484917868322e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:LOW:15m",
+    "segments": {
+      "DEV_A": 8.429449753654033e-05,
+      "DEV_B": 1.557732664426154e-05,
+      "DEV_C": -8.709288787295463e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0008602540244050074,
+      "DEV_B": -0.0006370028365010119,
+      "DEV_C": -0.0005039367461802698
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "realized_volatility:HIGH:5m",
+    "segments": {
+      "DEV_A": 7.439850981107381e-05,
+      "DEV_B": 9.478610077823568e-06,
+      "DEV_C": 1.1763634255141967e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.00026274102760826814,
+      "DEV_B": 1.440244850830931e-05,
+      "DEV_C": -0.00020127272022439857
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_5m:FLAT:1h",
+    "segments": {
+      "DEV_A": 0.0003161506483632719,
+      "DEV_B": 2.5937707542563204e-05,
+      "DEV_C": -0.00011784765412709925
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BEARISH:5m",
+    "segments": {
+      "DEV_A": 8.302525562323854e-05,
+      "DEV_B": -5.876673151553101e-05,
+      "DEV_C": 4.294592306018727e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:30m",
+    "segments": {
+      "DEV_A": 0.0003949775432808985,
+      "DEV_B": -0.0007574279844779816,
+      "DEV_C": -0.0002489879108043134
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:15m",
+    "segments": {
+      "DEV_A": 0.0002576829008697268,
+      "DEV_B": -0.0004386970581765937,
+      "DEV_C": -0.00020100210052065656
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:LOW:15m",
+    "segments": {
+      "DEV_A": -2.1977426692062762e-05,
+      "DEV_B": -6.073926007699246e-05,
+      "DEV_C": 0.00015527399554330325
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_5m:DOWN:1h",
+    "segments": {
+      "DEV_A": 0.0003513741849400967,
+      "DEV_B": -0.00010076773403041876,
+      "DEV_C": 2.5618031896621682e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:NORMAL:15m",
+    "segments": {
+      "DEV_A": -1.5197400849612254e-05,
+      "DEV_B": 2.368479767553544e-05,
+      "DEV_C": 9.056507250318646e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "normalized_atr:LOW:15m",
+    "segments": {
+      "DEV_A": 7.357673472829599e-05,
+      "DEV_B": -1.282634329341613e-05,
+      "DEV_C": -7.721469473553155e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:NORMAL:5m",
+    "segments": {
+      "DEV_A": 3.492574090140901e-05,
+      "DEV_B": 3.855474539682033e-05,
+      "DEV_C": -1.8830951280755114e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_15m:DOWN:1h",
+    "segments": {
+      "DEV_A": 0.0003623211211032319,
+      "DEV_B": -2.579400736494702e-05,
+      "DEV_C": -9.957923315216087e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.00023430226105219373,
+      "DEV_B": -2.395829435525805e-05,
+      "DEV_C": -0.00016655079369223654
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "range_expansion:NORMAL:5m",
+    "segments": {
+      "DEV_A": 3.282717372486394e-05,
+      "DEV_B": 9.087610620211444e-06,
+      "DEV_C": 5.219937707989649e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:NORMAL:15m",
+    "segments": {
+      "DEV_A": 5.2859657840049175e-05,
+      "DEV_B": -1.1225264912374303e-05,
+      "DEV_C": 3.882963459536568e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "btc_return_regime:BTC_BEARISH:15m",
+    "segments": {
+      "DEV_A": 8.806718849678012e-05,
+      "DEV_B": 1.83452721432258e-05,
+      "DEV_C": -7.207321659031644e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:NORMAL:15m",
+    "segments": {
+      "DEV_A": 6.162253539390244e-05,
+      "DEV_B": -1.6130406057742917e-05,
+      "DEV_C": -6.546541288585695e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:FLAT:1h",
+    "segments": {
+      "DEV_A": 0.0003336686680732819,
+      "DEV_B": -6.116216140786207e-05,
+      "DEV_C": -0.0002634218678954569
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0004253447621031213,
+      "DEV_B": -0.0022331510144189015,
+      "DEV_C": 0.00011335539371937617
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_1h:FLAT:4h",
+    "segments": {
+      "DEV_A": 0.001085288938772785,
+      "DEV_B": 0.00010272483244523056,
+      "DEV_C": -0.0007995594243644884
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:5m",
+    "segments": {
+      "DEV_A": 3.475701398119047e-05,
+      "DEV_B": 1.8817472949088403e-06,
+      "DEV_C": -5.833358256080258e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:COMPRESSION:15m",
+    "segments": {
+      "DEV_A": 6.774011617711786e-05,
+      "DEV_B": -5.349565548414897e-05,
+      "DEV_C": -3.771233290889857e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:5m",
+    "segments": {
+      "DEV_A": 1.609632173345269e-05,
+      "DEV_B": -1.4045539936330994e-05,
+      "DEV_C": -2.1483427506817294e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:POSITIVE:1h",
+    "segments": {
+      "DEV_A": 0.00017153153337975388,
+      "DEV_B": 6.618014805637862e-05,
+      "DEV_C": -0.0001143421120559761
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:15m",
+    "segments": {
+      "DEV_A": 4.581423361657365e-05,
+      "DEV_B": -6.318886168018436e-07,
+      "DEV_C": -6.0466318135043015e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_BULLISH:15m",
+    "segments": {
+      "DEV_A": 0.00017609587162195032,
+      "DEV_B": -0.00021848359047187192,
+      "DEV_C": -0.00026102056706106547
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 NORMAL:5m",
+    "segments": {
+      "DEV_A": -4.528263051040858e-05,
+      "DEV_B": 2.786953598881687e-05,
+      "DEV_C": 6.51416398965476e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:COMPRESSION:1h",
+    "segments": {
+      "DEV_A": 0.00022360791940369555,
+      "DEV_B": -0.0003248591181169202,
+      "DEV_C": -1.1788343776919632e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:4h",
+    "segments": {
+      "DEV_A": 0.0018569257595072467,
+      "DEV_B": 0.00018921725150923538,
+      "DEV_C": -0.0015057675433019454
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_15m:FLAT:5m",
+    "segments": {
+      "DEV_A": 4.1616894399427326e-05,
+      "DEV_B": -6.16607383574568e-06,
+      "DEV_C": -1.7866968272523082e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_zscore:LOW:5m",
+    "segments": {
+      "DEV_A": 2.5848070974789536e-05,
+      "DEV_B": -8.789049985940867e-05,
+      "DEV_C": -6.420190628951004e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:LOW \u00d7 BTC_NEUTRAL:4h",
+    "segments": {
+      "DEV_A": -0.00011309029603035938,
+      "DEV_B": 0.0002920139525019247,
+      "DEV_C": -0.00044559757533948216
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:NORMAL:5m",
+    "segments": {
+      "DEV_A": -2.901016704062657e-06,
+      "DEV_B": 1.0740209942503766e-05,
+      "DEV_C": 2.813427814107222e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:LOW:1h",
+    "segments": {
+      "DEV_A": 0.00022182379975658394,
+      "DEV_B": -0.0001025375072290313,
+      "DEV_C": -1.7138019989161074e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.0002230598366985563,
+      "DEV_B": 4.3183304922847554e-05,
+      "DEV_C": -0.00031846238945149453
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 UP:5m",
+    "segments": {
+      "DEV_A": 2.759395013428788e-06,
+      "DEV_B": -0.0002668149940297325,
+      "DEV_C": 6.055703946232567e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:LOW:1h",
+    "segments": {
+      "DEV_A": -0.0002877770486842038,
+      "DEV_B": 7.572093262954382e-05,
+      "DEV_C": -0.00019561874104800591
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.0001842181342768067,
+      "DEV_B": 2.9536814827106663e-05,
+      "DEV_C": -3.996307025844123e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_zscore:NORMAL:15m",
+    "segments": {
+      "DEV_A": 6.3440817989345e-05,
+      "DEV_B": 1.1469637783790193e-05,
+      "DEV_C": -8.907150914508637e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:LOW:30m",
+    "segments": {
+      "DEV_A": 0.0001757989514719089,
+      "DEV_B": 1.2251148464468606e-05,
+      "DEV_C": -1.1039272423247066e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:LOW:30m",
+    "segments": {
+      "DEV_A": 0.00016309589664736203,
+      "DEV_B": 4.5390225509167225e-06,
+      "DEV_C": -2.316169205808525e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:5m",
+    "segments": {
+      "DEV_A": 4.222782637749795e-05,
+      "DEV_B": -0.00016454999045842613,
+      "DEV_C": -7.943598437302264e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:5m",
+    "segments": {
+      "DEV_A": 4.8716881264943736e-05,
+      "DEV_B": 1.3484764589827188e-05,
+      "DEV_C": -8.950660262186665e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:15m",
+    "segments": {
+      "DEV_A": 7.045898855474498e-05,
+      "DEV_B": -6.724521250868308e-05,
+      "DEV_C": 2.9110534045065102e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "realized_volatility:LOW:5m",
+    "segments": {
+      "DEV_A": 4.5601196014540556e-05,
+      "DEV_B": -3.29864264868974e-05,
+      "DEV_C": 2.612629891690391e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:30m",
+    "segments": {
+      "DEV_A": 9.013293184043599e-05,
+      "DEV_B": -1.8285259857982268e-05,
+      "DEV_C": -0.0002022453222299396
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_15m:NORMAL:5m",
+    "segments": {
+      "DEV_A": 3.659387181475295e-05,
+      "DEV_B": 1.1449328209764303e-05,
+      "DEV_C": -1.795328451789723e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:5m",
+    "segments": {
+      "DEV_A": 3.409985514946402e-05,
+      "DEV_B": -2.532245048000462e-05,
+      "DEV_C": -2.899053976077759e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:MIDDLE:5m",
+    "segments": {
+      "DEV_A": 8.046362224164614e-06,
+      "DEV_B": -2.2811260812357045e-05,
+      "DEV_C": -1.2308622830707247e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:1h",
+    "segments": {
+      "DEV_A": 0.00033633379146509785,
+      "DEV_B": 4.6781305558509564e-05,
+      "DEV_C": -0.0003151956796039143
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:5m",
+    "segments": {
+      "DEV_A": -8.114577263171398e-06,
+      "DEV_B": 1.6915859779203825e-07,
+      "DEV_C": -3.0672211668044987e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:LOW:1h",
+    "segments": {
+      "DEV_A": 0.00023628780261526297,
+      "DEV_B": -8.433110804907453e-05,
+      "DEV_C": -3.103517898066984e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:15m",
+    "segments": {
+      "DEV_A": 4.4108928783403274e-05,
+      "DEV_B": -6.497396172575044e-05,
+      "DEV_C": -8.399335331249742e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.00023210207512996056,
+      "DEV_B": 3.495092014967064e-05,
+      "DEV_C": -0.000253791814197554
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_1h:NORMAL:5m",
+    "segments": {
+      "DEV_A": 2.765116745599984e-05,
+      "DEV_B": -5.165515796090154e-06,
+      "DEV_C": -1.6425487660632263e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:15m",
+    "segments": {
+      "DEV_A": 9.687141548225366e-05,
+      "DEV_B": 9.199852797501929e-05,
+      "DEV_C": -6.080202767475364e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_15m:FLAT:30m",
+    "segments": {
+      "DEV_A": 0.00014582642974599207,
+      "DEV_B": -6.3338469833554295e-06,
+      "DEV_C": -1.9638573316202615e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:30m",
+    "segments": {
+      "DEV_A": 9.648463330210895e-05,
+      "DEV_B": 0.0001245333693009589,
+      "DEV_C": -0.00010493780373878529
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:MIDDLE:1h",
+    "segments": {
+      "DEV_A": 0.00013821841018036822,
+      "DEV_B": -2.3822830995172298e-05,
+      "DEV_C": -0.00022259968050187626
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:30m",
+    "segments": {
+      "DEV_A": 0.0002369047101269257,
+      "DEV_B": 6.604485677534421e-06,
+      "DEV_C": -0.0001720121509663302
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:1h",
+    "segments": {
+      "DEV_A": 0.000453954803505793,
+      "DEV_B": -8.11567357336401e-06,
+      "DEV_C": -0.00038418589385964754
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:15m",
+    "segments": {
+      "DEV_A": -2.63115554207417e-05,
+      "DEV_B": 1.638930029002119e-05,
+      "DEV_C": 1.1895934813886488e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:5m",
+    "segments": {
+      "DEV_A": 4.5281211165386394e-05,
+      "DEV_B": 6.205146923673703e-06,
+      "DEV_C": 1.1392298272632447e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:30m",
+    "segments": {
+      "DEV_A": -3.9121248310114136e-05,
+      "DEV_B": 2.738074208889615e-05,
+      "DEV_C": 6.872822187128534e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:POSITIVE:30m",
+    "segments": {
+      "DEV_A": 8.747261059220912e-05,
+      "DEV_B": 2.6590264188620678e-05,
+      "DEV_C": -5.4742239794523714e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:NORMAL:30m",
+    "segments": {
+      "DEV_A": 8.095322652423377e-05,
+      "DEV_B": -8.350847367270269e-05,
+      "DEV_C": -6.346368886018622e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:15m",
+    "segments": {
+      "DEV_A": 0.00010642771366726185,
+      "DEV_B": -5.160012064361062e-05,
+      "DEV_C": -1.54963049790952e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:30m",
+    "segments": {
+      "DEV_A": -1.7835505217466106e-05,
+      "DEV_B": 6.0176929437635634e-05,
+      "DEV_C": 5.910296418047686e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:15m",
+    "segments": {
+      "DEV_A": 4.281691285499433e-05,
+      "DEV_B": 2.3075110123217062e-05,
+      "DEV_C": -7.453227387123264e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 FLAT:15m",
+    "segments": {
+      "DEV_A": 0.00012073308584882682,
+      "DEV_B": 3.3539220372946963e-06,
+      "DEV_C": -7.532951481236339e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "btc_return_regime:BTC_BEARISH:5m",
+    "segments": {
+      "DEV_A": -3.3184830695615315e-05,
+      "DEV_B": -1.7034743870833305e-05,
+      "DEV_C": 1.052708763622601e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_5m:DOWN:4h",
+    "segments": {
+      "DEV_A": 0.0006397646693383419,
+      "DEV_B": -0.00024265494976611872,
+      "DEV_C": -0.00032035858433258153
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:NORMAL:30m",
+    "segments": {
+      "DEV_A": 0.00011089404887528155,
+      "DEV_B": -6.996681861553816e-05,
+      "DEV_C": -7.89558890509519e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:5m",
+    "segments": {
+      "DEV_A": 2.3529361641185088e-05,
+      "DEV_B": -5.589949330992987e-05,
+      "DEV_C": -7.327819522669076e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:POSITIVE:15m",
+    "segments": {
+      "DEV_A": 4.201038551175011e-05,
+      "DEV_B": 1.32848478419653e-05,
+      "DEV_C": -2.6473236534308e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_zscore:NORMAL:1h",
+    "segments": {
+      "DEV_A": 0.00023237361402445755,
+      "DEV_B": -2.8251809242692792e-05,
+      "DEV_C": -6.534686204607251e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_zscore:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0008452204750252631,
+      "DEV_B": -0.00020512728125039717,
+      "DEV_C": -0.0004030868335421206
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_level:POSITIVE:5m",
+    "segments": {
+      "DEV_A": 1.3080296218062418e-05,
+      "DEV_B": 5.272564579960811e-06,
+      "DEV_C": -9.115402988704632e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 HIGH:5m",
+    "segments": {
+      "DEV_A": 0.00019829351653559475,
+      "DEV_B": -0.00011450838637312975,
+      "DEV_C": -9.619998974246574e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:15m",
+    "segments": {
+      "DEV_A": 3.979296594896208e-05,
+      "DEV_B": 1.1122269080290094e-05,
+      "DEV_C": -3.9861665714337913e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:30m",
+    "segments": {
+      "DEV_A": 0.00011306662779856554,
+      "DEV_B": 5.1758263749344415e-05,
+      "DEV_C": -4.6728210886354106e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 NORMAL:5m",
+    "segments": {
+      "DEV_A": 6.657841413827651e-05,
+      "DEV_B": 2.210480228984598e-05,
+      "DEV_C": -1.2990267045184186e-05
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "range_position:NORMAL:5m",
+    "segments": {
+      "DEV_A": 4.832271517324954e-06,
+      "DEV_B": 2.3357258424732977e-06,
+      "DEV_C": 5.8732792926929004e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:LOW:30m",
+    "segments": {
+      "DEV_A": -0.00010607520341085651,
+      "DEV_B": 3.5981648112914966e-05,
+      "DEV_C": -9.221485766560102e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:HIGH:30m",
+    "segments": {
+      "DEV_A": 0.0003111545700130624,
+      "DEV_B": -6.350987642327246e-05,
+      "DEV_C": -0.00023681215802501444
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0005384441121039444,
+      "DEV_B": -3.865287667375448e-05,
+      "DEV_C": -0.0004766174251636697
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 LOW:30m",
+    "segments": {
+      "DEV_A": 0.00016031776509500804,
+      "DEV_B": 5.443307644784274e-07,
+      "DEV_C": -9.830447788356195e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:15m",
+    "segments": {
+      "DEV_A": 6.764495796609373e-05,
+      "DEV_B": -1.7894687728849945e-05,
+      "DEV_C": -8.308654149611226e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:1h",
+    "segments": {
+      "DEV_A": 0.00023852524385951628,
+      "DEV_B": 8.315259427978613e-05,
+      "DEV_C": -1.9135434371049897e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "realized_volatility:LOW:15m",
+    "segments": {
+      "DEV_A": 8.448758952219825e-05,
+      "DEV_B": -0.00010591322956914175,
+      "DEV_C": 5.7144268019010726e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "range_expansion:EXPANSION:4h",
+    "segments": {
+      "DEV_A": 0.0019930308768630386,
+      "DEV_B": -0.00022106774002343414,
+      "DEV_C": -0.0007585957773812918
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:LOW:5m",
+    "segments": {
+      "DEV_A": 2.531051871382193e-05,
+      "DEV_B": -2.168037220136668e-06,
+      "DEV_C": 1.5688839575254466e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:LOW:5m",
+    "segments": {
+      "DEV_A": 2.461999066252136e-05,
+      "DEV_B": -5.566431253158595e-07,
+      "DEV_C": -1.4695062196848984e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:15m",
+    "segments": {
+      "DEV_A": 6.719519946412813e-05,
+      "DEV_B": 2.169342346262113e-05,
+      "DEV_C": -6.0556468611678264e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_15m:LOW:4h",
+    "segments": {
+      "DEV_A": 0.0005022277264854297,
+      "DEV_B": -1.7868424743095563e-05,
+      "DEV_C": -0.0005023241258019282
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_15m:FLAT:15m",
+    "segments": {
+      "DEV_A": 8.138683785827841e-05,
+      "DEV_B": -2.2343995853574354e-05,
+      "DEV_C": -3.1746257011555895e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 COMPRESSION:15m",
+    "segments": {
+      "DEV_A": 0.00010814629862257223,
+      "DEV_B": -1.5079877369279915e-05,
+      "DEV_C": 2.471548238864354e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:UP \u00d7 LOW:30m",
+    "segments": {
+      "DEV_A": 4.392209525407245e-05,
+      "DEV_B": -0.00010136371446602887,
+      "DEV_C": 3.529488632266603e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:FLAT:5m",
+    "segments": {
+      "DEV_A": 2.7480604171007987e-05,
+      "DEV_B": -8.463048023251715e-06,
+      "DEV_C": -4.735009328097563e-06
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:MIDDLE:15m",
+    "segments": {
+      "DEV_A": 4.366088463722967e-05,
+      "DEV_B": -1.801387437237486e-05,
+      "DEV_C": -3.3002838207245895e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_5m:FLAT:15m",
+    "segments": {
+      "DEV_A": 6.526642135857518e-05,
+      "DEV_B": -1.7418797501098225e-06,
+      "DEV_C": -5.118346610391905e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:1h",
+    "segments": {
+      "DEV_A": -8.79742507670052e-05,
+      "DEV_B": 9.413653972798532e-05,
+      "DEV_C": 3.49433701717218e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "realized_volatility:LOW:30m",
+    "segments": {
+      "DEV_A": 9.187007968352861e-05,
+      "DEV_B": -0.0002040363956521305,
+      "DEV_C": 0.00011284794437512153
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:NORMAL \u00d7 BTC_NEUTRAL:4h",
+    "segments": {
+      "DEV_A": 0.001021056018232659,
+      "DEV_B": 0.00025801489678009353,
+      "DEV_C": -0.0013238724126760568
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:YOUNG:1h",
+    "segments": {
+      "DEV_A": 3.791428485835463e-05,
+      "DEV_B": -0.00039588532950796216,
+      "DEV_C": 0.0008244297476342104
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:30m",
+    "segments": {
+      "DEV_A": 0.00016711981177540506,
+      "DEV_B": 3.4756489740933505e-06,
+      "DEV_C": -0.00014952777275694697
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0009587948212711292,
+      "DEV_B": 0.00033198542703567573,
+      "DEV_C": -0.0009246787967514275
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_POSITIVE \u00d7 UP:4h",
+    "segments": {
+      "DEV_A": 0.0014191730007391246,
+      "DEV_B": -0.0014467782951759895,
+      "DEV_C": -0.0018326766634444024
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:FLAT:15m",
+    "segments": {
+      "DEV_A": 7.747396713172258e-05,
+      "DEV_B": -8.142221041574756e-06,
+      "DEV_C": -3.078046916568548e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "cross_sectional_median_return:DOWN:5m",
+    "segments": {
+      "DEV_A": -5.1263723239818824e-05,
+      "DEV_B": -2.69068231408227e-06,
+      "DEV_C": 4.387780398114494e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "realized_volatility:LOW:1h",
+    "segments": {
+      "DEV_A": 0.00011243436506933984,
+      "DEV_B": -0.00035370185698612133,
+      "DEV_C": 0.0002258886152112885
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:15m",
+    "segments": {
+      "DEV_A": 8.152669376104711e-05,
+      "DEV_B": -3.1939467880472834e-06,
+      "DEV_C": -7.28569448083077e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:MIDDLE:30m",
+    "segments": {
+      "DEV_A": 5.641439021488794e-05,
+      "DEV_B": -1.0673796553306958e-05,
+      "DEV_C": -6.823554757864374e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_5m:FLAT:30m",
+    "segments": {
+      "DEV_A": 0.00013084117414845003,
+      "DEV_B": -1.586995739419006e-05,
+      "DEV_C": -7.944589479353085e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_1h:FLAT:30m",
+    "segments": {
+      "DEV_A": 0.00011799742945781538,
+      "DEV_B": 2.7256349411720906e-08,
+      "DEV_C": -0.00010003757629288007
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "market_breadth:HIGH:15m",
+    "segments": {
+      "DEV_A": 0.00012244035098667714,
+      "DEV_B": -3.812564520190715e-05,
+      "DEV_C": -9.970659301745485e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0006907742493800993,
+      "DEV_B": -0.0001531008231480792,
+      "DEV_C": -0.0008036801171255646
+    }
+  },
+  {
+    "classification": "TEMPORALLY_CONCENTRATED",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:5m",
+    "segments": {
+      "DEV_A": -3.760185355032337e-05,
+      "DEV_B": -1.1009331170454597e-05,
+      "DEV_C": -1.0557461057004054e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0007138177405340417,
+      "DEV_B": -0.00029246755548321057,
+      "DEV_C": -0.0006600847764959012
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "relative_strength_4h:LOW:15m",
+    "segments": {
+      "DEV_A": -2.9974238012668e-05,
+      "DEV_B": 2.8030802704264617e-05,
+      "DEV_C": -3.091677769688999e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:4h",
+    "segments": {
+      "DEV_A": 5.890574420297789e-05,
+      "DEV_B": -0.0027833301165077536,
+      "DEV_C": 0.0007066861900756832
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "return_4h:FLAT:30m",
+    "segments": {
+      "DEV_A": 0.00013383856114773803,
+      "DEV_B": -7.945626081255032e-06,
+      "DEV_C": -0.00010134553052676462
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "funding_percentile:EXTREME_POSITIVE:5m",
+    "segments": {
+      "DEV_A": 2.471898595529111e-05,
+      "DEV_B": -1.6728896720095443e-06,
+      "DEV_C": -2.4265969213198965e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:DOWN \u00d7 NORMAL:4h",
+    "segments": {
+      "DEV_A": -2.3053689788961506e-05,
+      "DEV_B": 0.001217113031716765,
+      "DEV_C": -0.00011803501431349256
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 EXPANSION:4h",
+    "segments": {
+      "DEV_A": 0.0022387812299124042,
+      "DEV_B": 0.0005838524071482207,
+      "DEV_C": -0.0010445099147051713
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0019255419311984992,
+      "DEV_B": 0.0005540027894016765,
+      "DEV_C": -0.0006449693813778678
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:YOUNG:30m",
+    "segments": {
+      "DEV_A": 2.400895854128216e-05,
+      "DEV_B": -0.00020551844181437425,
+      "DEV_C": 0.0004207639180739013
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "distance_recent_low:MIDDLE:4h",
+    "segments": {
+      "DEV_A": 0.0009897106369814277,
+      "DEV_B": 3.665024969436572e-05,
+      "DEV_C": -0.0011100803389966659
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:UP \u00d7 COMPRESSION:1h",
+    "segments": {
+      "DEV_A": -0.0001320684282505563,
+      "DEV_B": -0.00034337812070046897,
+      "DEV_C": 0.0002457567519663088
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:YOUNG:15m",
+    "segments": {
+      "DEV_A": 1.3040088161369244e-05,
+      "DEV_B": -0.00010356380059808059,
+      "DEV_C": 0.0002085717957960771
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "quote_volume_ratio:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.001511302919184971,
+      "DEV_B": -0.00026701171187587026,
+      "DEV_C": -0.0005034455410067401
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_ratio:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0014789554782591698,
+      "DEV_B": -0.0001954109241012988,
+      "DEV_C": -0.0006036793062396516
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:YOUNG:5m",
+    "segments": {
+      "DEV_A": 5.054994175359873e-06,
+      "DEV_B": -3.442994730655204e-05,
+      "DEV_C": 6.989202356487408e-05
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:FLAT \u00d7 NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.001289721667258015,
+      "DEV_B": 0.0006803683070575104,
+      "DEV_C": -0.0010087139246653058
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_X_VOLATILITY_REGIME:FLAT \u00d7 COMPRESSION:4h",
+    "segments": {
+      "DEV_A": 0.0007072302852942707,
+      "DEV_B": -0.0004570337698524813,
+      "DEV_C": -0.000496114204887704
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 FLAT:4h",
+    "segments": {
+      "DEV_A": -0.000283010674661122,
+      "DEV_B": 0.0003779742217910339,
+      "DEV_C": 0.0001648169443873651
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:VERY_NEW:30m",
+    "segments": {
+      "DEV_A": -0.0006084522108179547,
+      "DEV_B": 0.00020437325216974612,
+      "DEV_C": 0.0006399989376483959
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:VERY_NEW:15m",
+    "segments": {
+      "DEV_A": -0.00030869899971325027,
+      "DEV_B": 0.00010267047878131112,
+      "DEV_C": 0.00032754285527013163
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:VERY_NEW:5m",
+    "segments": {
+      "DEV_A": -0.00010001564663237542,
+      "DEV_B": 3.452938575298147e-05,
+      "DEV_C": 0.00010550152615884688
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:EXTREME_NEGATIVE \u00d7 DOWN:1h",
+    "segments": {
+      "DEV_A": -0.000390888159059002,
+      "DEV_B": -0.0011813516427045107,
+      "DEV_C": 0.000163792747903703
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BEARISH:1h",
+    "segments": {
+      "DEV_A": 9.81911992972431e-05,
+      "DEV_B": -0.0006579679058646197,
+      "DEV_C": -0.0003605753594312599
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_zscore:LOW:1h",
+    "segments": {
+      "DEV_A": 0.00021897142470881652,
+      "DEV_B": -0.0008506628874284136,
+      "DEV_C": -0.0003764198890685991
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "FUNDING_EXTREME_X_PRICE_EXTENSION:NORMAL \u00d7 UP:4h",
+    "segments": {
+      "DEV_A": -0.0014261997876939363,
+      "DEV_B": -0.0027212692139531366,
+      "DEV_C": 0.003836709524711134
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "RELATIVE_STRENGTH_X_BTC_REGIME:HIGH \u00d7 BTC_BULLISH:1h",
+    "segments": {
+      "DEV_A": 0.000965340997420071,
+      "DEV_B": -0.0004016474952868752,
+      "DEV_C": -0.0006064015627267958
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "MOMENTUM_1H_X_VOLUME_EXPANSION:DOWN \u00d7 NORMAL:4h",
+    "segments": {
+      "DEV_A": 0.0002941028983098302,
+      "DEV_B": 0.00043671118559929933,
+      "DEV_C": -0.0003731272735441578
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "volume_zscore:HIGH:4h",
+    "segments": {
+      "DEV_A": 0.0010189033467849825,
+      "DEV_B": -0.00042867838739428954,
+      "DEV_C": -0.0008637773143274232
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:VERY_NEW:1h",
+    "segments": {
+      "DEV_A": -0.001242591238454776,
+      "DEV_B": 0.00041233938388000993,
+      "DEV_C": 0.0012895301602748276
+    }
+  },
+  {
+    "classification": "SIGN_FLIP",
+    "finding_id": "listing_age_days:VERY_NEW:4h",
+    "segments": {
+      "DEV_A": -0.004704889635042518,
+      "DEV_B": 0.0019178200030130017,
+      "DEV_C": 0.005705533174835446
+    }
+  }
+]

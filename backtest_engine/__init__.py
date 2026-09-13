@@ -1,0 +1,6 @@
+"""Trading Sentinel V4 deterministic research backtest engine."""
+
+ENGINE_VERSION = "d3-fast-v1.2"
+STRATEGY_ID = "ENGINE_REFERENCE_INTRADAY"
+STRATEGY_VERSION = "V1"
+STRATEGY_LABEL = "NOT A VALIDATED TRADING STRATEGY"

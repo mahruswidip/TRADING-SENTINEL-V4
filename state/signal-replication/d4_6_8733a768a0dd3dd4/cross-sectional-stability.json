@@ -1,0 +1,176 @@
+{
+  "A": {
+    "btc_regime_magnitude": {
+      "STRONGER_QUALIFYING": {
+        "directional_hit_rate": 0.6377753701697364,
+        "mean": 0.006872074526038426,
+        "median": 0.0036023054755043304,
+        "observations": 2769,
+        "symbols": 48
+      },
+      "WEAKER_QUALIFYING": {
+        "directional_hit_rate": 0.5274989963869932,
+        "mean": 0.0020517249775419957,
+        "median": 0.0009447333236940469,
+        "observations": 9964,
+        "symbols": 48
+      }
+    },
+    "historical_quote_volume": {
+      "HIGH": {
+        "directional_hit_rate": 0.5346166835528537,
+        "mean": 0.0018604055547269442,
+        "median": 0.0012062726176114147,
+        "observations": 2961,
+        "symbols": 40
+      },
+      "LOW": {
+        "directional_hit_rate": 0.5523385300668151,
+        "mean": 0.004035797370754956,
+        "median": 0.001388888888888884,
+        "observations": 5837,
+        "symbols": 30
+      },
+      "NORMAL": {
+        "directional_hit_rate": 0.5628970775095299,
+        "mean": 0.002644612944901064,
+        "median": 0.0019474196689386325,
+        "observations": 3935,
+        "symbols": 45
+      }
+    },
+    "listing_age": {
+      "ESTABLISHED": {
+        "directional_hit_rate": 0.5709389154119231,
+        "mean": 0.003613804415204873,
+        "median": 0.001879699248120259,
+        "observations": 8169,
+        "symbols": 26
+      },
+      "VERY_NEW": {
+        "directional_hit_rate": 0.4964249233912155,
+        "mean": -0.00038774819349972995,
+        "median": 0.0,
+        "observations": 979,
+        "symbols": 9
+      },
+      "YOUNG": {
+        "directional_hit_rate": 0.5221757322175732,
+        "mean": 0.0028816176436419734,
+        "median": 0.000903016073686036,
+        "observations": 3585,
+        "symbols": 21
+      }
+    },
+    "volatility": {
+      "HIGH": {
+        "directional_hit_rate": 0.6141924959216966,
+        "mean": 0.005405687223370916,
+        "median": 0.0030623409101058208,
+        "observations": 4904,
+        "symbols": 48
+      },
+      "LOW": {
+        "directional_hit_rate": 0.5008675534991325,
+        "mean": 0.0012318652791001832,
+        "median": 0.00019981160619986227,
+        "observations": 1729,
+        "symbols": 48
+      },
+      "NORMAL": {
+        "directional_hit_rate": 0.5154098360655738,
+        "mean": 0.0017758650537465018,
+        "median": 0.0006477915569063075,
+        "observations": 6100,
+        "symbols": 48
+      }
+    }
+  },
+  "B": {
+    "btc_regime_magnitude": {
+      "STRONGER_QUALIFYING": {
+        "directional_hit_rate": 0.5683949255377827,
+        "mean": -0.005096429984177119,
+        "median": -0.0023710497116283813,
+        "observations": 3626,
+        "symbols": 48
+      },
+      "WEAKER_QUALIFYING": {
+        "directional_hit_rate": 0.5505946578280366,
+        "mean": -0.0032417230630241607,
+        "median": -0.001663756027845853,
+        "observations": 10258,
+        "symbols": 48
+      }
+    },
+    "historical_quote_volume": {
+      "HIGH": {
+        "directional_hit_rate": 0.5691509084167594,
+        "mean": -0.008325179458062654,
+        "median": -0.0036898855348247994,
+        "observations": 5394,
+        "symbols": 42
+      },
+      "LOW": {
+        "directional_hit_rate": 0.5575489925476125,
+        "mean": -8.84935585263164e-05,
+        "median": -0.0011316759756143657,
+        "observations": 3623,
+        "symbols": 30
+      },
+      "NORMAL": {
+        "directional_hit_rate": 0.5381138278200124,
+        "mean": -0.0013368851743984524,
+        "median": -0.0013140604467803962,
+        "observations": 4867,
+        "symbols": 44
+      }
+    },
+    "listing_age": {
+      "ESTABLISHED": {
+        "directional_hit_rate": 0.5533369311027163,
+        "mean": -0.00291870916521445,
+        "median": -0.001438519632523616,
+        "observations": 5559,
+        "symbols": 26
+      },
+      "VERY_NEW": {
+        "directional_hit_rate": 0.5900151285930408,
+        "mean": -0.004290712240924425,
+        "median": -0.003572008442929042,
+        "observations": 1983,
+        "symbols": 9
+      },
+      "YOUNG": {
+        "directional_hit_rate": 0.5460422579627877,
+        "mean": -0.004257279041303659,
+        "median": -0.0017752157656906742,
+        "observations": 6342,
+        "symbols": 21
+      }
+    },
+    "volatility": {
+      "HIGH": {
+        "directional_hit_rate": 0.5490579887448006,
+        "mean": -0.005653956078160674,
+        "median": -0.0017460713394861216,
+        "observations": 4087,
+        "symbols": 48
+      },
+      "LOW": {
+        "directional_hit_rate": 0.5560165975103735,
+        "mean": -0.0037450045551030804,
+        "median": -0.0016509433962264008,
+        "observations": 3133,
+        "symbols": 47
+      },
+      "NORMAL": {
+        "directional_hit_rate": 0.5586734693877551,
+        "mean": -0.0025348788326151634,
+        "median": -0.001976292303786542,
+        "observations": 6664,
+        "symbols": 48
+      }
+    }
+  }
+}

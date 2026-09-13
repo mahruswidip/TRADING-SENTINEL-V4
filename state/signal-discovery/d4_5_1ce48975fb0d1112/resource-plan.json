@@ -1,0 +1,3134 @@
+{
+  "available_feature_count": 22,
+  "cache": {
+    "cached_partitions": 633,
+    "hit_rate": 0.9533132530120482,
+    "total_partitions": 664
+  },
+  "context_symbols": [
+    "BTCUSDT"
+  ],
+  "cost_model": "NOT_APPLICABLE_RAW_FORWARD_RETURN_RESEARCH",
+  "data_capabilities": {
+    "bbo_spread": {
+      "current_snapshot": "AVAILABLE",
+      "historical": "HISTORICAL_FEATURE_NOT_AVAILABLE"
+    },
+    "funding": {
+      "historical": "AVAILABLE",
+      "timestamps": "EXCHANGE_FUNDING_TIME"
+    },
+    "historical_snapshot_prohibition": "CURRENT BBO, depth, ticker volume, and liquidity are excluded from feature rows",
+    "listing_metadata": {
+      "contract_type": "AVAILABLE",
+      "delivery_date": "AVAILABLE",
+      "onboard_date": "AVAILABLE"
+    },
+    "market_universe": {
+      "Universe(t)": "ONBOARD_DELIVERY_FILTERED_FROM_VERSIONED_PLAN_SNAPSHOT"
+    },
+    "open_interest": {
+      "current_snapshot": "AVAILABLE",
+      "historical": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "sampling_interval": null
+    },
+    "order_book_depth": {
+      "current_snapshot": "AVAILABLE",
+      "historical": "HISTORICAL_FEATURE_NOT_AVAILABLE"
+    },
+    "premium_basis": {
+      "historical": "HISTORICAL_FEATURE_NOT_AVAILABLE"
+    },
+    "price_ohlcv": {
+      "15m": "DERIVED_CLOSED_ONLY",
+      "1h": "DERIVED_CLOSED_ONLY",
+      "4h": "DERIVED_CLOSED_ONLY",
+      "5m": "AVAILABLE"
+    }
+  },
+  "development_window": {
+    "end": 1785528000000,
+    "start": 1782864000000
+  },
+  "engine_version": "d4.5-signal-discovery-v2",
+  "estimated_bridge_requests": 31,
+  "exclusions": [
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OMGUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "WAVESUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MKRUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DEFIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BALUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BLZUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FTMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FLMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RENUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LRCUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OCEANUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ALPHAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "UNFIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "REEFUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "XEMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LINAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "STMXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DENTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NKNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SCUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DGBUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BAKEUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RAYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ATAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "KLAYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FTTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DARUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FXSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HOOKUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HIGHUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "AGIXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PHBUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BNXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PERPUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TRUUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "AMBUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LEVERUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RDNTUSDT"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "ETHBTC"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "IDEXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RADUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "KEYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "COMBOUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MDTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OXTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HIFIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "GLMRUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "STRAXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LOOMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BONDUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ORBSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "STPTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SNTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TOKENUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BADGERUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NTRNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "AIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TONUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MYROUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OMNIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SYSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VOXELUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ALPACAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VIDTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NULSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MBOXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "CHESSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BSWUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "QUICKUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NEIROETHUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "UXLINKUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "KDAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FIOUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "GHSTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LOKAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "REIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "COSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TROYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PONKEUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SWELLUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HIPPOUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "1000XUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DEGENUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SLERFUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "1000WHYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DEGOUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DFUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "AI16ZUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VINEUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "B3USDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "IPUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "IPUSDC"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BIDUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FUNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MLNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FORTHUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "XCNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "EPTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MEMEFIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FISUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MILKUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OBOLUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ZKJUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PUFFERUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PORT3USDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SKATEUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DMCUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OLUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TANSSIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ZRCUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "A2ZUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "YALAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DAMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "CUDISUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VFYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RVVUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "42USDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "COMMONUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BOBUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RLSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "IRUSDT"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "BTCUSD1"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "BTCU"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "ETHU"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "ETHUSD1"
+    },
+    {
+      "reason": "NOT_LISTED_YET",
+      "symbol": "DOSUSDT"
+    },
+    {
+      "reason": "NOT_LISTED_YET",
+      "symbol": "\u725b\u6765USDT"
+    },
+    {
+      "reason": "NOT_LISTED_YET",
+      "symbol": "MARSCOINUSDT"
+    },
+    {
+      "reason": "NOT_LISTED_YET",
+      "symbol": "PONSUSDT"
+    },
+    {
+      "reason": "NOT_LISTED_YET",
+      "symbol": "\u54c8\u57fa\u7c73USDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BCHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LTCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TRXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ETCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XLMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ADAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DASHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZECUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XTZUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ATOMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ONTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "IOTAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BATUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VETUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NEOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "QTUMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "IOSTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "THETAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ALGOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZILUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KNCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZRXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "COMPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KAVAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BANDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RLCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SNXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DOTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "YFIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CRVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TRBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RUNEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SUSHIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "EGLDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SOLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ICXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STORJUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "UNIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AVAXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ENJUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KSMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AAVEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FILUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RSRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BELUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AXSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZENUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SKLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GRTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1INCHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CHZUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SANDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ANKRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SFPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "COTIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CHRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MANAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HBARUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ONEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CELRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HOTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MTLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "OGNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000SHIBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GTCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "IOTXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MASKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DYDXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000XECUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GALAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CELOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ARUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ARPAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LPTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ENSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PEOPLEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ROSEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DUSKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FLOWUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "IMXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GMTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "APEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WOOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "JASMYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "OPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "INJUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SPELLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000LUNCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LUNA2USDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LDOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ICPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "APTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "QNTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FETUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MAGICUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MINAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ASTRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GMXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CFXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ACHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SSVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CKBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LQTYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "USDCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "IDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "JOEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TLMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HFTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XVSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "EDUUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SUIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000PEPEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000FLOKIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "UMAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NMRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MAVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XVGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PENDLEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ARKMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AGLDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "YGGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DODOXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BNTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SEIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CYBERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ARKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BICOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BIGTIMEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WAXPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BSVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RIFUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "POLYXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GASUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "POWRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TIAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CAKEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MEMEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TWTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STEEMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ILVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KASUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BEAMXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000BONKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PYTHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SUPERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "USTCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ONGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ETHWUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "JTOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000SATSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AUCTIONUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000RATSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ACEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MOVRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NFPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XAIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WIFUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MANTAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ONDOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LSKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ALTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZETAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RONINUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DYMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PIXELUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STRKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GLMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PORTALUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AXLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "METISUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AEVOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VANRYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BOMEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ETHFIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SAGAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "REZUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NOTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TURBOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "IOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MEWUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LISTAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZROUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RENDERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BANANAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RAREUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SYNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BRETTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "POPCATUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SUNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DOGSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FLUXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RPLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "POLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1MBABYDOGEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NEIROUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FIDAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CATIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HMSTRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "EIGENUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DIAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000CATUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SCRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GOATUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MOODENGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SAFEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SANTOSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "COWUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CETUSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000000MOGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GRASSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DRIFTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ACTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PNUTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BANUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AKTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SCRTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000CHEEMSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "THEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MORPHOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CHILLGUYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KAIAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AEROUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ACXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ORCAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RAYSOLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KOMAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VIRTUALUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SPXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AVAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VELODROMEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MOCAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VANAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PENGUUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LUMIAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "USUALUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KMNOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CGPTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HIVEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DEXEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PHAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GRIFFAINUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZEREBROUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BIOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "COOKIEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ALCHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SWARMSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SONICUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PROMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SOLVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ARCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AVAAIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TRUMPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MELANIAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VTHOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ANIMEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PIPPINUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VVVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BERAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TSTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LAYERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HEIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GPSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SHELLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KAITOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "REDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VICUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "EPICUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BMTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MUBARAKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FORMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TUTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BROCCOLI714USDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BROCCOLIF3BUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SIRENUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BANANAS31USDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PLUMEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PARTIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "JELLYJELLYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MAVIAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PAXGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WALUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GUNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ATHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BABYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PROMPTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FHEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KERNELUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WCTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "INITUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BANKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DEEPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HYPERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "JSTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SIGNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PUNDIXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CTKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AIOTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DOLOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HAEDALUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SXTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ASRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ALPINEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "B2USDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SYRUPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "DOODUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "OGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SKYAIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NXPCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CVCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AGTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AWEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SOONUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HUMAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SOPHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MERLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HYPEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "1000000BOBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HOMEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RESOLVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TAIKOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SQDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PUMPBTCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SPKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MYXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NEWTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SAHARAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ICNTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BULLAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "IDOLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PUMPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CROSSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AINUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "VELVETUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TACUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ERAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CVXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SLPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZORAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TAGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ESPORTSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TREEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PLAYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NAORISUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TOWNSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PROVEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ALLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "INUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CARVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AIOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XNYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "USELESSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SAPIENUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XPLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WLFIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SOMIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BASUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BTRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MITOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HEMIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LINEAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "QUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TAKEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PTBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "OPENUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FLOCKUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SKYUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AVNTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HOLOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XPINUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "UBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZKCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TOSHIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STBLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "0GUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BARDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ASTERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TRADOORUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BLESSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FLUIDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "COAIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "HANAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MIRAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AKEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ORDERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LIGHTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XANUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FFUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "EDENUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NOMUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TRUTHUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "2ZUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "EVAAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LYNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KGENUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "4USDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GIGGLEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "YBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "METUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "EULUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ENSOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CLOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RECALLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZBTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LABUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RIVERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "\u5e01\u5b89\u4eba\u751fUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BLUAIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TURTLEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "APRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ONUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KITEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ATUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CCUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MMTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TRUSTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "UAIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FOLKSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STABLEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "JCTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ALLOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CLANKERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BEATUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PIEVERSEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SENTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GAIBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "IRYSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "POWERUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "WETUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "NIGHTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "USUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CYSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "RAVEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZKPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GUAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "LITUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BREVUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "COLLECTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MAGMAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZAMAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FOGOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FRAXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SPORTFUNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AIAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ACUUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "\u6211\u8e0f\u9a6c\u6765\u4e86USDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ELSAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SKRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SPACEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "FIGHTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BIRBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GWEIUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MEGAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "INXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "TRIAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ESPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AZTECUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "OPNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ROBOUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "KATUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "MANTRAUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "\u9f99\u867eUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CFGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "EDGEUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BSBUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "XAUTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BASEDUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PRLUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "GENIUSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CHIPUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "OPGUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "AIGENSYNUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "PHAROSUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "STARUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "CTRUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "SLXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ZESTUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "BTWUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "REUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "ARXUSDT"
+    },
+    {
+      "reason": "INSUFFICIENT_LOCAL_DEVELOPMENT_CACHE",
+      "symbol": "OUSDT"
+    }
+  ],
+  "expected_5m_candle_count": 159840,
+  "expected_disk_bytes": 4155840,
+  "feature_catalog": [
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_5M",
+      "definition": "5m closed return",
+      "family": "PRICE_MOMENTUM",
+      "id": "return_5m",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_15M",
+      "definition": "15m closed return",
+      "family": "PRICE_MOMENTUM",
+      "id": "return_15m",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_1H",
+      "definition": "1h closed return",
+      "family": "PRICE_MOMENTUM",
+      "id": "return_1h",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_4H",
+      "definition": "4h closed return",
+      "family": "PRICE_MOMENTUM",
+      "id": "return_4h",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "DISTANCE_HIGH",
+      "definition": "distance from trailing 4h high",
+      "family": "PRICE_LOCATION",
+      "id": "distance_recent_high",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "DISTANCE_LOW",
+      "definition": "distance from trailing 4h low",
+      "family": "PRICE_LOCATION",
+      "id": "distance_recent_low",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "position in trailing 4h range",
+      "family": "PRICE_LOCATION",
+      "id": "range_position",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "VOLUME_RATIO",
+      "definition": "5m volume / prior 4h mean",
+      "family": "VOLUME",
+      "id": "volume_ratio",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "ZSCORE",
+      "definition": "5m volume z-score vs prior 4h",
+      "family": "VOLUME",
+      "id": "volume_zscore",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "VOLUME_RATIO",
+      "definition": "5m quote-volume / prior 4h mean",
+      "family": "VOLUME",
+      "id": "quote_volume_ratio",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "PAST_PERCENTILE",
+      "definition": "12-bar ATR / close",
+      "family": "VOLATILITY",
+      "id": "normalized_atr",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "PAST_PERCENTILE",
+      "definition": "past-only 4h realized volatility",
+      "family": "VOLATILITY",
+      "id": "realized_volatility",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "RANGE_RATIO",
+      "definition": "current range / prior 4h median range",
+      "family": "VOLATILITY",
+      "id": "range_expansion",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "FUNDING_LEVEL",
+      "definition": "latest funding known at T",
+      "family": "FUNDING",
+      "id": "funding_level",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "PERCENTILE_EXTREMES",
+      "definition": "funding percentile from earlier funding observations",
+      "family": "FUNDING",
+      "id": "funding_percentile",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "LISTING_AGE",
+      "definition": "days since onboard date",
+      "family": "LISTING",
+      "id": "listing_age_days",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "BTC_REGIME",
+      "definition": "BTC 1h return known at T",
+      "family": "MARKET_CONTEXT",
+      "id": "btc_return_regime",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "share of Universe(T) with positive 1h return",
+      "family": "MARKET_CONTEXT",
+      "id": "market_breadth",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "MOMENTUM_1H",
+      "definition": "Universe(T) median 1h return",
+      "family": "MARKET_CONTEXT",
+      "id": "cross_sectional_median_return",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "15m return rank in Universe(T)",
+      "family": "RELATIVE_STRENGTH",
+      "id": "relative_strength_15m",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "1h return rank in Universe(T)",
+      "family": "RELATIVE_STRENGTH",
+      "id": "relative_strength_1h",
+      "uses_future": false
+    },
+    {
+      "availability": "AVAILABLE",
+      "bucket_rule": "TERCILE",
+      "definition": "4h return rank in Universe(T)",
+      "family": "RELATIVE_STRENGTH",
+      "id": "relative_strength_4h",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "OPEN_INTEREST",
+      "id": "oi_change",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "OPEN_INTEREST",
+      "id": "oi_percent_change",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "PREMIUM_BASIS",
+      "id": "premium_basis",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "BBO_SPREAD",
+      "id": "historical_spread",
+      "uses_future": false
+    },
+    {
+      "availability": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "bucket_rule": null,
+      "definition": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "family": "ORDER_BOOK_DEPTH",
+      "id": "historical_depth",
+      "uses_future": false
+    }
+  ],
+  "feature_catalog_count": 27,
+  "funding_coverage": {
+    "cached_symbols": 18,
+    "status": "AVAILABLE",
+    "total_symbols": 18
+  },
+  "horizons": [
+    "5m",
+    "15m",
+    "30m",
+    "1h",
+    "4h"
+  ],
+  "identity_hash": "1ce48975fb0d111207f4ac7bd116d3983bd8d3b6dd087c474970f161d49e5cc1",
+  "label_lookahead_end": 1785542400000,
+  "locked_oos_resolved_or_read": false,
+  "minimum_round_trip_cost_hurdle_bps": 11.0,
+  "oi_coverage": {
+    "status": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+    "symbols": 0
+  },
+  "oos_access": "OOS_NOT_ACCESSED",
+  "phase": "SIGNAL_DISCOVERY_DEVELOPMENT_ONLY",
+  "run_id": "d4_5_1ce48975fb0d1112",
+  "symbol_count": 18,
+  "symbols": [
+    "AIXBTUSDT",
+    "ALICEUSDT",
+    "API3USDT",
+    "ARIAUSDT",
+    "BILLUSDT",
+    "BLURUSDT",
+    "BTCDOMUSDT",
+    "C98USDT",
+    "CAPUSDT",
+    "CTSIUSDT",
+    "FARTCOINUSDT",
+    "MONUSDT",
+    "MOVEUSDT",
+    "NILUSDT",
+    "ORDIUSDT",
+    "RVNUSDT",
+    "TNSRUSDT",
+    "XMRUSDT"
+  ],
+  "universe_eligible_count": 529,
+  "universe_method": "DYNAMIC_BRIDGE_REGISTRY_UNIVERSE_T_ONBOARD_DELIVERY_PLUS_SUFFICIENT_LOCAL_HISTORY",
+  "universe_snapshot": [
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "2390399.6669900"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1734719400000,
+      "quoteAsset": "USDT",
+      "symbol": "AIXBTUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "2401502.418520"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1615791600000,
+      "quoteAsset": "USDT",
+      "symbol": "ALICEUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "1342326.1930"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1645426800000,
+      "quoteAsset": "USDT",
+      "symbol": "API3USDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "885453.9015300"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1756897200000,
+      "quoteAsset": "USDT",
+      "symbol": "ARIAUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "4819947.6092800"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1778141700000,
+      "quoteAsset": "USDT",
+      "symbol": "BILLUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "42736036.7181200"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1682553600000,
+      "quoteAsset": "USDT",
+      "symbol": "BLURUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "3437332.8"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1623913200000,
+      "quoteAsset": "USDT",
+      "symbol": "BTCDOMUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "907089.7606700"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1629702000000,
+      "quoteAsset": "USDT",
+      "symbol": "C98USDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "2455781.4181100"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1782560700000,
+      "quoteAsset": "USDT",
+      "symbol": "CAPUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "1006135.3362400"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1635145200000,
+      "quoteAsset": "USDT",
+      "symbol": "CTSIUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "44074888.5428300"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1734720300000,
+      "quoteAsset": "USDT",
+      "symbol": "FARTCOINUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "10906319.4556200"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1760080500000,
+      "quoteAsset": "USDT",
+      "symbol": "MONUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "3509599.4639560"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1733752800000,
+      "quoteAsset": "USDT",
+      "symbol": "MOVEUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "3254878.390182"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1742821200000,
+      "quoteAsset": "USDT",
+      "symbol": "NILUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "12380680.990700"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1699360200000,
+      "quoteAsset": "USDT",
+      "symbol": "ORDIUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "12172731.9578750"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1614063600000,
+      "quoteAsset": "USDT",
+      "symbol": "RVNUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "1390760.3921810"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1712595600000,
+      "quoteAsset": "USDT",
+      "symbol": "TNSRUSDT"
+    },
+    {
+      "cache_coverage": 1.0,
+      "contractType": "PERPETUAL",
+      "current_snapshot_metadata": {
+        "predictive_feature": false,
+        "quote_volume_24h": "40317541.04"
+      },
+      "deliveryDate": 4133404800000,
+      "marginAsset": "USDT",
+      "onboardDate": 1580716800000,
+      "quoteAsset": "USDT",
+      "symbol": "XMRUSDT"
+    }
+  ],
+  "warmup_start": 1782604800000,
+  "worker_count": 3
+}

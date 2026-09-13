@@ -1,0 +1,26 @@
+{
+  "cost_hurdle_bps": 11.0,
+  "cost_model": "NOT_APPLICABLE_RAW_FORWARD_RETURN_REPLICATION",
+  "current_ticker_used_for_selection_or_features": false,
+  "dataset_version": "abd52e12bd1a38a43cf2cb931d105b5e6db28d529130675d57b321ad58302df8",
+  "development_window": {
+    "end": 1785528000000,
+    "start": 1782864000000
+  },
+  "eligible_universe_count": 532,
+  "engine_version": "d4.6b-broader-signal-replication-v1",
+  "latest_stage": "C",
+  "locked_oos_resolved_or_read": false,
+  "next_stage": null,
+  "oos_access": "OOS_NOT_ACCESSED",
+  "parent_run": "d4_6_8733a768a0dd3dd4",
+  "run_id": "d4_6b_d9380c7ff0781bac",
+  "source_run": "d4_5_482ba89ea0075922",
+  "source_signal_hashes": [
+    "bc39f1461400988b71d39fe044586f1386dcea996586328d3bec95d9821d5f40",
+    "79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af"
+  ],
+  "status": "COMPLETED",
+  "thresholds_changed": false,
+  "usable_symbol_count": 189
+}

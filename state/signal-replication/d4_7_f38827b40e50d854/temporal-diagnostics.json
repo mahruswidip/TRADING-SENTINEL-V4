@@ -1,0 +1,23 @@
+{
+  "DEV_A": {
+    "directional_hit_rate": 0.5729302477183833,
+    "mean": -0.0037169064013677614,
+    "median": -0.003914974899346446,
+    "observations": 36816,
+    "symbols": 199
+  },
+  "DEV_B": {
+    "directional_hit_rate": 0.5266620013995801,
+    "mean": 0.0002880249887646674,
+    "median": -0.0011119347664936274,
+    "observations": 21435,
+    "symbols": 200
+  },
+  "DEV_C": {
+    "directional_hit_rate": 0.552654554525423,
+    "mean": -0.0010285837078936272,
+    "median": -0.002083622725378431,
+    "observations": 24053,
+    "symbols": 201
+  }
+}

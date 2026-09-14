@@ -1,0 +1,21 @@
+{
+  "current_ticker_used_for_selection_or_features": false,
+  "dataset_version": "e1b929f6461266f254656c4eee3da15b114e9ed0ee2f6ec2f98a3810e5a38e91",
+  "development_window": {
+    "end": 1782849600000,
+    "start": 1780272000000
+  },
+  "eligible_universe_count": 535,
+  "engine_version": "d4.7-signal-b-independent-temporal-replication-v1",
+  "final_decision": "NOT_REPLICATED",
+  "locked_oos_resolved_or_read": false,
+  "oos_access": "OOS_NOT_ACCESSED",
+  "parent_run": "d4_6b_d9380c7ff0781bac",
+  "run_id": "d4_7_f38827b40e50d854",
+  "signal_b_definition_hash": "79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af",
+  "source_run": "d4_5_482ba89ea0075922",
+  "status": "COMPLETED",
+  "thresholds_changed": false,
+  "usable_symbol_count": 201,
+  "warmup_start": 1780012800000
+}

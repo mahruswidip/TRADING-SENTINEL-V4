@@ -1,0 +1,11 @@
+{
+  "ci": [
+    -0.004211280763710072,
+    0.0012828144334701092
+  ],
+  "ci_excludes_zero_in_negative_direction": false,
+  "effective_observation_count": 1817,
+  "method": "D4.5/D4.6B deterministic 95% UTC daily-block bootstrap over 4H-stride effective samples",
+  "naive_iid_inappropriate": true,
+  "raw_observation_count": 82304
+}

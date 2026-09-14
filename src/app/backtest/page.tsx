@@ -8,13 +8,15 @@ import { Panel } from "@/components/panel";
 import { StateMachine } from "@/components/state-machine";
 import { StatusPill, statusTone } from "@/components/status-pill";
 import { TimeframeFramework } from "@/components/timeframe-framework";
+import { D47LiveMonitor } from "@/components/d47-live-monitor";
 import { sentinelData } from "@/data";
+import { getD47MonitorSnapshot } from "@/data/d47-monitor";
 import { bps, costUsd, percent, plainPercent } from "@/lib/format";
 
 export const dynamic = "force-dynamic";
 
 export default async function BacktestPage() {
-  const [jobs, active] = await Promise.all([sentinelData.getBacktestJobs(), sentinelData.getActiveBacktestRun()]);
+  const [jobs, active, d47] = await Promise.all([sentinelData.getBacktestJobs(), sentinelData.getActiveBacktestRun(), getD47MonitorSnapshot()]);
   const selected = jobs.find((job) => job.source === "REAL_BACKTEST") ?? active;
   const metrics = selected?.metrics;
   const evaluation = selected?.currentEvaluation;
@@ -22,6 +24,7 @@ export default async function BacktestPage() {
 
   return <>
     <PageHeading eyebrow="D3 ready · research only" title="Backtest Monitor" description="Selected run metrics are isolated by source; engineering results remain net of explicit execution costs." />
+    {d47 && <Panel title="D4.7 Live Research Monitor" eyebrow="SIGNAL REPLICATION · NOT A TRADE BACKTEST"><D47LiveMonitor initialSnapshot={d47} /></Panel>}
     <DataStateBoundary state={selected ? "success" : "empty"}>
       {selected && <>
         <Panel title={selected.id} eyebrow={`${source} · ${source === "REAL_BACKTEST" ? "ENGINEERING VERIFICATION" : "DETERMINISTIC FIXTURE"}`}>

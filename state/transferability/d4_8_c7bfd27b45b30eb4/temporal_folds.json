@@ -1,0 +1,53 @@
+{
+  "folds": [
+    {
+      "development": {
+        "end": 1780677000000,
+        "start": 1780272000000
+      },
+      "fold": 1,
+      "oos": {
+        "end": 1780920000000,
+        "start": 1780677000000,
+        "tuning_allowed": false
+      }
+    },
+    {
+      "development": {
+        "end": 1781325000000,
+        "start": 1780920000000
+      },
+      "fold": 2,
+      "oos": {
+        "end": 1781568000000,
+        "start": 1781325000000,
+        "tuning_allowed": false
+      }
+    },
+    {
+      "development": {
+        "end": 1781973000000,
+        "start": 1781568000000
+      },
+      "fold": 3,
+      "oos": {
+        "end": 1782216000000,
+        "start": 1781973000000,
+        "tuning_allowed": false
+      }
+    },
+    {
+      "development": {
+        "end": 1782621000000,
+        "start": 1782216000000
+      },
+      "fold": 4,
+      "oos": {
+        "end": 1782864000000,
+        "start": 1782621000000,
+        "tuning_allowed": false
+      }
+    }
+  ],
+  "tuning_allowed": false
+}

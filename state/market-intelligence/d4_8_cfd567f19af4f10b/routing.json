@@ -1,0 +1,267 @@
+[
+  {
+    "data_quality": {
+      "basis_rows": 168,
+      "cache_hits": 0,
+      "candle_rows": 8064,
+      "dataset_ids": [
+        "c3b88cd106196ed91e7e",
+        "41a685ba582f47b708a7",
+        "e80087e2d907beef8ac3",
+        "02ce966d3f9b865eaf87",
+        "292533165713539069de",
+        "9c0b17d7adc9a5cf8d3b",
+        "6495843586e0a1804db2",
+        "da0667b26d56d4255615",
+        "1090f4674daaf4d1fd40",
+        "153897de2a3fbb8eb86c",
+        "e094d23f6ccbab77f047",
+        "450e3d1a8487acea4319",
+        "6ef405180b77cc96b3f2",
+        "1e5b96af4d413ffac7b8",
+        "f593b0e5d0636e351155",
+        "26a60249e6a6d8af0198",
+        "a759096ace17b29255c8",
+        "94e03686c4b1eb5adb37",
+        "b4fe09f882c0d5ea9214",
+        "880c4a5c56efa2169971",
+        "d244baba62e00f802dd6",
+        "9891eb9b41eb3cd66c4f",
+        "dac463b97f8c5178efbe",
+        "e3ac40da0b8b493129ac",
+        "71f2fad2217285b2c99a",
+        "aadb371c7026332897c7",
+        "fc0533ed02568a960ed3",
+        "3d896109106f2f46e251",
+        "dc342622abce494f0c5d"
+      ],
+      "downloads": 30,
+      "flow_datasets": {
+        "basis": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "6a4613c3e0e30cd08fbe07d2ac54418a1d78cd47e44d5f6caa62b9e8bbb037e1",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "open_interest": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "4d0e0de9cfbb856b496061e0b1b3cf7bf4fb8aef16b866c12747c73394e00c9b",
+          "row_count": 143,
+          "status": "AVAILABLE"
+        },
+        "taker_volume": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "2859b0789c75b680c1f41ef46adbfdb7b898f9af94ecd6e984da5d9708377769",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        }
+      },
+      "funding_events": 42,
+      "historical_order_book_liquidity": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "open_interest_rows": 143,
+      "taker_volume_rows": 168
+    },
+    "decision": {
+      "entry_authorized": false,
+      "reasons": [
+        "1D_1H_NEUTRAL",
+        "LOW_DIRECTIONAL_EFFICIENCY",
+        "NO_VOLUME_EXPANSION"
+      ],
+      "regime": "SIDEWAYS_RANGE",
+      "required_next_gate": "1H_STRUCTURE_THEN_5M_ENTRY",
+      "route": "RANGE_MEAN_REVERSION",
+      "state": "WAITING_MTF_STRUCTURE"
+    },
+    "inputs": {
+      "as_of": 1789352999999,
+      "basis_rate": -0.006,
+      "daily_direction": 0,
+      "funding_change": -0.00070113,
+      "funding_level": -0.00071255,
+      "hourly_direction": 0,
+      "hourly_efficiency": 0.015706806282722117,
+      "missing_features": [],
+      "open_interest_change": 0.020888757591139617,
+      "taker_imbalance": -0.43015147872084636,
+      "volume_expansion": 0.7644752159794129
+    },
+    "symbol": "DATAIPUSDC"
+  },
+  {
+    "data_quality": {
+      "basis_rows": 168,
+      "cache_hits": 30,
+      "candle_rows": 8064,
+      "dataset_ids": [
+        "4e9e6d9683d20b46fc26",
+        "4a4b11c37a64bee5c8a4",
+        "1776783fddd917c67923",
+        "7fa06a0a9cad6126e294",
+        "854f0ada40befc678184",
+        "52b30c96ef1bafe68d8d",
+        "141f767afb9288cbb4e2",
+        "e48a787eb9a7731b5fa0",
+        "08702344fd956f865711",
+        "5f4581d93347271be439",
+        "35eadc691f73fd42970a",
+        "6ae80a283b0aed2ef704",
+        "31d4da079933e680c6c3",
+        "83a8f2570054d9817c70",
+        "ea02a38f330a9b92a82e",
+        "cf92a34a349552841d11",
+        "f68311f28deed6523c17",
+        "0ea9b2f29840a217dbca",
+        "11c64f5dd6fca025d326",
+        "4bab9e11e560bee36247",
+        "78e1ccebe246d54ef78a",
+        "576695993930435bda54",
+        "7487ef472b669f895f43",
+        "e468acc1c24c669de1de",
+        "70099f946196b9f64b00",
+        "a45f882e4aed0e4cb44e",
+        "d679bce94329993e99c9",
+        "be0d554a68424dac3bf0",
+        "a01b65b64dc118f6bd9d"
+      ],
+      "downloads": 0,
+      "flow_datasets": {
+        "basis": {
+          "cache": "HIT",
+          "dataset_id": "a1c5f3b730874d67414b95d6f485fb35990ebc4745fd0a4e231276bc517efb0b",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "open_interest": {
+          "cache": "HIT",
+          "dataset_id": "d875bdfa0a8257549b12992db595f092aa9a01d09ec2a4be5fb3ce66d24962d1",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "taker_volume": {
+          "cache": "HIT",
+          "dataset_id": "c9ce9b3cc6025a78e2eb6d01533258ce0b81b32d303c31a2ce0d19cd5b3b6671",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        }
+      },
+      "funding_events": 21,
+      "historical_order_book_liquidity": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "open_interest_rows": 168,
+      "taker_volume_rows": 168
+    },
+    "decision": {
+      "entry_authorized": false,
+      "reasons": [
+        "TIMEFRAME_OR_PARTICIPATION_CONFLICT"
+      ],
+      "regime": "AMBIGUOUS",
+      "required_next_gate": null,
+      "route": "WAIT",
+      "state": "WAIT"
+    },
+    "inputs": {
+      "as_of": 1789352999999,
+      "basis_rate": -0.0005,
+      "daily_direction": 0,
+      "funding_change": 9.853e-05,
+      "funding_level": 5.268e-05,
+      "hourly_direction": 1,
+      "hourly_efficiency": 0.17872223745544416,
+      "missing_features": [],
+      "open_interest_change": -0.001249680040054102,
+      "taker_imbalance": -0.03412897240671064,
+      "volume_expansion": 1.1828959289955479
+    },
+    "symbol": "ETHUSDT"
+  },
+  {
+    "data_quality": {
+      "basis_rows": 168,
+      "cache_hits": 0,
+      "candle_rows": 8064,
+      "dataset_ids": [
+        "1dac9ebb65ca8d3f3af3",
+        "a753af1f8ff3f9a49f28",
+        "0330d5d05f4d7ff94f04",
+        "7e2b1eead13521b1c6c1",
+        "6c3283e3b9ffa2af2109",
+        "d1fd4ef9e58521c89318",
+        "c50de48d1f682a785886",
+        "cf0f05c5728b115591b0",
+        "504131f4bf0cdc75da4f",
+        "aeaa5d1ccbe3f7cb5311",
+        "ec3ce56740e710dee84a",
+        "31b9ae12fb5544f8605d",
+        "76f69e9993e4aaba933d",
+        "6f79d83e7e469f0a00af",
+        "48cd3a16c9335421eed0",
+        "0b4dca1a6d6638282f1d",
+        "471dda455a7dad05d8ff",
+        "5ca198fa1d6284b5be95",
+        "d4e8aed8a273e92253a2",
+        "d9b68d0ea656ed1510d4",
+        "0bc0b59a5807f23913f7",
+        "84bba11e83458b2dcd26",
+        "ad7adb3355691cc6a872",
+        "0ed721d828af310ab8a5",
+        "bd6594ed9f21d01b4a6b",
+        "b0d361573801b507ae5b",
+        "c7b813f35aa4490493c1",
+        "b090409213d2149795fa",
+        "9666e480e90aac4a47db"
+      ],
+      "downloads": 30,
+      "flow_datasets": {
+        "basis": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "c1e8f0e862a70860722f2a96c313049f7efb83e87afbb2d0f7f72ae66ad5574f",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "open_interest": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "49e94ee507cb20ee0149f7c14e0832e4a4b62531712cf2ee8cb900637f9c5ba6",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "taker_volume": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "65e8564fd48f9b1b7588164c3733b84661bd7fa5711f5b41464eb9ca1dcbc5f0",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        }
+      },
+      "funding_events": 42,
+      "historical_order_book_liquidity": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "open_interest_rows": 168,
+      "taker_volume_rows": 168
+    },
+    "decision": {
+      "entry_authorized": false,
+      "reasons": [
+        "TREND_EFFICIENCY_WEAK",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "POSITIONING_CROWDED"
+      ],
+      "regime": "AMBIGUOUS",
+      "required_next_gate": null,
+      "route": "WAIT",
+      "state": "WAIT"
+    },
+    "inputs": {
+      "as_of": 1789352999999,
+      "basis_rate": -0.0019,
+      "daily_direction": -1,
+      "funding_change": 0.0,
+      "funding_level": 5e-05,
+      "hourly_direction": -1,
+      "hourly_efficiency": 0.17472118959107832,
+      "missing_features": [],
+      "open_interest_change": -0.0017353094116080436,
+      "taker_imbalance": -0.037173913713322904,
+      "volume_expansion": 1.6213307940258164
+    },
+    "symbol": "PENGUUSDC"
+  }
+]

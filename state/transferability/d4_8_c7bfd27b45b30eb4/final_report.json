@@ -1,0 +1,37 @@
+{
+  "full_universe_executed": false,
+  "missing_funding_symbols": [
+    "BTCUSDT",
+    "LABUSDT",
+    "HUSDT",
+    "LINKUSDT",
+    "DOTUSDT",
+    "INJUSDT",
+    "LTCUSDT",
+    "PUMPUSDT",
+    "ORCAUSDT",
+    "ZAMAUSDT",
+    "ZKUSDT",
+    "USUSDT",
+    "SUSDT",
+    "LAYERUSDT",
+    "PHAROSUSDT",
+    "UAIUSDT",
+    "TAKEUSDT",
+    "STARUSDT",
+    "XNYUSDT",
+    "TAGUSDT",
+    "GRIFFAINUSDT",
+    "BROCCOLIF3BUSDT",
+    "DOODUSDT",
+    "ONUSDT"
+  ],
+  "reasons": [
+    "MISSING_LOCAL_FUNDING_HISTORY"
+  ],
+  "run_id": "d4_8_c7bfd27b45b30eb4",
+  "stage_a_executed": false,
+  "stage_b_executed": false,
+  "status": "STOPPED",
+  "verdict": "INSUFFICIENT_DATA"
+}

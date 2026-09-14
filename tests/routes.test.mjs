@@ -19,7 +19,7 @@ test("D4.5 signal discovery remains stable, evidence-only, and visible in Strate
   assert.match(page, /NOT A TRADING STRATEGY/);
   assert.match(page, /No BUY\/SELL action/);
   assert.match(provider, /getLatestD45Discovery/);
-  assert.match(navigation, /through D4\.5 STABLE/);
+  assert.match(navigation, /through D4\.7 STABLE/);
   assert.match(spec, /OOS_NOT_ACCESSED/);
   assert.match(spec, /HISTORICAL_FEATURE_NOT_AVAILABLE/);
 });
@@ -105,11 +105,40 @@ test("backtest monitor prefers and labels real artifacts", () => {
   assert.match(page, /Selected run performance/);
 });
 
-test("milestone UI reports D4.5 stable and D4.6 complete", () => {
+test("D4.7 live monitor is read-only and artifact-backed", () => {
+  const page = readFileSync("src/app/backtest/page.tsx", "utf8");
+  const monitor = readFileSync("src/components/d47-live-monitor.tsx", "utf8");
+  const route = readFileSync("src/app/api/research/d4-7/route.ts", "utf8");
+  const provider = readFileSync("src/data/d47-monitor.ts", "utf8");
+  assert.match(page, /D4\.7 Live Research Monitor/);
+  assert.match(page, /NOT A TRADE BACKTEST/);
+  assert.match(monitor, /setInterval\(refresh, 3_000\)/);
+  assert.match(provider, /manifest\.json/);
+  assert.match(provider, /FINALIZING/);
+  assert.match(route, /getD47MonitorSnapshot/);
+  assert.doesNotMatch([page, monitor, route, provider].join("\n"), /writeFile|execFile|spawn\(/);
+});
+
+test("milestone UI reports D5 contracts frozen", () => {
   const nav = readFileSync("src/components/nav.tsx", "utf8");
-  assert.match(nav, /D0\+D1 through D4\.5 STABLE/);
-  assert.match(nav, /D4\.6 COMPLETE/);
+  assert.match(nav, /D0\+D1 through D4\.7 STABLE/);
+  assert.match(nav, /D5 CONTRACTS FROZEN/);
+  assert.match(nav, /execution locked · OOS untouched/);
   assert.doesNotMatch(nav, /D2\.5 ACTIVE/);
+});
+
+test("D4.7 final result is immutable, OOS-safe, and documented", () => {
+  const root = "state/signal-replication/d4_7_f38827b40e50d854";
+  for (const name of ["manifest.json", "replication-gate.json", "signal-b.json", "replication-report.md"]) assert.equal(existsSync(`${root}/${name}`), true, `${name} is missing`);
+  const manifest = JSON.parse(readFileSync(`${root}/manifest.json`, "utf8"));
+  const gate = JSON.parse(readFileSync(`${root}/replication-gate.json`, "utf8"));
+  assert.equal(manifest.status, "COMPLETED");
+  assert.equal(manifest.final_decision, "NOT_REPLICATED");
+  assert.equal(manifest.oos_access, "OOS_NOT_ACCESSED");
+  assert.equal(manifest.locked_oos_resolved_or_read, false);
+  assert.equal(manifest.thresholds_changed, false);
+  assert.equal(gate.decision, "NOT_REPLICATED");
+  assert.equal(existsSync("docs/D4_7_TEMPORAL_REPLICATION_SPEC.md"), true);
 });
 
 test("D4.6 replication is artifact-backed and never presented as a strategy", () => {

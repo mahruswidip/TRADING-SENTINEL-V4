@@ -1,0 +1,532 @@
+{
+  "boundary_buffer_ms": 86400000,
+  "bridge_url": "http://127.0.0.1:8766",
+  "cache_hash": "6a7b4e19a696b38c062b4ba8cfbc307226c3d487f779f255993f777d63040ef6",
+  "completeness_verdict": "PASS",
+  "d4_8_missing_after_backfill": [],
+  "d4_8_run_id": "d4_8_c7bfd27b45b30eb4",
+  "data_source": "BINANCE_USDS_M_FUTURES_OFFICIAL_PUBLIC_VIA_V2_BRIDGE",
+  "evaluation_end": 1782864000000,
+  "evaluation_start": 1780272000000,
+  "execution_semantics_changed": false,
+  "generated_at": "2026-09-14T04:07:43.853639+00:00",
+  "milestone": "D4.8A",
+  "real_touched": false,
+  "record_counts": {
+    "BROCCOLIF3BUSDT": 191,
+    "BTCUSDT": 96,
+    "DOODUSDT": 191,
+    "DOTUSDT": 96,
+    "GRIFFAINUSDT": 191,
+    "HUSDT": 313,
+    "INJUSDT": 96,
+    "LABUSDT": 440,
+    "LAYERUSDT": 191,
+    "LINKUSDT": 96,
+    "LTCUSDT": 96,
+    "ONUSDT": 192,
+    "ORCAUSDT": 191,
+    "PHAROSUSDT": 191,
+    "PUMPUSDT": 191,
+    "STARUSDT": 191,
+    "SUSDT": 191,
+    "TAGUSDT": 191,
+    "TAKEUSDT": 191,
+    "UAIUSDT": 192,
+    "USUSDT": 191,
+    "XNYUSDT": 191,
+    "ZAMAUSDT": 191,
+    "ZKUSDT": 191
+  },
+  "requested_end": 1782950400000,
+  "requested_start": 1780185600000,
+  "source_endpoint": "GET /fapi/v1/fundingRate",
+  "stage_a_executed": false,
+  "stage_a_universe_changed": false,
+  "stage_a_universe_hash": "450013b08f2501ecf940a57b69dffac40261db6b26dbbfd397d3df0f98fb8c6c",
+  "strategy_logic_changed": false,
+  "symbols": {
+    "BROCCOLIF3BUSDT": {
+      "cache_hash": "51d649bb4016da553615638a2f8d300bcd76a38b5a2318ab522529c29b655421",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\BROCCOLIF3BUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "BTCUSDT": {
+      "cache_hash": "5b84ef1622927a0b7839de2ddb7267802bbbe2e9d2a4e61bdcfd77e16e3b83f0",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\BTCUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782921600000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        8
+      ],
+      "record_count": 96,
+      "unexpected_interval_changes": 0
+    },
+    "DOODUSDT": {
+      "cache_hash": "c076005dc0f7b51b3a94f51ccce90860d4338fdde082b6e1cefdae74fa20564a",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\DOODUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "DOTUSDT": {
+      "cache_hash": "0830785dac6e875c537ef04948f6d47d0ca5bef376a83ceec46c1874eb9a9143",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\DOTUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782921600000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        8
+      ],
+      "record_count": 96,
+      "unexpected_interval_changes": 0
+    },
+    "GRIFFAINUSDT": {
+      "cache_hash": "a1b18763ed0ca58126b825b5bcccd3b2b3d9f64f9a2fa2ed29b9a3b8ec836084",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\GRIFFAINUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "HUSDT": {
+      "cache_hash": "999924a06cf122509feb50749cf7ac5e3e566684387d60a7b871ae3e467f5e84",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\HUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "record_count": 313,
+      "unexpected_interval_changes": 5
+    },
+    "INJUSDT": {
+      "cache_hash": "16d9d4eacde48151d8d753b3f5fae14e359be1b4c54ea63ecca605f5f23440ff",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\INJUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782921600000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        8
+      ],
+      "record_count": 96,
+      "unexpected_interval_changes": 0
+    },
+    "LABUSDT": {
+      "cache_hash": "08e6bb8a62b857172e2014fd6ee911b99bdfe406908e6076b2b37af81c7c1037",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\LABUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782946800000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        1,
+        4,
+        8
+      ],
+      "record_count": 440,
+      "unexpected_interval_changes": 5
+    },
+    "LAYERUSDT": {
+      "cache_hash": "e9f1f4b2d5acf8f05ec507224f9c6efb8c4b4ad4760e4dd9b88105b8d6167141",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\LAYERUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "LINKUSDT": {
+      "cache_hash": "5fc32f050591c6cffb80f0e92fe94a11821aa2842bb161bed3d8ec63078dff92",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\LINKUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782921600000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        8
+      ],
+      "record_count": 96,
+      "unexpected_interval_changes": 0
+    },
+    "LTCUSDT": {
+      "cache_hash": "70df225e551d36f718618f0086a17022732f8efe3827f68e302f70fd68f7e3f3",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\LTCUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782921600000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        8
+      ],
+      "record_count": 96,
+      "unexpected_interval_changes": 0
+    },
+    "ONUSDT": {
+      "cache_hash": "dff3e91c7ee9261c33806e9f1f2cbb8d107cdc6b6147db4a2f0b9f7f6aaa5606",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\ONUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4
+      ],
+      "record_count": 192,
+      "unexpected_interval_changes": 0
+    },
+    "ORCAUSDT": {
+      "cache_hash": "ac5975947e946899b5c9f74dad3557ff50364d443cccbce4b87282561f68e5e7",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\ORCAUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "PHAROSUSDT": {
+      "cache_hash": "b05aab121103fe63b3abe97d5228b9eeadcd96e338636dc584ee1cb8ced486d3",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\PHAROSUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "PUMPUSDT": {
+      "cache_hash": "0888d6dd22bab19ed4b0cb1679ba76afe9c023849cd1d19efad57317b742879d",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\PUMPUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "STARUSDT": {
+      "cache_hash": "2b6c608baeae8aa18a5b590b5da34b71a8b68bc40ed1489f47073a3c57f68565",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\STARUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "SUSDT": {
+      "cache_hash": "261be66ac2b4b4acf8da87707d041d730a7021fb9f67092cdc963d07c3f55eb8",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\SUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "TAGUSDT": {
+      "cache_hash": "1747c44b3bc179cd300e966b4200724e127dde64295323ebe628c1479dc44fc9",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\TAGUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "TAKEUSDT": {
+      "cache_hash": "6a85acb86f42066019415a1c4706b576289db9f2cff048e4d095eaa112e972e0",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\TAKEUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "UAIUSDT": {
+      "cache_hash": "d1dd2f3b74c6ce3043c0d94b2ce8b33fc77f989dd08384aa301d58a318d23730",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\UAIUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4
+      ],
+      "record_count": 192,
+      "unexpected_interval_changes": 0
+    },
+    "USUSDT": {
+      "cache_hash": "12577eaa1a1d66265eb2e8beb1217e8217797cb69650244784a2b0c4f034e68a",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\USUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "XNYUSDT": {
+      "cache_hash": "2f9985077ff12ebc6126d1f5311793af4df3488e07fcac0770d193952891baf9",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\XNYUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "ZAMAUSDT": {
+      "cache_hash": "f338fb5c6f52818f3b3b7ea07ff85e81f1450b26d917503da7d5a370425c9c02",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\ZAMAUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    },
+    "ZKUSDT": {
+      "cache_hash": "0571d261ce6d6e2b55ca084f92a85a28ba3e126ce6583e4469ccf3553b995a29",
+      "cache_path": "D:\\MAHRUS\\PROJECT\\TRADING-SENTINEL-V4\\data\\market\\binance-usdm-v1\\ZKUSDT\\funding\\1780185600000-1782950400000.json",
+      "contract_status": "VALID_PERPETUAL",
+      "coverage_complete": true,
+      "duplicate_timestamps": 0,
+      "first_timestamp": 1780185600000,
+      "invalid_numeric_rates": 0,
+      "last_timestamp": 1782936000000,
+      "missing_intervals": 0,
+      "null_rates": 0,
+      "observed_interval_hours": [
+        4,
+        8
+      ],
+      "record_count": 191,
+      "unexpected_interval_changes": 2
+    }
+  },
+  "symbols_failed": [],
+  "symbols_requested": [
+    "BTCUSDT",
+    "LABUSDT",
+    "HUSDT",
+    "LINKUSDT",
+    "DOTUSDT",
+    "INJUSDT",
+    "LTCUSDT",
+    "PUMPUSDT",
+    "ORCAUSDT",
+    "ZAMAUSDT",
+    "ZKUSDT",
+    "USUSDT",
+    "SUSDT",
+    "LAYERUSDT",
+    "PHAROSUSDT",
+    "UAIUSDT",
+    "TAKEUSDT",
+    "STARUSDT",
+    "XNYUSDT",
+    "TAGUSDT",
+    "GRIFFAINUSDT",
+    "BROCCOLIF3BUSDT",
+    "DOODUSDT",
+    "ONUSDT"
+  ],
+  "symbols_succeeded": [
+    "BTCUSDT",
+    "LABUSDT",
+    "HUSDT",
+    "LINKUSDT",
+    "DOTUSDT",
+    "INJUSDT",
+    "LTCUSDT",
+    "PUMPUSDT",
+    "ORCAUSDT",
+    "ZAMAUSDT",
+    "ZKUSDT",
+    "USUSDT",
+    "SUSDT",
+    "LAYERUSDT",
+    "PHAROSUSDT",
+    "UAIUSDT",
+    "TAKEUSDT",
+    "STARUSDT",
+    "XNYUSDT",
+    "TAGUSDT",
+    "GRIFFAINUSDT",
+    "BROCCOLIF3BUSDT",
+    "DOODUSDT",
+    "ONUSDT"
+  ],
+  "total_records": 4482
+}

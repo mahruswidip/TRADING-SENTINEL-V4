@@ -15,6 +15,19 @@ Agents working in this repository must optimize for:
 
 Do not optimize for flashy output at the expense of system integrity.
 
+## Always-On Efficiency Mode
+
+For every task in this project, including new Codex chats:
+
+- use the Ponytail plugin in `full` mode for coding work,
+- use Caveman Mode whenever its plugin capability is available,
+- keep responses terse and lead with the result,
+- prefer the smallest correct change, existing code, and standard-library or native features,
+- avoid subagents, broad searches, repeated validation, and unrelated work unless the user explicitly requests them,
+- run only validation proportional to the change and do not run backtests or research pipelines unless explicitly requested.
+
+If Caveman Mode is unavailable, continue with the same terse style without blocking the task.
+
 ---
 
 ## Source of Truth
@@ -103,7 +116,23 @@ D4.6 loads and hashes exactly the two promising definitions from authoritative D
 
 D4.6B references immutable parent run `d4_6_8733a768a0dd3dd4`, preserves both D4.5 definition hashes and the same Development window, and expands deterministic Universe(t) breadth through Stage B and Stage C. Signal B independently controls progression; Signal A cannot veto it. The verified run `d4_6b_d9380c7ff0781bac` reached 189 usable symbols and retained Signal B as `WEAK_REPLICATION`; Signal A remained `NOT_REPLICATED`. Locked OOS remains `OOS_NOT_ACCESSED`.
 
-### OUT OF SCOPE FOR D4.6 / D4.6B
+### STABLE FOUNDATION: D4.7 — Independent Temporal Replication
+
+D4.7 references immutable parent run `d4_6b_d9380c7ff0781bac` and the unchanged Signal B definition hash `79f6169b3289d82c1e7e6b654b93bf7440d14cb1f42b00ad858a3d64f26d49af`. Verified run `d4_7_f38827b40e50d854` used a non-overlapping pre-July Development window and 201 usable symbols. Signal B was `NOT_REPLICATED`: its mean and median were negative and broad, but the daily-block confidence interval crossed zero and temporal evidence showed `SIGN_FLIP`. Locked OOS remains `OOS_NOT_ACCESSED`; no strategy was created.
+
+### STABLE FOUNDATION: D5 — Contract Freeze
+
+D5 freezes transport contract V1.0.0 in `src/domain/contracts-v1.ts`: REST envelopes and payloads, WebSocket envelopes/events and ordering, status enums, no-lookahead chart annotations, immutable strategy identity, and the sequential manual promotion workflow. The read-only manifest is exposed at `/api/contracts/v1`. This does not implement backend trading services, authorize OOS, or enable Shadow, Canary, Real, or automatic promotion.
+
+### D4.8 — Cross-Market Harvest & Strategy Transferability Study
+
+D4.8 inventories prior deterministic mechanisms, freezes admissible rules, and measures cross-market/fold transferability with unchanged D3/D4 execution and costs. Preflight run `d4_8_c7bfd27b45b30eb4` built a deterministic 24-symbol Stage A cohort. D4.8A subsequently completed its official historical funding cache, resolving the data blocker without changing the cohort or launching Stage A. Stage A, Stage B, full-universe, Shadow, Canary, and REAL remain unexecuted. The earlier market-intelligence router remains an isolated precursor, not an entry authority or the authoritative D4.8 milestone.
+
+### STABLE FOUNDATION: D4.8A — Historical Funding Cache Backfill
+
+D4.8A fetched only the frozen 24-symbol Stage A cohort from Binance's official USDⓈ-M public funding endpoint through the existing read-only V2 bridge. It cached 4,482 actual funding events for the minimum evaluation range plus a deterministic one-day boundary buffer. All 24 contracts and coverage checks passed; no symbol, strategy, execution rule, or score/gate changed. D4.8 data is ready, but its 960-job Stage A run still requires a separate explicit action.
+
+### OUT OF SCOPE FOR D4.6 / D4.6B / D4.7
 
 Do **not** implement:
 

@@ -1,0 +1,294 @@
+{
+  "engine_version": "d4.8-transferability-v1",
+  "execution_plan": {
+    "external_downloads": 0,
+    "folds": 4,
+    "jobs": 960,
+    "mechanisms": 5,
+    "phases_per_fold": 2,
+    "symbols": 24,
+    "workers": 15
+  },
+  "folds": [
+    {
+      "development": {
+        "end": 1780677000000,
+        "start": 1780272000000
+      },
+      "fold": 1,
+      "oos": {
+        "end": 1780920000000,
+        "start": 1780677000000,
+        "tuning_allowed": false
+      }
+    },
+    {
+      "development": {
+        "end": 1781325000000,
+        "start": 1780920000000
+      },
+      "fold": 2,
+      "oos": {
+        "end": 1781568000000,
+        "start": 1781325000000,
+        "tuning_allowed": false
+      }
+    },
+    {
+      "development": {
+        "end": 1781973000000,
+        "start": 1781568000000
+      },
+      "fold": 3,
+      "oos": {
+        "end": 1782216000000,
+        "start": 1781973000000,
+        "tuning_allowed": false
+      }
+    },
+    {
+      "development": {
+        "end": 1782621000000,
+        "start": 1782216000000
+      },
+      "fold": 4,
+      "oos": {
+        "end": 1782864000000,
+        "start": 1782621000000,
+        "tuning_allowed": false
+      }
+    }
+  ],
+  "full_universe_authorized": false,
+  "history": {
+    "end": 1782864000000,
+    "evaluation_dates": [
+      "2026-06-01",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04",
+      "2026-06-05",
+      "2026-06-06",
+      "2026-06-07",
+      "2026-06-08",
+      "2026-06-09",
+      "2026-06-10",
+      "2026-06-11",
+      "2026-06-12",
+      "2026-06-13",
+      "2026-06-14",
+      "2026-06-15",
+      "2026-06-16",
+      "2026-06-17",
+      "2026-06-18",
+      "2026-06-19",
+      "2026-06-20",
+      "2026-06-21",
+      "2026-06-22",
+      "2026-06-23",
+      "2026-06-24",
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30"
+    ],
+    "source": "EXISTING_LOCAL_CACHE_ONLY",
+    "start": 1780272000000,
+    "warmup_dates": [
+      "2026-05-29",
+      "2026-05-30",
+      "2026-05-31"
+    ]
+  },
+  "identity_hash": "c7bfd27b45b30eb4743c400ff1c50840d65a07f5ed2be055a4993e5a05055dab",
+  "mechanisms": [
+    "BREAKOUT_RETEST_V1",
+    "RANGE_REVERSION_V1",
+    "MOMENTUM_BREAK_V1",
+    "BREAKOUT_RETEST_V2",
+    "RANGE_REVERSION_V2"
+  ],
+  "missing_funding_symbols": [
+    "BTCUSDT",
+    "LABUSDT",
+    "HUSDT",
+    "LINKUSDT",
+    "DOTUSDT",
+    "INJUSDT",
+    "LTCUSDT",
+    "PUMPUSDT",
+    "ORCAUSDT",
+    "ZAMAUSDT",
+    "ZKUSDT",
+    "USUSDT",
+    "SUSDT",
+    "LAYERUSDT",
+    "PHAROSUSDT",
+    "UAIUSDT",
+    "TAKEUSDT",
+    "STARUSDT",
+    "XNYUSDT",
+    "TAGUSDT",
+    "GRIFFAINUSDT",
+    "BROCCOLIF3BUSDT",
+    "DOODUSDT",
+    "ONUSDT"
+  ],
+  "oos_policy": "FOLD_OOS_EVALUATION_ONLY_NO_TUNING",
+  "real_enabled": false,
+  "run_id": "d4_8_c7bfd27b45b30eb4",
+  "shadow_enabled": false,
+  "stage": "A",
+  "status": "BLOCKED",
+  "stop_reasons": [
+    "MISSING_LOCAL_FUNDING_HISTORY"
+  ],
+  "universe": [
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 23055967.466599997,
+      "realized_5m_volatility": 0.0015795430409687086,
+      "symbol": "BTCUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 910987.2339999999,
+      "realized_5m_volatility": 0.015512771117436736,
+      "symbol": "LABUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 360021.056415,
+      "realized_5m_volatility": 0.020912409257573133,
+      "symbol": "HUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 211587.24703000003,
+      "realized_5m_volatility": 0.002299954149844491,
+      "symbol": "LINKUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 160269.9008,
+      "realized_5m_volatility": 0.002743559356846298,
+      "symbol": "DOTUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 147843.30075,
+      "realized_5m_volatility": 0.0042831048892447935,
+      "symbol": "INJUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 141155.25477,
+      "realized_5m_volatility": 0.0019893995739194833,
+      "symbol": "LTCUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 133022.04663300002,
+      "realized_5m_volatility": 0.004089855482639746,
+      "symbol": "PUMPUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 12917.2116,
+      "realized_5m_volatility": 0.003328287472490838,
+      "symbol": "ORCAUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 12012.350600000002,
+      "realized_5m_volatility": 0.0035561347887123527,
+      "symbol": "ZAMAUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 11566.754550000001,
+      "realized_5m_volatility": 0.0035290439920578373,
+      "symbol": "ZKUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 11278.700302000001,
+      "realized_5m_volatility": 0.009448945827191912,
+      "symbol": "USUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 11239.030739999998,
+      "realized_5m_volatility": 0.003956071437347959,
+      "symbol": "SUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 10827.381808000002,
+      "realized_5m_volatility": 0.004016094345624167,
+      "symbol": "LAYERUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 10668.99905,
+      "realized_5m_volatility": 0.0035532189812197356,
+      "symbol": "PHAROSUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 10547.8365,
+      "realized_5m_volatility": 0.005999275505058827,
+      "symbol": "UAIUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 2203.2042,
+      "realized_5m_volatility": 0.005494202019986833,
+      "symbol": "TAKEUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 2762.57569,
+      "realized_5m_volatility": 0.005286359811701704,
+      "symbol": "STARUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 1789.411367,
+      "realized_5m_volatility": 0.005174085756646162,
+      "symbol": "XNYUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 3591.39896145,
+      "realized_5m_volatility": 0.004505680078263829,
+      "symbol": "TAGUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 2624.0752,
+      "realized_5m_volatility": 0.004141005766664992,
+      "symbol": "GRIFFAINUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 1666.1541379999999,
+      "realized_5m_volatility": 0.004115016475141216,
+      "symbol": "BROCCOLIF3BUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 3029.3723245,
+      "realized_5m_volatility": 0.004083750410302234,
+      "symbol": "DOODUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 2187.60165,
+      "realized_5m_volatility": 0.004081170176429835,
+      "symbol": "ONUSDT"
+    }
+  ]
+}

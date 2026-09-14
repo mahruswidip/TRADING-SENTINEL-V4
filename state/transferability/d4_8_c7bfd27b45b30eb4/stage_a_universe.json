@@ -1,0 +1,150 @@
+{
+  "selection": "8 high liquidity + 8 medium liquidity + 8 high-beta/lower-liquidity",
+  "static_whitelist": false,
+  "symbols": [
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 23055967.466599997,
+      "realized_5m_volatility": 0.0015795430409687086,
+      "symbol": "BTCUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 910987.2339999999,
+      "realized_5m_volatility": 0.015512771117436736,
+      "symbol": "LABUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 360021.056415,
+      "realized_5m_volatility": 0.020912409257573133,
+      "symbol": "HUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 211587.24703000003,
+      "realized_5m_volatility": 0.002299954149844491,
+      "symbol": "LINKUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 160269.9008,
+      "realized_5m_volatility": 0.002743559356846298,
+      "symbol": "DOTUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 147843.30075,
+      "realized_5m_volatility": 0.0042831048892447935,
+      "symbol": "INJUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 141155.25477,
+      "realized_5m_volatility": 0.0019893995739194833,
+      "symbol": "LTCUSDT"
+    },
+    {
+      "bucket": "HIGH_LIQUIDITY",
+      "median_5m_notional_proxy": 133022.04663300002,
+      "realized_5m_volatility": 0.004089855482639746,
+      "symbol": "PUMPUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 12917.2116,
+      "realized_5m_volatility": 0.003328287472490838,
+      "symbol": "ORCAUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 12012.350600000002,
+      "realized_5m_volatility": 0.0035561347887123527,
+      "symbol": "ZAMAUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 11566.754550000001,
+      "realized_5m_volatility": 0.0035290439920578373,
+      "symbol": "ZKUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 11278.700302000001,
+      "realized_5m_volatility": 0.009448945827191912,
+      "symbol": "USUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 11239.030739999998,
+      "realized_5m_volatility": 0.003956071437347959,
+      "symbol": "SUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 10827.381808000002,
+      "realized_5m_volatility": 0.004016094345624167,
+      "symbol": "LAYERUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 10668.99905,
+      "realized_5m_volatility": 0.0035532189812197356,
+      "symbol": "PHAROSUSDT"
+    },
+    {
+      "bucket": "MEDIUM_LIQUIDITY",
+      "median_5m_notional_proxy": 10547.8365,
+      "realized_5m_volatility": 0.005999275505058827,
+      "symbol": "UAIUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 2203.2042,
+      "realized_5m_volatility": 0.005494202019986833,
+      "symbol": "TAKEUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 2762.57569,
+      "realized_5m_volatility": 0.005286359811701704,
+      "symbol": "STARUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 1789.411367,
+      "realized_5m_volatility": 0.005174085756646162,
+      "symbol": "XNYUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 3591.39896145,
+      "realized_5m_volatility": 0.004505680078263829,
+      "symbol": "TAGUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 2624.0752,
+      "realized_5m_volatility": 0.004141005766664992,
+      "symbol": "GRIFFAINUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 1666.1541379999999,
+      "realized_5m_volatility": 0.004115016475141216,
+      "symbol": "BROCCOLIF3BUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 3029.3723245,
+      "realized_5m_volatility": 0.004083750410302234,
+      "symbol": "DOODUSDT"
+    },
+    {
+      "bucket": "HIGH_BETA_LOWER_LIQUIDITY",
+      "median_5m_notional_proxy": 2187.60165,
+      "realized_5m_volatility": 0.004081170176429835,
+      "symbol": "ONUSDT"
+    }
+  ]
+}

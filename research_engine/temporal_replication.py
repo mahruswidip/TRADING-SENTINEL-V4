@@ -15,15 +15,21 @@ from backtest_engine.cli import eligible_symbols
 from backtest_engine.data import atomic_json, iso_ms
 from backtest_engine.engine import stable_digest
 from forensics_engine.analysis import DAY_MS
-from research_engine.discovery import MINIMUM_ROUND_TRIP_COST_BPS, percentile, summarize_slice, symbol_breadth
+from research_engine.discovery import (
+    MINIMUM_ROUND_TRIP_COST_BPS,
+    bucket_value,
+    cross_sectional_rank,
+    percentile,
+    summarize_slice,
+    symbol_breadth,
+    universe_eligible,
+)
 from research_engine.fvg import PacedBridgeClient
 from research_engine.replication import (
     _atomic_gzip_json,
     _cache_partition,
-    _enrich_cross_section,
     _load_symbol,
     _read_gzip_json,
-    _signal_rows,
     _temporal_detail,
     deterministic_selection,
     file_sha256,
@@ -179,6 +185,82 @@ def mechanism_forensics(rows: list[dict[str, Any]], btc_rows: list[dict[str, Any
     }
 
 
+def _load_matched_rows_bounded(
+    work: Path,
+    symbols: list[str],
+    metadata: dict[str, dict[str, Any]],
+    btc_rows: list[dict[str, Any]],
+    definition: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """Reconstruct the frozen Signal B slice without retaining every full source row."""
+    left, right, _ = definition["interaction"]
+    rules = {item["id"]: item["bucket_rule"] for item in definition["component_catalog"]}
+    expected_left, expected_right = definition["condition_bucket"].split(" × ", 1)
+    btc_by_time = {row["timestamp"]: row["features"].get("return_1h") for row in btc_rows}
+    relevant_times = {
+        timestamp for timestamp, value in btc_by_time.items()
+        if bucket_value(rules[right], value) == expected_right
+    }
+
+    # Tuple layout keeps the pre-filter working set compact:
+    # symbol, return_1h, historical_quote_volume_4h, label_4h,
+    # listing_age_days, normalized_atr, date, segment.
+    compact_by_time: dict[int, list[tuple[str, float, float, float, float | None, float | None, str, str]]] = defaultdict(list)
+    for symbol in symbols:
+        symbol_rows = _read_gzip_json(work / f"{symbol}.rows.json.gz")
+        for row in symbol_rows:
+            timestamp = int(row["timestamp"])
+            if timestamp not in relevant_times:
+                continue
+            return_1h = row["features"].get("return_1h")
+            label_4h = row["labels"].get("4h")
+            historical_volume = row["descriptive"].get("historical_quote_volume_4h")
+            if not isinstance(return_1h, (float, int)) or not isinstance(label_4h, (float, int)) or not isinstance(historical_volume, (float, int)):
+                continue
+            listing_age = row["features"].get("listing_age_days")
+            normalized_atr = row["features"].get("normalized_atr")
+            compact_by_time[timestamp].append((
+                symbol, float(return_1h), float(historical_volume), float(label_4h),
+                float(listing_age) if isinstance(listing_age, (float, int)) else None,
+                float(normalized_atr) if isinstance(normalized_atr, (float, int)) else None,
+                str(row["date"]), str(row["segment"]),
+            ))
+        del symbol_rows
+
+    matched: list[dict[str, Any]] = []
+    for timestamp in sorted(compact_by_time):
+        group = compact_by_time[timestamp]
+        eligible = {symbol for symbol, item in metadata.items() if universe_eligible(item, timestamp)}
+        returns = {item[0]: item[1] for item in group}
+        return_ranks = cross_sectional_rank(returns, eligible)
+        volume_ranks = cross_sectional_rank({item[0]: item[2] for item in group}, eligible)
+        market_breadth = sum(value > 0 for value in returns.values()) / len(returns) if returns else None
+        btc_return = btc_by_time[timestamp]
+        for symbol, _, historical_volume, label_4h, listing_age, normalized_atr, date, segment in group:
+            relative_strength = return_ranks.get(symbol)
+            if bucket_value(rules[left], relative_strength) != expected_left:
+                continue
+            matched.append({
+                "symbol": symbol,
+                "timestamp": timestamp,
+                "date": date,
+                "segment": segment,
+                "features": {
+                    left: relative_strength,
+                    right: btc_return,
+                    "listing_age_days": listing_age,
+                    "normalized_atr": normalized_atr,
+                    "market_breadth": market_breadth,
+                },
+                "labels": {"4h": label_4h},
+                "descriptive": {
+                    "historical_quote_volume_4h": historical_volume,
+                    "historical_quote_volume_bucket": bucket_value("TERCILE", volume_ranks.get(symbol)),
+                },
+            })
+    return matched
+
+
 def resource_plan(start: int, end: int, workers: int, state_root: Path, cache_root: Path, bridge_url: str) -> dict[str, Any]:
     definition, source = _source_signal_b(state_root)
     parent = _parent_contract(state_root)
@@ -293,10 +375,8 @@ def execute(run_id: str, state_root: Path, cache_root: Path, bridge_url: str) ->
         _atomic_gzip_json(work / "BTCUSDT.context.rows.json.gz", btc_rows)
         atomic_json(work / "BTCUSDT.context.quality.json", btc_quality)
     usable = [symbol for symbol in plan["symbols"] if symbol in checkpoint["completed_symbols"]]
-    rows = [row for symbol in usable for row in _read_gzip_json(work / f"{symbol}.rows.json.gz")]
     metadata = {item["symbol"]: item for item in plan["universe_snapshot"] if item["symbol"] in usable}
-    _enrich_cross_section(rows, metadata, btc_rows)
-    matched = _signal_rows(rows, definition)
+    matched = _load_matched_rows_bounded(work, usable, metadata, btc_rows, definition)
     replication = summarize_slice(matched, definition["feature"], definition["condition_bucket"], definition["horizon"])
     replication["direction_hit_rate"] = sum(float(row["labels"]["4h"]) < 0 for row in matched if row["labels"].get("4h") is not None) / max(1, replication["observation_count"])
     replication["breadth"] = symbol_breadth(matched, "4h", -1)

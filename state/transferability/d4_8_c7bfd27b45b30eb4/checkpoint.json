@@ -1,0 +1,8 @@
+{
+  "completed_jobs": [],
+  "identity_hash": "c7bfd27b45b30eb4743c400ff1c50840d65a07f5ed2be055a4993e5a05055dab",
+  "status": "BLOCKED",
+  "stop_reasons": [
+    "MISSING_LOCAL_FUNDING_HISTORY"
+  ]
+}

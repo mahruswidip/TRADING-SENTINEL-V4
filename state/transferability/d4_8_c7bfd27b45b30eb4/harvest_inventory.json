@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "admission_reason": "no admission criterion met",
+      "harvest_status": "REJECTED",
+      "historical_expectancy_usd": -0.9494,
+      "historical_note": "all prospectively known broad slices negative",
+      "historical_profit_factor": null,
+      "mechanism": "TREND_CONTINUATION_V1",
+      "rules_hash": "2d323543b1c561c7104dc02a678a8c3d09df16229e2bdf3708f7f67878ca1aec",
+      "source": "docs/D4_1_STRATEGY_FORENSICS_SPEC.md"
+    },
+    {
+      "admission_reason": "no admission criterion met",
+      "harvest_status": "REJECTED",
+      "historical_expectancy_usd": -1.23,
+      "historical_note": "negative raw edge in D4.4 triage",
+      "historical_profit_factor": null,
+      "mechanism": "PULLBACK_CONTINUATION_V1",
+      "rules_hash": "e2b4b099ebb91df086c71f4ca19291d0ee3f86929bd9a93ae59be0aed5c738ca",
+      "source": "state/triage/d4_4_61376443a744250c/remaining-families.json"
+    },
+    {
+      "admission_reason": "positive identifiable subset",
+      "harvest_status": "ADMITTED",
+      "historical_expectancy_usd": -0.4891,
+      "historical_note": "positive TRENDING_UP subset: 12 trades, +1.02 expectancy",
+      "historical_profit_factor": null,
+      "mechanism": "BREAKOUT_RETEST_V1",
+      "rules_hash": "111938f84df303273de7f721ddc8e0842328a17d33bdfbd0ac94f887b1c075e1",
+      "source": "docs/D4_1_STRATEGY_FORENSICS_SPEC.md"
+    },
+    {
+      "admission_reason": "no admission criterion met",
+      "harvest_status": "REJECTED",
+      "historical_expectancy_usd": -1.4829,
+      "historical_note": "negative raw edge in D4.4 triage",
+      "historical_profit_factor": null,
+      "mechanism": "LIQUIDITY_SWEEP_REVERSAL_V1",
+      "rules_hash": "1c23def802c758bafeedd4c993252ac6b996fa028e2f4b6e6464ac5193d3aac7",
+      "source": "state/triage/d4_4_61376443a744250c/remaining-families.json"
+    },
+    {
+      "admission_reason": "positive identifiable subset",
+      "harvest_status": "ADMITTED",
+      "historical_expectancy_usd": -0.5658,
+      "historical_note": "positive LONG subset: 39 trades, +0.2446 expectancy, PF 1.057",
+      "historical_profit_factor": null,
+      "mechanism": "RANGE_REVERSION_V1",
+      "rules_hash": "cfd8073d56437e466503fde67454fdeded5bff32e841cfeaaf896e68ab733bc9",
+      "source": "docs/D4_1_STRATEGY_FORENSICS_SPEC.md"
+    },
+    {
+      "admission_reason": "no admission criterion met",
+      "harvest_status": "REJECTED",
+      "historical_expectancy_usd": -1.47,
+      "historical_note": "negative raw edge in D4.4 triage",
+      "historical_profit_factor": null,
+      "mechanism": "COMPRESSION_EXPANSION_V1",
+      "rules_hash": "e5a14c0ea7c7ec99dbef33255363d9173f5b4977f994ce09fc63418d5114c12e",
+      "source": "state/triage/d4_4_61376443a744250c/remaining-families.json"
+    },
+    {
+      "admission_reason": "strongest relative performer despite failure",
+      "harvest_status": "ADMITTED",
+      "historical_expectancy_usd": -1.09,
+      "historical_note": "strongest relative remaining family; gross edge survived before costs",
+      "historical_profit_factor": 0.83,
+      "mechanism": "MOMENTUM_BREAK_V1",
+      "rules_hash": "9b5344489ae1ad0c79c2106b8ec76a9d78448d7997d59529d39d2c37363b0b45",
+      "source": "state/triage/d4_4_61376443a744250c/remaining-families.json"
+    },
+    {
+      "admission_reason": "PF >= 0.85 and earlier positive Development subset",
+      "harvest_status": "ADMITTED",
+      "historical_expectancy_usd": -0.5834,
+      "historical_note": "PF >= 0.85 and earlier positive Development subset",
+      "historical_profit_factor": 0.8597,
+      "mechanism": "BREAKOUT_RETEST_V2",
+      "rules_hash": "1a09d5d02afc9290e8fa665b8fd6560fd25a848e3f39bd9f8edf2d393667ae9b",
+      "source": "docs/D4_2_DEVELOPMENT_EVIDENCE_EXPANSION_SPEC.md"
+    },
+    {
+      "admission_reason": "earlier immutable Development run was positive: +0.3757, PF 1.0971",
+      "harvest_status": "ADMITTED",
+      "historical_expectancy_usd": -1.0018,
+      "historical_note": "earlier immutable Development run was positive: +0.3757, PF 1.0971",
+      "historical_profit_factor": 0.6803,
+      "mechanism": "RANGE_REVERSION_V2",
+      "rules_hash": "5a0fe682461d242b9c661a5cb3954761b6b883107d26b5a1b87cd09571174137",
+      "source": "docs/D4_2_DEVELOPMENT_EVIDENCE_EXPANSION_SPEC.md"
+    },
+    {
+      "admission_reason": "no admission criterion met",
+      "harvest_status": "REJECTED",
+      "historical_expectancy_usd": -1.2752,
+      "historical_note": "all temporal segments negative",
+      "historical_profit_factor": 0.7291,
+      "mechanism": "FVG_PULLBACK_V1",
+      "rules_hash": null,
+      "source": "docs/D4_4_REMAINING_TRIAGE_AND_FVG_SPEC.md"
+    },
+    {
+      "admission_reason": "cannot reconstruct a complete strategy without invention",
+      "harvest_status": "INSUFFICIENT_HISTORICAL_EVIDENCE",
+      "historical_expectancy_usd": null,
+      "historical_note": "signal evidence has no frozen entry/exit/SL/TP mechanism",
+      "historical_profit_factor": null,
+      "mechanism": "D4_5_TO_D4_7_SIGNAL_B",
+      "rules_hash": null,
+      "source": "state/signal-replication/d4_7_f38827b40e50d854"
+    }
+  ]
+}

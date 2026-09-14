@@ -1,0 +1,11 @@
+{
+  "mechanisms": [
+    "BREAKOUT_RETEST_V1",
+    "RANGE_REVERSION_V1",
+    "MOMENTUM_BREAK_V1",
+    "BREAKOUT_RETEST_V2",
+    "RANGE_REVERSION_V2"
+  ],
+  "rule_changes": 0,
+  "tuning": false
+}

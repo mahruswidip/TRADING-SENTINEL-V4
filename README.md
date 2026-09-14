@@ -1,6 +1,6 @@
 # Trading Sentinel V4 Dashboard
 
-Stable D0+D1 through D4.6B foundations. D4.6B tests the two frozen D4.5 relationships on broader Development-only historical coverage and does not create a strategy, entry, stop, target, or order. The project contains no exchange credentials, Shadow/Canary/Real execution, promotion workflow, brute-force optimizer, or AI trading logic.
+Stable D0+D1 through D5 foundations plus a fail-closed D4.8 cross-market transferability preflight. D4.8 freezes prior mechanisms and measures transferability without tuning, external downloads, Shadow/Canary/Real execution, automatic promotion, exchange credentials, or AI trading logic.
 
 ## Run locally
 
@@ -115,6 +115,15 @@ python -m research_engine.replication_b execute --run-id d4_6b_d9380c7ff0781bac 
 
 The immutable D4.6B run reached Stage C with 189 usable symbols. Signal B remained `WEAK_REPLICATION`, Signal A remained `NOT_REPLICATED`, and locked OOS was not accessed.
 
+D4.7 tests the unchanged Signal B definition on an independent, non-overlapping Development window. Interrupted work resumes from the immutable checkpoint; final aggregation reads source artifacts one symbol at a time and retains only the fields needed for the frozen signal to bound memory use:
+
+```powershell
+$env:MARKET_DATA_BASE_URL="http://127.0.0.1:8766"
+python -m research_engine.temporal_replication execute --run-id d4_7_f38827b40e50d854
+```
+
+Verified run `d4_7_f38827b40e50d854` completed with 201 usable symbols and returned `NOT_REPLICATED`. The mean/median effect was -18.88/-24.45 bps, but the daily-block 95% confidence interval crossed zero and temporal evidence showed `SIGN_FLIP`. Locked OOS was not accessed and no strategy was created.
+
 ## Architecture
 
 ```text
@@ -198,6 +207,23 @@ D4.6B broader replication
 
 Domain contracts live in `src/domain/contracts.ts`. The backtest run contract separates universe progress, current evaluation, strategy variant, state machine, live metrics, and completed evaluations. Business fixtures are centralized in `src/data/fixtures.ts`; pages never import them. Every run ID resolves through one indexed fixture object, Overview and Backtest consume that same provider state, and progress percentage is derived from processed/total symbols. Strategy metrics are owned by one immutable strategy-artifact registry and referenced by matching runs. `src/data/index.ts` remains the single replacement point for a future API/WebSocket-backed provider.
 
+D5 transport contract V1.0.0 lives in `src/domain/contracts-v1.ts` and is documented in `docs/D5_CONTRACT_FREEZE.md`. `GET /api/contracts/v1` publishes its read-only manifest. Public transport uses snake_case while UI view models remain camelCase behind provider adapters.
+
+## D4.8 Transferability Study
+
+The authoritative D4.8 workflow is documented in `docs/D4_8_TRANSFERABILITY_SPEC.md`. Run `python -m research_engine.transferability plan --workers 15` to inventory mechanisms, freeze rules, select the cache-only Stage A cohort, create four temporal folds, and perform the funding preflight. Run `python -m research_engine.transferability execute --run-id <run_id>` only for the printed immutable run.
+
+Preflight `d4_8_c7bfd27b45b30eb4` originally stopped before Stage A because funding history was missing. D4.8A has now cached 4,482 official funding events for all 24 frozen markets and the data-completeness blocker is resolved. No strategy backtest was started.
+
+### Legacy market-intelligence precursor
+
+The deterministic regime router is implemented in `research_engine/market_intelligence.py`. It combines closed 1D/1H price-volume context with funding and optional historical OI, basis, and taker-flow data supplied by the read-only V2 bridge. Missing participant-position evidence fails closed to `WAIT`; it never authorizes an entry by itself. See `docs/D4_8_MARKET_INTELLIGENCE_SPEC.md`.
+
+```powershell
+$env:MARKET_DATA_BASE_URL="http://127.0.0.1:8766"
+python -m research_engine.market_intelligence snapshot --verify-set --workers 15
+```
+
 ## Routes
 
 | Route | Status |
@@ -212,6 +238,7 @@ Domain contracts live in `src/domain/contracts.ts`. The backtest run contract se
 | `/journal` | Structured placeholder |
 | `/risk` | Structured placeholder |
 | `/data-system` | Dynamic Binance USDⓈ-M universe, quality registry, symbol selector, and current/historical chart |
+| `/api/contracts/v1` | Read-only D5 contract V1.0.0 manifest |
 
 ## Data and UI states
 
@@ -221,4 +248,4 @@ All execution-facing controls are explicitly locked, unavailable, or labeled UI-
 
 ## Milestone boundary
 
-D0+D1, D2, D2.5, D3, D4, D4.1, D4.2, D4.3, D4.4, D4.5, D4.6, and D4.6B are stable. D4.6B completed independent Signal B-primary Stage B/C breadth replication with 189 usable symbols. It stores Development-only evidence, never strategy rules, and locked OOS remains untouched. Account access, orders, M1 execution, Shadow, Canary, Real execution, auto-promotion, optimization, AI decisions, strategy construction, and D5 remain out of scope.
+D0+D1 through D4.7 and D5 are stable. D4.8 is implemented through deterministic harvest, freeze, cohort/fold planning, checkpointing, and fail-closed data validation; its Stage A evaluation is blocked by missing local funding history. Locked legacy OOS remains untouched. Account access, orders, M1 execution, Shadow, Canary, Real execution, auto-promotion, optimization, and AI decisions remain out of scope.

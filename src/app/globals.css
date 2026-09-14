@@ -155,6 +155,21 @@ td small { display: block; margin-top: 4px; color: var(--muted); }
 .strategy-table td { font-variant-numeric: tabular-nums; }.strategy-table tbody tr:hover { background: rgba(88,166,255,.035); }
 .strategy-rejections { margin: 0; padding: 9px 12px; color: var(--red); font-size: 10px; border-top: 1px solid var(--line-soft); }
 .inline-empty { padding: 24px; color: var(--muted); text-align: center; }
+.d47-monitor { padding: 14px; }
+.d47-monitor__headline { display: flex; justify-content: space-between; gap: 16px; align-items: start; margin-bottom: 14px; }
+.d47-monitor__headline > div:first-child { display: grid; gap: 4px; }
+.d47-monitor__headline span, .d47-monitor__footer { color: var(--muted); font-size: 10px; }
+.d47-monitor__metrics { margin: 14px 0 0; display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); border: 1px solid var(--line-soft); }
+.d47-monitor__metrics div { min-width: 0; padding: 10px; display: grid; gap: 5px; border-right: 1px solid var(--line-soft); }
+.d47-monitor__metrics div:last-child { border-right: 0; }
+.d47-monitor__metrics dd { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+.text-positive { color: var(--green); }.text-negative { color: var(--red); }
+.d47-monitor__footer { padding: 10px 0 0; display: flex; justify-content: space-between; gap: 12px; }
+.d47-monitor__footer strong { color: var(--text); }
+.d47-monitor__failures { margin-top: 12px; border-top: 1px solid var(--line-soft); }
+.d47-monitor__failures summary { padding: 10px 0 0; color: var(--amber); cursor: pointer; font-size: 10px; font-weight: 750; }
+.d47-monitor__failures div { padding: 8px 0; display: grid; grid-template-columns: 130px 1fr; gap: 10px; border-bottom: 1px solid var(--line-soft); font-size: 10px; }
+.d47-monitor__failures span { color: var(--muted); overflow-wrap: anywhere; }
 .placeholder { min-height: 220px; display: grid; place-content: center; justify-items: center; color: var(--muted); text-align: center; }
 .placeholder ul { display: flex; gap: 24px; padding: 0; list-style: none; color: #a9b4be; }
 .data-state { min-height: 120px; display: grid; place-items: center; border: 1px dashed var(--line); color: var(--muted); }.data-state--error { color: var(--red); }.data-state--loading { color: var(--blue); }
@@ -190,6 +205,7 @@ td small { display: block; margin-top: 4px; color: var(--muted); }
   .strategy-grid { grid-template-columns: 1fr; }
   .replay-layout { grid-template-columns: minmax(0, 1.6fr) minmax(300px, 1fr); }
   .universe-summary { grid-template-columns: repeat(3, 1fr); }.universe-summary > div:nth-child(3n) { border-right: 0; }.universe-summary > div:nth-child(-n+3) { border-bottom: 1px solid var(--line-soft); }.universe-grid { grid-template-columns: 1fr; }
+  .d47-monitor__metrics { grid-template-columns: repeat(4, 1fr); }.d47-monitor__metrics div { border-bottom: 1px solid var(--line-soft); }
 }
 
 @media (max-width: 1000px) {
@@ -211,4 +227,5 @@ td small { display: block; margin-top: 4px; color: var(--muted); }
   .metrics-grid, .metrics-grid--strategy { grid-template-columns: repeat(2, 1fr); }.run-strip dl, .active-run-compact__stats { grid-template-columns: repeat(2, 1fr); }.active-run-compact__stages { grid-template-columns: 1fr; }.artifact-id, .inventory-toolbar { display: grid; }.inventory-toolbar input { width: 100%; }.inventory-toolbar small { margin: 0; }.placeholder ul { display: grid; gap: 8px; }
   .replay-summary { grid-template-columns: 1fr; }.panel-actions { align-items: flex-end; flex-direction: column; }.replay-chart-shell, .replay-chart { min-height: 340px; height: 340px; }.replay-speed { width: 100%; margin-left: 0; }.replay-speed select { width: 100%; }.replay-timeline article { grid-template-columns: 38px 62px 1fr; }
   .universe-summary { grid-template-columns: repeat(2, 1fr); }.universe-summary > div:nth-child(3n) { border-right: 1px solid var(--line-soft); }.universe-summary > div:nth-child(2n) { border-right: 0; }.universe-summary > div:nth-child(-n+4) { border-bottom: 1px solid var(--line-soft); }.market-toolbar { display: grid; }.market-toolbar input[type="search"], .market-toolbar select { width: 100%; }.market-chart-shell, .market-chart { height: 340px; }.integrity-list { grid-template-columns: 1fr; }.integrity-list div { border-right: 0; border-bottom: 1px solid var(--line-soft); }
+  .d47-monitor__headline { display: grid; }.d47-monitor__metrics { grid-template-columns: repeat(2, 1fr); }.d47-monitor__footer { display: grid; }.d47-monitor__failures div { grid-template-columns: 1fr; gap: 3px; }
 }

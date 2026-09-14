@@ -1,0 +1,28 @@
+{
+  "descriptive_only": true,
+  "largest_negative_observations": [
+    -0.6454193331087908,
+    -0.558581274163725,
+    -0.5407349932990054,
+    -0.5032421917216039,
+    -0.5012858979854264
+  ],
+  "largest_negative_share_of_total_negative_magnitude": 0.002598272888230806,
+  "mean": -0.0018882233471587077,
+  "mean_after_removing_largest_negative_observations": -0.0018549322673941568,
+  "median": -0.002444987775061136,
+  "median_after_removing_largest_negative_observations": -0.0024439918533604166,
+  "negative_mean_magnitude": 0.02316610810446368,
+  "negative_observation_count": 45675,
+  "observation_count": 82304,
+  "percentiles": {
+    "10": -0.03612683783402654,
+    "25": -0.016696365397093516,
+    "50": -0.002444987775061136,
+    "75": 0.011199237007970542,
+    "90": 0.031634245513161525
+  },
+  "positive_mean_magnitude": 0.024988336423718432,
+  "positive_observation_count": 36125,
+  "predeclared_tail_removal_count": 5
+}

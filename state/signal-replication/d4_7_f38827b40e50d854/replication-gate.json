@@ -1,0 +1,11 @@
+{
+  "criteria": "INDEPENDENTLY_REPLICATED requires negative mean and median, >=11bps magnitude, daily-block CI below zero, >=60% aligned breadth, top symbol <=50%, temporal stability, and negative mean after descriptive removal of five largest negative observations; otherwise WEAK if negative/broad/stable, else NOT_REPLICATED.",
+  "decision": "NOT_REPLICATED",
+  "not_a_trading_strategy": true,
+  "oos_access": "OOS_NOT_ACCESSED",
+  "reasons": [
+    "DAILY_BLOCK_CI_CROSSES_ZERO",
+    "SIGN_FLIP"
+  ],
+  "thresholds_changed": false
+}

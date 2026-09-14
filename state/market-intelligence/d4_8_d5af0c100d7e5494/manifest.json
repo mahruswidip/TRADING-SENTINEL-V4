@@ -1,0 +1,572 @@
+{
+  "ai_decisions": false,
+  "as_of": 1789353000000,
+  "capabilities": {
+    "basis": true,
+    "open_interest": true,
+    "taker_volume": true
+  },
+  "config": {
+    "basis_crowding": 0.001,
+    "daily_ema_gap": 0.002,
+    "funding_change_crowding": 0.0002,
+    "funding_crowding": 0.0005,
+    "hourly_efficiency": 0.3,
+    "hourly_return": 0.003,
+    "minimum_flow_confirmations": 2,
+    "range_efficiency": 0.25,
+    "taker_imbalance": 0.05,
+    "volume_expansion": 1.15
+  },
+  "created_at": "2026-09-14T02:32:09.041268+00:00",
+  "engine_version": "d4.8-market-intelligence-v1",
+  "failed_symbols": 1,
+  "identity_hash": "d5af0c100d7e5494c4ac7658412d980e3cb47605dad98fc97057dec1cfe06673",
+  "oos_access": "OOS_NOT_ACCESSED",
+  "real_execution_enabled": false,
+  "regime_counts": {
+    "AMBIGUOUS": 2
+  },
+  "run_id": "d4_8_d5af0c100d7e5494",
+  "shadow_enabled": false,
+  "source": "BINANCE_PUBLIC_VIA_TRADING_SENTINEL_V2_MARKET_BRIDGE",
+  "status": "DEGRADED",
+  "symbols": [
+    "ETHUSDT",
+    "GAIBUSDT",
+    "MOVEUSDT"
+  ],
+  "universe_exclusions": [
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OMGUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "WAVESUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MKRUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DEFIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BALUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BLZUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FTMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FLMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RENUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LRCUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OCEANUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ALPHAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "UNFIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "REEFUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "XEMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LINAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "STMXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DENTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NKNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SCUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DGBUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BAKEUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RAYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ATAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "KLAYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FTTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DARUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FXSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HOOKUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HIGHUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "AGIXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PHBUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BNXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PERPUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TRUUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "AMBUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LEVERUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RDNTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HFTUSDT"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "ETHBTC"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "IDEXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RADUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "KEYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "COMBOUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MDTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OXTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HIFIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "GLMRUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "STRAXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LOOMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BONDUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ORBSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "STPTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SNTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TOKENUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BADGERUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NTRNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NFPUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "AIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TONUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MYROUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VANRYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OMNIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SYSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VOXELUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ALPACAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VIDTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NULSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MBOXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "CHESSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BSWUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "QUICKUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "NEIROETHUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "UXLINKUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "KDAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FIOUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "GHSTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "LOKAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "REIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "COSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TROYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PONKEUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SWELLUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "HIPPOUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "1000XUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DEGENUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SLERFUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "1000WHYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ACXUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DEGOUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DFUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "AI16ZUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VINEUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "B3USDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "IPUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "IPUSDC"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VICUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BIDUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FUNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MLNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FORTHUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "XCNUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "EPTUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MEMEFIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "FISUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "MILKUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OBOLUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ZKJUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PUFFERUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "PORT3USDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "SKATEUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DMCUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "OLUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "TANSSIUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "ZRCUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "A2ZUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "YALAUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "DAMUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "CUDISUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "VFYUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RVVUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "42USDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "COMMONUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "BOBUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "RLSUSDT"
+    },
+    {
+      "reason": "NOT_TRADING_IN_WINDOW",
+      "symbol": "IRUSDT"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "BTCUSD1"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "BTCU"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "ETHU"
+    },
+    {
+      "reason": "INVALID_METADATA",
+      "symbol": "ETHUSD1"
+    }
+  ],
+  "universe_selector": "verification",
+  "usable_symbols": 2,
+  "worker_count": 15
+}

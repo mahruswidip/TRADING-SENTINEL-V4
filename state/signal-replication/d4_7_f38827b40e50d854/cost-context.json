@@ -1,0 +1,7 @@
+{
+  "hurdle_bps": 11.0,
+  "not_trade_pnl": true,
+  "raw_mean_bps": -18.882233471587078,
+  "raw_median_bps": -24.44987775061136,
+  "status": "ABOVE_COST_HURDLE"
+}

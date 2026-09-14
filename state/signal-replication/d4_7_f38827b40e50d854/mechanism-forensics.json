@@ -1,0 +1,146 @@
+{
+  "btc_bullish_strength": {
+    "STRONGER_QUALIFYING": {
+      "directional_hit_rate": 0.5599559577469635,
+      "mean": -0.0022138565489239165,
+      "median": -0.002599090318388564,
+      "observations": 29063,
+      "symbols": 201
+    },
+    "WEAKER_QUALIFYING": {
+      "directional_hit_rate": 0.5522247891662441,
+      "mean": -0.0017104679003620232,
+      "median": -0.0023585186596943863,
+      "observations": 53241,
+      "symbols": 201
+    }
+  },
+  "btc_return_magnitude": {
+    "count": 82304,
+    "mean": 0.008122012765078067,
+    "median": 0.006488203195663456,
+    "p25": 0.005059841905594942,
+    "p75": 0.0093532740731459
+  },
+  "btc_volatility": {
+    "count": 82304,
+    "mean": 0.6902422894256524,
+    "median": 0.7864583333333334,
+    "p25": 0.5208333333333334,
+    "p75": 0.9184027777777778
+  },
+  "cross_sectional_relative_strength_dispersion": {
+    "count": 82304,
+    "mean": 0.09654378520434388,
+    "median": 0.09621399911561984,
+    "p25": 0.09621399911561984,
+    "p75": 0.09669539802906858
+  },
+  "descriptive_only": true,
+  "historical_safe_liquidity_group": {
+    "HIGH": {
+      "directional_hit_rate": 0.5549685849145072,
+      "mean": -0.002880513013361456,
+      "median": -0.003036673674375212,
+      "observations": 31991,
+      "symbols": 180
+    },
+    "LOW": {
+      "directional_hit_rate": 0.5633334893079407,
+      "mean": -0.0016794879193434502,
+      "median": -0.0022471910112358273,
+      "observations": 21371,
+      "symbols": 128
+    },
+    "NORMAL": {
+      "directional_hit_rate": 0.5487526777693318,
+      "mean": -0.0009455292042642199,
+      "median": -0.002087593016963707,
+      "observations": 28942,
+      "symbols": 169
+    }
+  },
+  "listing_age": {
+    "ESTABLISHED": {
+      "directional_hit_rate": 0.5716084564914838,
+      "mean": -0.0020688054276298685,
+      "median": -0.002457002457002533,
+      "observations": 30178,
+      "symbols": 102
+    },
+    "VERY_NEW": {
+      "directional_hit_rate": 0.5326057298772169,
+      "mean": -0.0004988722174465729,
+      "median": -0.0018887970723646674,
+      "observations": 3665,
+      "symbols": 9
+    },
+    "YOUNG": {
+      "directional_hit_rate": 0.545313279361547,
+      "mean": -0.0017836765562202373,
+      "median": -0.002427605413724332,
+      "observations": 52126,
+      "symbols": 107
+    }
+  },
+  "market_breadth": {
+    "available": true,
+    "descriptive_tercile_cutpoints": [
+      0.7889447236180904,
+      0.864321608040201
+    ],
+    "groups": {
+      "HIGH": {
+        "directional_hit_rate": 0.5392638256693308,
+        "mean": -0.00102271935734071,
+        "median": -0.0016666666666664831,
+        "observations": 27901,
+        "symbols": 201
+      },
+      "LOW": {
+        "directional_hit_rate": 0.5692398567578543,
+        "mean": -0.0026149633675256316,
+        "median": -0.003215434083601254,
+        "observations": 27087,
+        "symbols": 201
+      },
+      "NORMAL": {
+        "directional_hit_rate": 0.5568165177917704,
+        "mean": -0.002051615494187302,
+        "median": -0.0025433610550819052,
+        "observations": 27316,
+        "symbols": 201
+      }
+    }
+  },
+  "market_wide_volatility": {
+    "available": true,
+    "descriptive_tercile_cutpoints": [
+      0.3472222222222222,
+      0.7100694444444444
+    ],
+    "groups": {
+      "HIGH": {
+        "directional_hit_rate": 0.548628247931485,
+        "mean": -0.0018541213166709824,
+        "median": -0.0022209890245405983,
+        "observations": 27556,
+        "symbols": 201
+      },
+      "LOW": {
+        "directional_hit_rate": 0.5468138778196175,
+        "mean": -0.0008969138803583297,
+        "median": -0.002054091064703889,
+        "observations": 27353,
+        "symbols": 201
+      },
+      "NORMAL": {
+        "directional_hit_rate": 0.5694469793757985,
+        "mean": -0.002912315458767048,
+        "median": -0.0031274433150898506,
+        "observations": 27395,
+        "symbols": 201
+      }
+    }
+  }
+}

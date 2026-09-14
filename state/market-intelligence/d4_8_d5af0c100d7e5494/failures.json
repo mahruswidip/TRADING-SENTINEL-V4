@@ -1,0 +1,6 @@
+{
+  "GAIBUSDT": {
+    "detail": "market-data bridge returned HTTP 409",
+    "error": "RuntimeError"
+  }
+}

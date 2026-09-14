@@ -1,0 +1,176 @@
+[
+  {
+    "data_quality": {
+      "basis_rows": 168,
+      "cache_hits": 0,
+      "candle_rows": 8064,
+      "dataset_ids": [
+        "4e9e6d9683d20b46fc26",
+        "4a4b11c37a64bee5c8a4",
+        "1776783fddd917c67923",
+        "7fa06a0a9cad6126e294",
+        "854f0ada40befc678184",
+        "52b30c96ef1bafe68d8d",
+        "141f767afb9288cbb4e2",
+        "e48a787eb9a7731b5fa0",
+        "08702344fd956f865711",
+        "5f4581d93347271be439",
+        "35eadc691f73fd42970a",
+        "6ae80a283b0aed2ef704",
+        "31d4da079933e680c6c3",
+        "83a8f2570054d9817c70",
+        "ea02a38f330a9b92a82e",
+        "cf92a34a349552841d11",
+        "f68311f28deed6523c17",
+        "0ea9b2f29840a217dbca",
+        "11c64f5dd6fca025d326",
+        "4bab9e11e560bee36247",
+        "78e1ccebe246d54ef78a",
+        "576695993930435bda54",
+        "7487ef472b669f895f43",
+        "e468acc1c24c669de1de",
+        "70099f946196b9f64b00",
+        "a45f882e4aed0e4cb44e",
+        "d679bce94329993e99c9",
+        "be0d554a68424dac3bf0",
+        "a01b65b64dc118f6bd9d"
+      ],
+      "downloads": 30,
+      "flow_datasets": {
+        "basis": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "a1c5f3b730874d67414b95d6f485fb35990ebc4745fd0a4e231276bc517efb0b",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "open_interest": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "d875bdfa0a8257549b12992db595f092aa9a01d09ec2a4be5fb3ce66d24962d1",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "taker_volume": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "c9ce9b3cc6025a78e2eb6d01533258ce0b81b32d303c31a2ce0d19cd5b3b6671",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        }
+      },
+      "funding_events": 21,
+      "historical_order_book_liquidity": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "open_interest_rows": 168,
+      "taker_volume_rows": 168
+    },
+    "decision": {
+      "entry_authorized": false,
+      "reasons": [
+        "TIMEFRAME_OR_PARTICIPATION_CONFLICT"
+      ],
+      "regime": "AMBIGUOUS",
+      "required_next_gate": null,
+      "route": "WAIT",
+      "state": "WAIT"
+    },
+    "inputs": {
+      "as_of": 1789352999999,
+      "basis_rate": -0.0005,
+      "daily_direction": 0,
+      "funding_change": 9.853e-05,
+      "funding_level": 5.268e-05,
+      "hourly_direction": 1,
+      "hourly_efficiency": 0.17872223745544416,
+      "missing_features": [],
+      "open_interest_change": -0.001249680040054102,
+      "taker_imbalance": -0.03412897240671064,
+      "volume_expansion": 1.1828959289955479
+    },
+    "symbol": "ETHUSDT"
+  },
+  {
+    "data_quality": {
+      "basis_rows": 168,
+      "cache_hits": 0,
+      "candle_rows": 8064,
+      "dataset_ids": [
+        "6080dc888404e9277d9e",
+        "34d960856a08de8139cf",
+        "e43554a50032e78491b5",
+        "72664ca8dcf299c5a624",
+        "3a74a4549eb2e11917ff",
+        "448520f06dd49b06913b",
+        "c34e8d25c08dc5d4fdc8",
+        "424fdd4bc3c396db9207",
+        "f4f51f3a2a0904f7cc0c",
+        "ee3083e33ed53fe54fec",
+        "0b3df048bd7484734ff8",
+        "3c3226bddb23be593d9c",
+        "957f008d519a4959f023",
+        "c10d0ac23f9553a5e333",
+        "9e5ca271e88e9d2d027b",
+        "cadf69026275da022e5b",
+        "c1e54a47d34d712d15c1",
+        "f1b9e4fed47213e6d16a",
+        "3593589a90882a4bdd4a",
+        "a2324222b2a322fb78fa",
+        "5debfea56cee72f55c2f",
+        "e3c96182a2e3b621de34",
+        "c3b52c277dd82a5fba65",
+        "3783158fc758fc4e4e62",
+        "dc42d577b39303da45da",
+        "428e1c8e1e198e30b96a",
+        "9b5db95665ef3a8a9e98",
+        "f5d543994ebe10ac74f3",
+        "ac9331e132f18fd3f1b3"
+      ],
+      "downloads": 30,
+      "flow_datasets": {
+        "basis": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "ad140fb705e6ca53ad6c313034856e232c01e05cf818318f0468252a2cab400f",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "open_interest": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "3fada75e040f835c5e41518299b3563faf1590ef288d9ae24699073383ed71a1",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        },
+        "taker_volume": {
+          "cache": "DOWNLOAD",
+          "dataset_id": "d26fdf05507cc8b8f25023db75a113aac772800e970ac259dc2641b47f2ee0a8",
+          "row_count": 168,
+          "status": "AVAILABLE"
+        }
+      },
+      "funding_events": 42,
+      "historical_order_book_liquidity": "HISTORICAL_FEATURE_NOT_AVAILABLE",
+      "open_interest_rows": 168,
+      "taker_volume_rows": 168
+    },
+    "decision": {
+      "entry_authorized": false,
+      "reasons": [
+        "TIMEFRAME_OR_PARTICIPATION_CONFLICT"
+      ],
+      "regime": "AMBIGUOUS",
+      "required_next_gate": null,
+      "route": "WAIT",
+      "state": "WAIT"
+    },
+    "inputs": {
+      "as_of": 1789352999999,
+      "basis_rate": 0.0018,
+      "daily_direction": 0,
+      "funding_change": 0.0,
+      "funding_level": 5e-05,
+      "hourly_direction": -1,
+      "hourly_efficiency": 0.12142857142857075,
+      "missing_features": [],
+      "open_interest_change": 0.01626599345812174,
+      "taker_imbalance": -0.17549245285086096,
+      "volume_expansion": 1.11481944337866
+    },
+    "symbol": "MOVEUSDT"
+  }
+]
